@@ -1,0 +1,2762 @@
+InitScriptMode luaPackage=False
+[core/global.lua:59]:<color=#ffeb04>随机数种子 552565</color>
+[logic/audio/CSpeechCtrl.lua:35]:CSpeechCtrl.GetTokenFromLocal    1692680255    1566144591
+[logic/base/CHttpCtrl.lua:32]:http get ->    https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=cbadGFhCcjh4H0difKnC8P1B&client_secret=3335d6d08034cff3c2f3b1980c050c66&
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CNotifyView ShowView
+[core/table.lua:99]:CommonProcess-> = {
+   cb = "function: 0x263683b0"
+   json_result = true
+   timer = 1012
+}
+[logic/audio/CSpeechCtrl.lua:67]:OnTokenGet err
+[logic/base/CResCtrl.lua:214]:-->resource init done!!! 9
+[logic/ui/CViewBase.lua:149]:CNotifyView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/base/CResCtrl.lua:788]:res gc finish!
+[core/global.lua:59]:<color=#ffeb04>res gc skip! m_ReleaseAssetCnt: 0</color>
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CLoginPhoneView ShowView
+[core/global.lua:59]:<color=#ffeb04>停止引导检查</color>
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>CLoginPhoneView.RefreshUI 销毁m_MainNetObj</color>
+[logic/ui/CViewCtrl.lua:134]:CRoleCreateView CloseView
+[core/global.lua:59]:<color=#ffeb04>技术版本号：App:1.0.0.0 Res:1.5.6.0 v0</color>
+[logic/ui/CViewBase.lua:149]:CLoginPhoneView LoadDone!
+[net/CNetCtrl.lua:139]:尝试连接    47.92.37.250    27011
+[core/table.lua:99]:--> Net Receive: login.GS2CHello = {
+   time = 1692680264
+}
+[core/table.lua:99]:<-- Net Send: login.C2GSQueryLogin = {
+   res_file_version = {}
+}
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:57:44
+[core/table.lua:99]:<-- Net Send: login.C2GSLoginAccount = {
+   account = "QQYGKJ123"
+   app_ver = 26
+   client_ver = "5.6.0"
+   device = "System Product Name (System manufacturer)"
+   imei = ""
+   mac = "00-FF-92-D5-BA-48"
+   os = "Windows 10  (10.0.0) 64bit"
+   platform = 4
+   udid = "2352dd59af076628674edb035405b344e0cfb481"
+}
+[core/global.lua:59]:<color=#ffeb04>更新代码 Utils.UpdateCode </color>
+[core/table.lua:99]:--> Net Receive: login.GS2CInviteCodeResult = {}
+[core/table.lua:99]:--> Net Receive: login.GS2CLoginAccount = {
+   account = "QQYGKJ123"
+   role_list = {
+      [1] = {
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 1210
+         }
+         name = "秦遇晓♂"
+         pid = 10001
+         school = 4
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/base/CResCtrl.lua:788]:res gc finish!
+[core/global.lua:59]:<color=#ffeb04>res gc skip! m_ReleaseAssetCnt: 0</color>
+[core/table.lua:99]:<-- Net Send: login.C2GSLoginRole = {
+   pid = 10001
+}
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[core/table.lua:99]:--> Net Receive: wing.GS2CLoginWing = {
+   info = {
+      mask = "37fffc"
+   }
+}
+[core/table.lua:99]:--> Net Receive: login.GS2CLoginRole = {
+   account = "QQYGKJ123"
+   create_time = 1692672613
+   is_gm = 1
+   pid = 10001
+   role = {
+      critical_multiple = 2
+      cure_power = 10
+      engage_info = {}
+      hp = 200
+      icon = 1210
+      mag_attack = 80
+      mag_defense = 60
+      mask = "1fc3ffffffffffffffe"
+      max_hp = 200
+      max_mp = 230
+      max_sp = 150
+      model_info = {
+         color = {
+            [1] = 0
+         }
+         shape = 1210
+      }
+      model_info_changed = {
+         color = {
+            [1] = 0
+         }
+         shape = 1210
+      }
+      mp = 230
+      name = "秦遇晓♂"
+      phy_attack = 100
+      phy_critical_ratio = 3
+      phy_defense = 50
+      position = "未知"
+      position_hide = 1
+      prop_info = {
+         [1] = {
+            base = 50000
+            name = "phy_defense"
+         }
+         [2] = {
+            base = 230000
+            name = "max_mp"
+         }
+         [3] = {
+            base = 200000
+            name = "max_hp"
+         }
+         [4] = {
+            base = 70000
+            name = "speed"
+         }
+         [5] = {
+            base = 100000
+            name = "phy_attack"
+         }
+         [6] = {
+            base = 80000
+            name = "mag_attack"
+         }
+         [7] = {
+            base = 60000
+            name = "mag_defense"
+         }
+      }
+      rplgoldcoin = 150000
+      school = 4
+      score = 130
+      sex = 1
+      show_id = 10001
+      speed = 70
+      title_info = {}
+      title_info_changed = {}
+   }
+   role_token = "16926802640002"
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/ui/CViewCtrl.lua:134]:CLoginPhoneView CloseView
+[logic/ui/CViewCtrl.lua:134]:CServerSelectPhoneView CloseView
+[logic/ui/CViewCtrl.lua:134]:CUserAgreementView CloseView
+[logic/ui/CViewCtrl.lua:134]:CUpdateNoticeView CloseView
+[logic/ui/CViewCtrl.lua:134]:CRoleCreateView CloseView
+[logic/ui/CViewCtrl.lua:134]:CSoccerWorldCupMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CMainMenuView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CMainMenuView ShowView
+[logic/misc/CTimeCtrl.lua:64]:HeartBeat-->开启心跳包检测
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {}
+[core/table.lua:99]:<-- Net Send: openui.C2GSOpenScheduleUI = {}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 1516
+}
+[core/table.lua:99]:<-- Net Send: redpacket.C2GSQueryAll = {
+   channel = 101
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CServerGradeInfo = {
+   days = 1
+   server_grade = 85
+   server_type = "gs"
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CShowScene = {
+   map_id = 204000
+   scene_id = 16
+   scene_name = "凌霄宝殿"
+   x = 4180
+   y = 4933
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>停止引导检查</color>
+[core/table.lua:99]:--> Net Receive: item.GS2CLoginItem = {}
+[core/table.lua:99]:--> Net Receive: skill.GS2CLoginSkill = {
+   active_skill = {
+      [1] = {
+         level = 1
+         needpoint = 2
+         sk = 1400
+         type = 2
+      }
+   }
+   passive_skill = {
+      [1] = {
+         needmoney = 206
+         sk = 2401
+         type = 2
+      }
+      [2] = {
+         needmoney = 206
+         sk = 2402
+         type = 2
+      }
+      [3] = {
+         needmoney = 206
+         sk = 2403
+         type = 2
+      }
+      [4] = {
+         needmoney = 206
+         sk = 2404
+         type = 2
+      }
+      [5] = {
+         needmoney = 206
+         sk = 2405
+         type = 2
+      }
+      [6] = {
+         needmoney = 206
+         sk = 2406
+         type = 2
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: skill.GS2CMarrySkill = {}
+[core/table.lua:99]:--> Net Receive: task.GS2CLoginTask = {
+   taskdata = {
+      [1] = {
+         create_time = 1692672613
+         detaildesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+         name = "师命"
+         target = 5240
+         targetdesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+         taskid = 10039
+         tasktype = 1
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>============== {['clientExtStr']="submitnpc:School",['goalDesc']="此去经年，道祖法旨召门徒，惜别授业恩师",['linkid']=1,['chapter_progress']={},['type']=2,['chapter_mark']={},['submitNpcId']=0,['tips']=0,['tasktype']=1,['acceptNpcId']=0,['submitRewardStr']={[1]="R2000"},['name']="师命",['description']="此去经年，道祖法旨召门徒，惜别授业恩师"} 2</color>
+[core/table.lua:99]:--> Net Receive: task.GS2CShimenInfo = {}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {
+   [61001] = 0
+   [62000] = 0
+   [80001] = 0
+}
+[core/table.lua:99]:CTaskCtrl.GS2CShimenInfo = {}
+[core/table.lua:99]:--> Net Receive: task.GS2CLoginStoryInfo = {
+   chapter_section = {}
+}
+[core/table.lua:99]:CTaskCtrl.GS2CLoginStoryInfo = {
+   chapter_section = {}
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CLoginUnlockedTags = {}
+[core/table.lua:99]:--> Net Receive: task.GS2CAcceptableTasks = {}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {
+   [61001] = 0
+   [62000] = 0
+   [80001] = 0
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CAllEverydayTaskInfo = {
+   all = {
+      [1] = {
+         taskid = 1
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CAssistExp = {
+   max_assist_exp = 100000
+}
+[core/table.lua:99]:--> Net Receive: warehouse.GS2CWareHouseInfo = {
+   namelist = {
+      [1] = "仓库1"
+      [2] = "仓库2"
+   }
+   size = 2
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CSysConfig = {}
+[core/table.lua:99]:服务器下发系统设置数据: = {}
+[core/global.lua:59]:<color=#ffeb04>登录系统设置生效</color>
+[core/table.lua:99]:--> Net Receive: player.GS2CGamePushConfig = {}
+[core/table.lua:99]:--> Net Receive: team.GS2CRefreshWarCmd = {
+   warcmds = {
+      [1] = {
+         type = 1
+      }
+      [2] = {
+         type = 2
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CSyncTesterKeys = {}
+[core/global.lua:59]:<color=#ffeb04>=============== 关闭引导</color>
+[core/global.lua:59]:<color=#ffeb04>=============== 关闭系统</color>
+[core/table.lua:99]:--> Net Receive: huodong.GS2CAllGrowInfo = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshFubenRewardCnt = {
+   reward_list = {
+      [1] = {
+         fuben_id = 10002
+      }
+      [2] = {
+         fuben_id = 10001
+      }
+      [3] = {
+         fuben_id = 20002
+      }
+      [4] = {
+         fuben_id = 20001
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CZhenmoRefresh = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CLoginShiZhuang = {
+   szlist = {
+      [1] = {}
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CLoginGradeGiftInfo = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CLoginPreopenGiftInfo = {}
+[core/table.lua:99]:--> Net Receive: summon.GS2CLoginSummon = {}
+[core/table.lua:99]:--> Net Receive: summon.GS2CSummonFollow = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CSchedule = {
+   curtime = 1692680264
+   db_point_limit = 600
+   hdlist = {
+      [1] = {
+         scheduleid = 1038
+         state = 2
+         time = "12:45:00"
+      }
+      [2] = {
+         scheduleid = 1021
+         state = 1
+         time = "17:00"
+      }
+      [3] = {
+         scheduleid = 1020
+         state = 1
+         time = "20:30"
+      }
+      [4] = {
+         scheduleid = 1018
+         state = 1
+         time = "19:15"
+      }
+      [5] = {
+         scheduleid = 1036
+         state = 2
+         time = "00:00"
+      }
+      [6] = {
+         scheduleid = 1019
+         state = 2
+         time = "12:45"
+      }
+   }
+   schedules = {
+      [1] = {
+         maxtimes = 35
+         scheduleid = 1008
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== false</color>
+[core/table.lua:99]:--> Net Receive: state.GS2CAddState = {
+   state_info = {
+      data = {
+         [1] = {
+            key = "ratio"
+         }
+      }
+      desc = "服务器等级较高，升级享受额外经验加成。"
+      hide = "1"
+      name = "服务器加成"
+      state_id = 1006
+   }
+}
+[core/table.lua:99]:--> Net Receive: state.GS2CLoginState = {
+   state_info = {
+      [1] = {
+         data = {
+            [1] = {
+               key = "ratio"
+            }
+         }
+         desc = "服务器等级较高，升级享受额外经验加成。"
+         hide = "1"
+         name = "服务器加成"
+         state_id = 1006
+      }
+      [2] = {
+         data = {
+            [1] = {
+               key = "count"
+               value = 99999
+            }
+         }
+         desc = "战斗结束时自动恢复人物、伙伴和宠物的气血和法力"
+         hide = "0"
+         name = "饱食"
+         state_id = 1003
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: partner.GS2CLoginPartner = {
+   lineup = 1
+}
+[core/table.lua:99]:--> Net Receive: title.GS2CTitleInfoList = {}
+[core/table.lua:99]:--> Net Receive: fabao.GS2CAllFaBao = {}
+[core/table.lua:99]:--> Net Receive: formation.GS2CAllFormationInfo = {
+   fmt_curr = 1
+   fmt_learn_limit = 2
+   fmt_list = {
+      [1] = {
+         fmt_id = 1
+         grade = 1
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CEnterScene = {
+   eid = 10
+   pos_info = {
+      face_y = 299648
+      v = 2800
+      x = 4180
+      y = 4933
+   }
+   scene_id = 16
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CPromote = {
+   radio = {
+      [1] = 10000
+      [10] = 0
+      [11] = 0
+      [12] = 0
+      [13] = 0
+      [14] = 0
+      [15] = 0
+      [2] = 0
+      [3] = 0
+      [4] = 0
+      [5] = 0
+      [6] = 0
+      [7] = 0
+      [8] = 0
+      [9] = 0
+   }
+   result = 2
+   score = 130
+   sumscore = 130
+}
+[core/table.lua:99]:--> Net Receive: tempitem.GS2CLoginTempItem = {}
+[core/table.lua:99]:--> Net Receive: ride.GS2CPlayerRideInfo = {
+   info = {
+      mask = "7be"
+   }
+}
+[core/table.lua:99]:--> Net Receive: store.GS2CLoginStoreInfo = {
+   item_info = {
+      [1] = {
+         item_id = 300303
+         limit = 1
+      }
+      [10] = {
+         item_id = 303068
+         limit = 10
+      }
+      [11] = {
+         item_id = 301057
+         limit = 1
+      }
+      [12] = {
+         item_id = 301058
+         limit = 1
+      }
+      [13] = {
+         item_id = 303072
+         limit = 10
+      }
+      [14] = {
+         item_id = 301064
+         limit = 10
+      }
+      [15] = {
+         item_id = 301097
+         limit = 30
+      }
+      [16] = {
+         item_id = 301098
+         limit = 30
+      }
+      [17] = {
+         item_id = 301099
+         limit = 30
+      }
+      [18] = {
+         item_id = 301100
+         limit = 30
+      }
+      [19] = {
+         item_id = 301101
+         limit = 1
+      }
+      [2] = {
+         item_id = 300304
+         limit = 1
+      }
+      [20] = {
+         item_id = 301119
+         limit = 1
+      }
+      [21] = {
+         item_id = 301111
+         limit = 1
+      }
+      [22] = {
+         item_id = 301110
+         limit = 1
+      }
+      [23] = {
+         item_id = 301109
+         limit = 1
+      }
+      [24] = {
+         item_id = 301108
+         limit = 1
+      }
+      [25] = {
+         item_id = 301107
+         limit = 1
+      }
+      [26] = {
+         item_id = 301106
+         limit = 1
+      }
+      [27] = {
+         item_id = 301105
+         limit = 1
+      }
+      [28] = {
+         item_id = 301104
+         limit = 1
+      }
+      [29] = {
+         item_id = 301103
+         limit = 1
+      }
+      [3] = {
+         item_id = 301037
+         limit = 5
+      }
+      [30] = {
+         item_id = 301102
+         limit = 1
+      }
+      [31] = {
+         item_id = 303077
+         limit = 10
+      }
+      [32] = {
+         item_id = 303076
+         limit = 10
+      }
+      [33] = {
+         item_id = 303075
+         limit = 10
+      }
+      [34] = {
+         item_id = 303074
+         limit = 10
+      }
+      [35] = {
+         item_id = 303073
+         limit = 10
+      }
+      [36] = {
+         item_id = 303071
+         limit = 10
+      }
+      [37] = {
+         item_id = 303070
+         limit = 10
+      }
+      [38] = {
+         item_id = 303069
+         limit = 10
+      }
+      [39] = {
+         item_id = 301021
+         limit = 5
+      }
+      [4] = {
+         item_id = 301043
+         limit = 10
+      }
+      [40] = {
+         item_id = 301022
+         limit = 200
+      }
+      [41] = {
+         item_id = 301023
+         limit = 200
+      }
+      [42] = {
+         item_id = 301028
+         limit = 999
+      }
+      [43] = {
+         item_id = 301029
+         limit = 6
+      }
+      [44] = {
+         item_id = 301030
+         limit = 6
+      }
+      [45] = {
+         item_id = 301032
+         limit = 220
+      }
+      [46] = {
+         item_id = 300301
+         limit = 10
+      }
+      [47] = {
+         item_id = 300302
+         limit = 1
+      }
+      [5] = {
+         item_id = 301044
+         limit = 5
+      }
+      [6] = {
+         item_id = 303064
+         limit = 10
+      }
+      [7] = {
+         item_id = 303065
+         limit = 10
+      }
+      [8] = {
+         item_id = 303066
+         limit = 10
+      }
+      [9] = {
+         item_id = 303067
+         limit = 10
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: item.GS2CEquipLogin = {}
+[core/table.lua:99]:--> Net Receive: summon.GS2CLoginCkSummon = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CUpdateStrengthenInfo = {
+   mask = "6"
+}
+[core/table.lua:99]:--> Net Receive: mail.GS2CLoginMail = {}
+[core/table.lua:99]:--> Net Receive: friend.GS2CLoginFriend = {}
+[core/table.lua:99]:--> Net Receive: sysopen.GS2CLoginOpenSys = {
+   open_sys = {
+      [1] = "RETRIEVE_EXP"
+      [10] = "WELFARE_REBATE"
+      [11] = "RANSE"
+      [12] = "GUIDEPAY"
+      [13] = "STORE_SYS_301"
+      [14] = "SOURCE_PARTNER"
+      [15] = "TEMPBAG"
+      [16] = "FIGHT_GIFT"
+      [17] = "BORN_STORY_TASK"
+      [18] = "REDPACKET"
+      [19] = "STORE_SYS_302"
+      [2] = "BAITAN"
+      [20] = "SOURCE_GAME_TECH"
+      [21] = "FMT_SYS"
+      [22] = "STORE_SYS_201"
+      [23] = "STORE_SYS_304"
+      [24] = "CHUMO_POINT_STORE"
+      [25] = "PARTNER_ZB"
+      [26] = "SHANGHUI"
+      [27] = "WELFARE"
+      [28] = "STORE_SYS_203"
+      [29] = "REDEEM_CODE"
+      [3] = "SHIZHUANG"
+      [30] = "SOURCE_UPGRADE_TECH"
+      [31] = "RECOVERY"
+      [32] = "SOURCE_EQUIP"
+      [33] = "SOURCE_SUMMON"
+      [34] = "SOURCE_HELP_SKILL"
+      [35] = "LEADER_POINT_STORE"
+      [36] = "WELFARE_COLLECT"
+      [37] = "FORESHOW"
+      [38] = "ADVANCE"
+      [39] = "MAIL_SYS"
+      [4] = "STATE"
+      [40] = "PAY_SYS"
+      [41] = "PARTNER_BZ"
+      [42] = "STORE_SYS_204"
+      [43] = "RECOMMEND"
+      [44] = "ONLINE_GIFT"
+      [5] = "SHOP"
+      [6] = "LEITAI"
+      [7] = "SOURCE_CAMBAT_SKILL"
+      [8] = "SUMMON_SYS"
+      [9] = "STORE_SYS_202"
+   }
+}
+[core/table.lua:99]:--> Net Receive: newbieguide.GS2CSysOpenNotified = {}
+[core/table.lua:99]:--> Net Receive: newbieguide.GS2CNewbieGuideInfo = {
+   exdata = "hasplay"
+   guide_links = {
+      [1] = {
+         linkid = "Task1"
+         step = 1
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>CGuideHelpCtrl.GS2CNewbieGuideInfo</color>
+[core/table.lua:99]:--> Net Receive: huodong.GS2CCaishenRefreshRewardKey = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CImperialexamState = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CChargeGiftInfo = {
+   gift_day_list = {
+      [1] = {
+         key = "gift_day_2"
+      }
+      [2] = {
+         key = "gift_day_3"
+      }
+      [3] = {
+         key = "gift_day_1"
+      }
+      [4] = {
+         key = "gift_day_all"
+      }
+   }
+   gift_goldcoin_list = {
+      [1] = {
+         key = "goldcoin_gift_2"
+      }
+      [2] = {
+         key = "goldcoin_gift_1"
+      }
+   }
+   gift_grade_list = {
+      [1] = {
+         key = "grade_gift2_0"
+      }
+      [10] = {
+         key = "grade_gift1_40"
+      }
+      [11] = {
+         key = "grade_gift1_55"
+      }
+      [12] = {
+         key = "grade_gift1_35"
+      }
+      [13] = {
+         key = "grade_gift2_66"
+      }
+      [2] = {
+         key = "grade_gift2_68"
+      }
+      [3] = {
+         key = "grade_gift2_70"
+      }
+      [4] = {
+         key = "grade_gift1_30"
+      }
+      [5] = {
+         key = "grade_gift2_63"
+      }
+      [6] = {
+         key = "grade_gift1_0"
+      }
+      [7] = {
+         key = "grade_gift1_50"
+      }
+      [8] = {
+         key = "grade_gift1_45"
+      }
+      [9] = {
+         key = "grade_gift1_60"
+      }
+   }
+   mask = "e"
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CRplGoldCoinGift = {}
+[core/table.lua:99]:--> Net Receive: other.GS2CPayForGoldInfo = {
+   goldcoin_list = {
+      [1] = {
+         key = "goldcoinstore_1"
+      }
+      [10] = {
+         key = "goldcoinstore_10"
+      }
+      [2] = {
+         key = "goldcoinstore_2"
+      }
+      [3] = {
+         key = "goldcoinstore_3"
+      }
+      [4] = {
+         key = "goldcoinstore_4"
+      }
+      [5] = {
+         key = "goldcoinstore_5"
+      }
+      [6] = {
+         key = "goldcoinstore_6"
+      }
+      [7] = {
+         key = "goldcoinstore_7"
+      }
+      [8] = {
+         key = "goldcoinstore_8"
+      }
+      [9] = {
+         key = "goldcoinstore_9"
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CCollectGiftInfo = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CGoldCoinPartyStart = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CGoldCoinPartyReward = {
+   endtime = 1483909200
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CDanceLeftCnt = {
+   leftcnt = 6
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CWelfareGiftInfo = {
+   mask = "100"
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CWelfareGiftInfo = {
+   first_pay_gift = {
+      [1] = {
+         key = "first_pay_reward"
+      }
+      [2] = {
+         key = "create_time"
+         val = 1692672613
+      }
+      [3] = {
+         key = "first_pay_extra"
+      }
+   }
+   first_pay_gift_second = {
+      [1] = {
+         key = "first_pay_reward_second"
+      }
+      [2] = {
+         key = "create_time"
+         val = 1692672613
+      }
+      [3] = {
+         key = "first_pay_extra_second"
+      }
+   }
+   first_pay_gift_third = {
+      [1] = {
+         key = "first_pay_reward_third"
+      }
+      [2] = {
+         key = "create_time"
+         val = 1692672613
+      }
+      [3] = {
+         key = "first_pay_extra_third"
+      }
+   }
+   login_gift = {
+      [1] = {
+         key = "login_gift_8"
+      }
+      [2] = {
+         key = "login_gift_1"
+         val = 1
+      }
+      [3] = {
+         key = "login_gift_2"
+      }
+      [4] = {
+         key = "login_gift_3"
+      }
+      [5] = {
+         key = "login_gift_7"
+      }
+      [6] = {
+         key = "login_gift_6"
+      }
+      [7] = {
+         key = "login_gift_4"
+      }
+      [8] = {
+         key = "login_gift_5"
+      }
+   }
+   mask = "1fe"
+   new_day_time = 39736
+   rebate_gift = {
+      [1] = {
+         key = "rebate_gift_200"
+      }
+      [2] = {
+         key = "rebate_gift_10000"
+      }
+      [3] = {
+         key = "rebate_gift_50000"
+      }
+      [4] = {
+         key = "rebate_gift_2000"
+      }
+      [5] = {
+         key = "rebate_gift_100000"
+      }
+      [6] = {
+         key = "rebate_gift_20000"
+      }
+      [7] = {
+         key = "rebate_gift_5000"
+      }
+      [8] = {
+         key = "rebate_gift_1000"
+      }
+      [9] = {
+         key = "rebate_gold_coin"
+      }
+   }
+   second_pay_gift = {
+      [1] = {
+         key = "second_pay_reward"
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshSchedule = {
+   schedule = {
+      maxtimes = 35
+      scheduleid = 1008
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== false</color>
+[core/table.lua:99]:--> Net Receive: huodong.GS2CFightGiftbagReward = {
+   endtime = 1693238400
+   rewardlist = {
+      [1] = {
+         rank = 100
+         score = 280000
+      }
+      [2] = {
+         rank = 100
+         score = 230000
+      }
+      [3] = {
+         rank = 100
+         score = 40000
+      }
+      [4] = {
+         rank = 100
+         score = 130000
+      }
+      [5] = {
+         rank = 100
+         score = 180000
+      }
+      [6] = {
+         rank = 100
+         score = 100000
+      }
+      [7] = {
+         rank = 100
+         score = 70000
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CKaiFuRankReward = {
+   createtime = 1692672613
+   orgcnt = {
+      endtime = 1693929600
+      rewarddata = {
+         [1] = {
+            flag = 80
+         }
+         [2] = {
+            flag = 130
+         }
+         [3] = {
+            flag = 140
+         }
+         [4] = {
+            flag = 110
+         }
+         [5] = {
+            flag = 120
+         }
+      }
+   }
+   orglevel = {
+      endtime = 1693929600
+      rewarddata = {
+         [1] = {
+            flag = 2
+         }
+         [2] = {
+            flag = 3
+         }
+      }
+   }
+   playergrade = {
+      endtime = 1693324800
+      rewarddata = {
+         [1] = {
+            flag = 48
+         }
+         [2] = {
+            flag = 43
+         }
+         [3] = {
+            flag = 38
+         }
+         [4] = {
+            flag = 55
+         }
+      }
+   }
+   playerscore = {
+      endtime = 1693584000
+      rewarddata = {
+         [1] = {
+            flag = 28000
+         }
+      }
+   }
+   sumendtime = 1693411200
+   txendtime = 1693497600
+}
+[core/table.lua:99]:CCelebrationCtrl.GS2CKaiFuRankReward = {
+   createtime = 1692672613
+   orgcnt = {
+      endtime = 1693929600
+      rewarddata = {
+         [1] = {
+            flag = 80
+         }
+         [2] = {
+            flag = 130
+         }
+         [3] = {
+            flag = 140
+         }
+         [4] = {
+            flag = 110
+         }
+         [5] = {
+            flag = 120
+         }
+      }
+   }
+   orglevel = {
+      endtime = 1693929600
+      rewarddata = {
+         [1] = {
+            flag = 2
+         }
+         [2] = {
+            flag = 3
+         }
+      }
+   }
+   playergrade = {
+      endtime = 1693324800
+      rewarddata = {
+         [1] = {
+            flag = 48
+         }
+         [2] = {
+            flag = 43
+         }
+         [3] = {
+            flag = 38
+         }
+         [4] = {
+            flag = 55
+         }
+      }
+   }
+   playerscore = {
+      endtime = 1693584000
+      rewarddata = {
+         [1] = {
+            flag = 28000
+         }
+      }
+   }
+   sumendtime = 1693411200
+   txendtime = 1693497600
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2COnlineGift = {
+   end_time = 4070966340
+   login_time = 1692679004
+   start_time = 1483200000
+   statuslist = {
+      [1] = {
+         key = 5
+         status = 1
+      }
+      [2] = {
+         key = 10
+         status = 1
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CRetrieveExp = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshAllHuodongState = {
+   hdlist = {
+      [1] = {
+         scheduleid = 1038
+         state = 2
+         time = "12:45:00"
+      }
+      [2] = {
+         scheduleid = 1021
+         state = 1
+         time = "17:00"
+      }
+      [3] = {
+         scheduleid = 1020
+         state = 1
+         time = "20:30"
+      }
+      [4] = {
+         scheduleid = 1018
+         state = 1
+         time = "19:15"
+      }
+      [5] = {
+         scheduleid = 1036
+         state = 2
+         time = "00:00"
+      }
+      [6] = {
+         scheduleid = 1019
+         state = 2
+         time = "12:45"
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: chat.GS2CChatHistory = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CPropChange = {
+   role = {
+      critical_multiple = 2
+      cure_power = 10
+      hp = 200
+      mag_attack = 80
+      mag_defense = 60
+      mask = "80000041c7fffde00"
+      max_hp = 200
+      max_mp = 230
+      mp = 230
+      phy_attack = 100
+      phy_critical_ratio = 3
+      phy_defense = 50
+      prop_info = {
+         [1] = {
+            base = 50000
+            name = "phy_defense"
+         }
+         [2] = {
+            base = 230000
+            name = "max_mp"
+         }
+         [3] = {
+            base = 200000
+            name = "max_hp"
+         }
+         [4] = {
+            base = 70000
+            name = "speed"
+         }
+         [5] = {
+            base = 100000
+            name = "phy_attack"
+         }
+         [6] = {
+            base = 80000
+            name = "mag_attack"
+         }
+         [7] = {
+            base = 60000
+            name = "mag_defense"
+         }
+      }
+      score = 130
+      speed = 70
+   }
+}
+[core/table.lua:99]:--> Net Receive: chat.GS2CAllForbinInfo = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CSchedule = {
+   curtime = 1692680265
+   db_point_limit = 600
+   hdlist = {
+      [1] = {
+         scheduleid = 1038
+         state = 2
+         time = "12:45:00"
+      }
+      [2] = {
+         scheduleid = 1021
+         state = 1
+         time = "17:00"
+      }
+      [3] = {
+         scheduleid = 1020
+         state = 1
+         time = "20:30"
+      }
+      [4] = {
+         scheduleid = 1018
+         state = 1
+         time = "19:15"
+      }
+      [5] = {
+         scheduleid = 1036
+         state = 2
+         time = "00:00"
+      }
+      [6] = {
+         scheduleid = 1019
+         state = 2
+         time = "12:45"
+      }
+   }
+   schedules = {
+      [1] = {
+         maxtimes = 35
+         scheduleid = 1008
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== false</color>
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "1516"
+}
+[core/table.lua:99]:--> Net Receive: redpacket.GS2CAll = {}
+[core/table.lua:99]:CRedPacketCtrl.GS2CAll = {}
+[logic/map/CMapCtrl.lua:449]:MapLoadDone,    2040    2040    nil
+[core/global.lua:59]:<color=#ffeb04>CMapCtrl.GetSpecialConfig==>警告：当前不存在的配置数据，请检查是否错误文件路径 F:/bnz/client/Assets/GameRes/Map2d/ConfigData/water_2040.bytes</color>
+[core/global.lua:59]:<color=#ffeb04>CMapCtrl.GetSpecialConfig==>警告：当前不存在的配置数据，请检查是否错误文件路径 F:/bnz/client/Assets/GameRes/Map2d/ConfigData/waterline_2040.bytes</color>
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:57:45
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/ui/CViewBase.lua:149]:CMainMenuView LoadDone!
+[core/table.lua:99]:<-- Net Send: npc.C2GSClickNpc = {
+   npcid = 636
+}
+[core/table.lua:99]:--> Net Receive: npc.GS2CNpcSay = {
+   model_info = {
+      figure = 6101
+   }
+   name = "GM"
+   npcid = 636
+   sessionidx = 3
+   text = " 亿万生灵为兵，百万神魔为将，待到逆乱阴阳时，以我魔血染青天！&Q进入战斗&Q先放过你"
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CDialogueOptionView ShowView
+[logic/ui/CViewBase.lua:149]:CDialogueOptionView LoadDone!
+[core/table.lua:99]:<-- Net Send: other.C2GSCallback = {
+   answer = 1
+   sessionidx = 3
+}
+[logic/ui/CViewCtrl.lua:134]:CDialogueOptionView CloseView
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "等级不足@level@28#n级，努力升级吧"
+}
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:57:55
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[core/table.lua:99]:<-- Net Send: scene.C2GSTransfer = {
+   eid = 10
+   scene_id = 16
+   transfer_id = 2
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 1837
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "1837"
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CShowScene = {
+   map_id = 304000
+   scene_id = 7
+   scene_name = "瑶池"
+   x = 17320
+   y = 2622
+}
+[core/global.lua:59]:<color=#ffeb04>警告：策划HUD模型配置表未找到，使用默认1110模型配置，未配置的模型ID： 8236 导表地址：https://nsvn.cilugame.com/H7/doc/trunk/daobiao/excel/system/role/hudoffset.xlsx</color>
+[core/global.lua:59]:<color=#ffeb04>警告：策划HUD模型配置表未找到，使用默认1110模型配置，未配置的模型ID： 8236 导表地址：https://nsvn.cilugame.com/H7/doc/trunk/daobiao/excel/system/role/hudoffset.xlsx</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/table.lua:99]:mapswitch 执行缓存协议:1 true = {
+   [1] = {
+      [1] = "scene"
+      [2] = "GS2CEnterScene"
+      [3] = {
+         eid = 3
+         pos_info = {
+            face_y = 155014
+            v = 2800
+            x = 17320
+            y = 2622
+         }
+         scene_id = 7
+      }
+   }
+}
+[logic/map/CMapCtrl.lua:449]:MapLoadDone,    3040    3040    3040
+[core/global.lua:59]:<color=#ffeb04>CMapCtrl.GetSpecialConfig==>警告：当前不存在的配置数据，请检查是否错误文件路径 F:/bnz/client/Assets/GameRes/Map2d/ConfigData/water_3040.bytes</color>
+[core/global.lua:59]:<color=#ffeb04>CMapCtrl.GetSpecialConfig==>警告：当前不存在的配置数据，请检查是否错误文件路径 F:/bnz/client/Assets/GameRes/Map2d/ConfigData/waterline_3040.bytes</color>
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:58:05
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:58:15
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:58:25
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:58:35
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:58:45
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:58:55
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:59:05
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:59:15
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:59:25
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:59:35
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[core/table.lua:99]:<-- Net Send: scene.C2GSTransfer = {
+   eid = 3
+   scene_id = 7
+   transfer_id = 1
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 1907
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CShowScene = {
+   map_id = 204000
+   scene_id = 16
+   scene_name = "凌霄宝殿"
+   x = 10970
+   y = 1180
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "1907"
+}
+[core/table.lua:99]:mapswitch 执行缓存协议:1 true = {
+   [1] = {
+      [1] = "scene"
+      [2] = "GS2CEnterScene"
+      [3] = {
+         eid = 10
+         pos_info = {
+            face_y = 135946
+            v = 2800
+            x = 10970
+            y = 1180
+         }
+         scene_id = 16
+      }
+   }
+}
+[logic/map/CMapCtrl.lua:449]:MapLoadDone,    2040    2040    2040
+[logic/task/CTaskBox.lua:297]:<color=#00FF00> >>> .OnTaskBox | 表数据查看 | 任务导航TaskBox数据输出 </color>
+[core/table.lua:99]:Table = {
+   classtype = {
+      AceTaskAssociatedNpc = "function: 0x1849e9f0"
+      AssociatedNpc = "function: 0x1849d700"
+      AssociatedPick = "function: 0x1849ea50"
+      AssociatedSubmit = "function: 0x1849ea20"
+      CheckFindItemFinish = "function: 0x1849ea80"
+      CheckFindSummonFinish = "function: 0x1849d0f0"
+      GetAllowBB = "function: 0x1849d2a8"
+      GetCValueByKey = "function: 0x1849e9c0"
+      GetIsAceTask = "function: 0x1849e8b0"
+      GetLegendTime = "function: 0x1849d0c0"
+      GetLimitQuality = "function: 0x1849d278"
+      GetProgressThing = "function: 0x1849d368"
+      GetSValueByKey = "function: 0x1849e918"
+      GetStep = "function: 0x1849d398"
+      GetTaskClientExtStrDic = "function: 0x1849d120"
+      GetTaskItemPre = "function: 0x1849d338"
+      IsAbandon = "function: 0x1849e8e0"
+      IsTaskSpecityAction = "function: 0x1849d2d8"
+      IsTaskSpecityCategory = "function: 0x1849d308"
+      New = "function: 0x1849c448"
+      RaiseProgressIdx = "function: 0x1849d3c8"
+      RefreshTask = "function: 0x1849eab8"
+      classname = "CTask"
+      ctor = "function: 0x1849e880"
+   }
+   m_CTaskDataGetter = "function: 0x2faa0410"
+   m_Finish = false
+   m_SData = {
+      create_time = 1692672613
+      detaildesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+      name = "师命"
+      target = 5240
+      targetdesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+      taskid = 10039
+      tasktype = 1
+   }
+   m_TaskType = {
+      appenddes = "单人"
+      desc = ""
+      dropable = 0
+      grade_limit = 0
+      id = 2
+      name = "主线"
+      npcid = 0
+      showinfo = 1
+      teamsize_condi = "teamsize==0"
+   }
+}
+[core/table.lua:99]:<-- Net Send: task.C2GSClickTask = {
+   taskid = 10039
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 1965
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CShowScene = {
+   map_id = 304000
+   scene_id = 7
+   scene_name = "瑶池"
+   x = 12000
+   y = 7000
+}
+[core/global.lua:59]:<color=#ffeb04>警告：策划HUD模型配置表未找到，使用默认1110模型配置，未配置的模型ID： 8236 导表地址：https://nsvn.cilugame.com/H7/doc/trunk/daobiao/excel/system/role/hudoffset.xlsx</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "1965"
+}
+[core/table.lua:99]:mapswitch 执行缓存协议:2 true = {
+   [1] = {
+      [1] = "scene"
+      [2] = "GS2CAutoFindPath"
+      [3] = {
+         autotype = 1
+         map_id = 304000
+         npcid = 70
+         pos_x = 4800
+         pos_y = 8300
+      }
+   }
+   [2] = {
+      [1] = "scene"
+      [2] = "GS2CEnterScene"
+      [3] = {
+         eid = 4
+         pos_info = {
+            face_y = 135946
+            v = 2800
+            x = 12000
+            y = 7000
+         }
+         scene_id = 7
+      }
+   }
+}
+[logic/task/CTaskBox.lua:297]:<color=#00FF00> >>> .OnTaskBox | 表数据查看 | 任务导航TaskBox数据输出 </color>
+[core/table.lua:99]:Table = {
+   classtype = {
+      AceTaskAssociatedNpc = "function: 0x1849e9f0"
+      AssociatedNpc = "function: 0x1849d700"
+      AssociatedPick = "function: 0x1849ea50"
+      AssociatedSubmit = "function: 0x1849ea20"
+      CheckFindItemFinish = "function: 0x1849ea80"
+      CheckFindSummonFinish = "function: 0x1849d0f0"
+      GetAllowBB = "function: 0x1849d2a8"
+      GetCValueByKey = "function: 0x1849e9c0"
+      GetIsAceTask = "function: 0x1849e8b0"
+      GetLegendTime = "function: 0x1849d0c0"
+      GetLimitQuality = "function: 0x1849d278"
+      GetProgressThing = "function: 0x1849d368"
+      GetSValueByKey = "function: 0x1849e918"
+      GetStep = "function: 0x1849d398"
+      GetTaskClientExtStrDic = "function: 0x1849d120"
+      GetTaskItemPre = "function: 0x1849d338"
+      IsAbandon = "function: 0x1849e8e0"
+      IsTaskSpecityAction = "function: 0x1849d2d8"
+      IsTaskSpecityCategory = "function: 0x1849d308"
+      New = "function: 0x1849c448"
+      RaiseProgressIdx = "function: 0x1849d3c8"
+      RefreshTask = "function: 0x1849eab8"
+      classname = "CTask"
+      ctor = "function: 0x1849e880"
+   }
+   m_CTaskDataGetter = "function: 0x2faa0410"
+   m_Finish = false
+   m_SData = {
+      create_time = 1692672613
+      detaildesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+      name = "师命"
+      target = 5240
+      targetdesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+      taskid = 10039
+      tasktype = 1
+   }
+   m_TaskType = {
+      appenddes = "单人"
+      desc = ""
+      dropable = 0
+      grade_limit = 0
+      id = 2
+      name = "主线"
+      npcid = 0
+      showinfo = 1
+      teamsize_condi = "teamsize==0"
+   }
+}
+[logic/map/CMapCtrl.lua:449]:MapLoadDone,    3040    3040    3040
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:59:45
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[core/table.lua:99]:<-- Net Send: npc.C2GSClickNpc = {
+   npcid = 70
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CShowNpcCloseup = {
+   npctype = 5240
+}
+[core/table.lua:99]:--> Net Receive: npc.GS2CNpcSay = {
+   model_info = {
+      figure = 2501
+   }
+   name = "龙吉公主"
+   npcid = 70
+   sessionidx = 4
+   text = "我只是本体的法相分身，来自于平行时空。&Q门派修行"
+}
+[core/table.lua:99]:<-- Net Send: task.C2GSTaskEvent = {
+   npcid = 70
+   taskid = 10039
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CDialog = {
+   dialog = {
+      [1] = {
+         content = "找我来有何事吩咐？是不是让我去降妖伏魔？#7我这就去~~"
+         type = 1
+      }
+      [2] = {
+         content = "回来~你道祖师父有要事召你回归，快去觐见吧。"
+         type = 2
+      }
+      [3] = {
+         content = "那老头终于想起我了，把我丢这里这么多年，气死我了。#15"
+         type = 1
+      }
+   }
+   model_info = {
+      figure = 2501
+   }
+   npc_name = "龙吉公主"
+   sessionidx = 5
+   taskid = 10039
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CDialogueMainView ShowView
+[logic/ui/CViewBase.lua:149]:CDialogueMainView LoadDone!
+[core/table.lua:99]:<-- Net Send: other.C2GSCallback = {
+   sessionidx = 5
+}
+[logic/ui/CViewCtrl.lua:134]:CDialogueMainView CloseView
+[core/table.lua:99]:--> Net Receive: task.GS2CDelTask = {
+   is_done = 1
+   taskid = 10039
+}
+[logic/ui/CViewCtrl.lua:134]:CDialogueMainView CloseView
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {}
+[core/table.lua:99]:--> Net Receive: task.GS2CAddTask = {
+   taskdata = {
+      create_time = 1692680391
+      detaildesc = "道祖告诉你九幽魔帝会打散许仙的七魄，让你去与他接近。"
+      name = "生死之交"
+      target = 5271
+      targetdesc = "道祖与九幽魔帝立赌约，定三界命运"
+      taskid = 10001
+      tasktype = 1
+   }
+}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {}
+[core/table.lua:99]:--> Net Receive: chat.GS2CConsumeMsg = {
+   content = "你获得了@silver@10000000#n#cur_4"
+   type = 6
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CShimenInfo = {}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {}
+[core/table.lua:99]:CTaskCtrl.GS2CShimenInfo = {}
+[core/table.lua:99]:--> Net Receive: task.GS2CAcceptableTasks = {}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {}
+[core/table.lua:99]:--> Net Receive: task.GS2CUpdateEverydayTasks = {
+   updates = {
+      [1] = {
+         max_cnt = 1
+         taskid = 16
+      }
+      [2] = {
+         max_cnt = 1
+         taskid = 1
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CAssistExp = {
+   max_assist_exp = 210000
+}
+[core/table.lua:99]:--> Net Receive: skill.GS2CRefreshSkill = {
+   skill_info = {
+      level = 1
+      needpoint = 2
+      sk = 1400
+      type = 2
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>技能升级更新协议</color>
+[core/table.lua:99]:技能升级更新协议返回: = {
+   level = 1
+   needpoint = 2
+   sk = 1400
+   type = 2
+}
+[core/table.lua:99]:--> Net Receive: skill.GS2CRefreshSkill = {
+   skill_info = {
+      level = 1
+      needmoney = 318
+      sk = 2401
+      type = 2
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>技能升级更新协议</color>
+[core/table.lua:99]:技能升级更新协议返回: = {
+   level = 1
+   needmoney = 318
+   sk = 2401
+   type = 2
+}
+[core/table.lua:99]:--> Net Receive: skill.GS2CRefreshSkill = {
+   skill_info = {
+      level = 1
+      needmoney = 318
+      sk = 2402
+      type = 2
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>技能升级更新协议</color>
+[core/table.lua:99]:技能升级更新协议返回: = {
+   level = 1
+   needmoney = 318
+   sk = 2402
+   type = 2
+}
+[core/table.lua:99]:--> Net Receive: mail.GS2CAddMail = {
+   simpleinfo = {
+      createtime = 1692680391
+      icon = "h7_xinfeng_1"
+      mailid = 1
+      mailtype = 101
+      openicon = "h7_xinfeng_6"
+      title = "游戏画面配置"
+      validtime = 1695272391
+   }
+}
+[core/table.lua:99]:--> Net Receive: sysopen.GS2COpenSysChange = {
+   changes = {
+      [1] = {
+         open = 1
+         sys = "GIFT_GOLDCOIN"
+      }
+      [10] = {
+         open = 1
+         sys = "FIRST_PAY"
+      }
+      [11] = {
+         open = 1
+         sys = "HANG"
+      }
+      [12] = {
+         open = 1
+         sys = "GIFT_DAY"
+      }
+      [13] = {
+         open = 1
+         sys = "SUMMON_JN"
+      }
+      [14] = {
+         open = 1
+         sys = "JJCPOINT_STORE"
+      }
+      [15] = {
+         open = 1
+         sys = "GROW"
+      }
+      [16] = {
+         open = 1
+         sys = "ORG_RANK"
+      }
+      [17] = {
+         open = 1
+         sys = "SCORESHOW"
+      }
+      [18] = {
+         open = 1
+         sys = "ZHIYIN"
+      }
+      [19] = {
+         open = 1
+         sys = "PREOPEN"
+      }
+      [2] = {
+         open = 1
+         sys = "TIEXIN"
+      }
+      [20] = {
+         open = 1
+         sys = "SECOND_PAY"
+      }
+      [21] = {
+         open = 1
+         sys = "SKILL_BD"
+      }
+      [22] = {
+         open = 1
+         sys = "SUMMON_XC"
+      }
+      [23] = {
+         open = 1
+         sys = "KAIFUDIANLI"
+      }
+      [24] = {
+         open = 1
+         sys = "STRENGTH_RANK"
+      }
+      [25] = {
+         open = 1
+         sys = "GRADE_RANK"
+      }
+      [26] = {
+         open = 1
+         sys = "SIGN"
+      }
+      [27] = {
+         open = 1
+         sys = "SUMMON_PY"
+      }
+      [28] = {
+         open = 1
+         sys = "SUMMON_LY"
+      }
+      [3] = {
+         open = 1
+         sys = "TITLE_RANK"
+      }
+      [4] = {
+         open = 1
+         sys = "IMPROVE"
+      }
+      [5] = {
+         open = 1
+         sys = "UPGRADEPACK"
+      }
+      [6] = {
+         open = 1
+         sys = "SUMMON_RANK"
+      }
+      [7] = {
+         open = 1
+         sys = "RETURNGOLDCOIN"
+      }
+      [8] = {
+         open = 1
+         sys = "SKILL_SYS"
+      }
+      [9] = {
+         open = 1
+         sys = "BAOTASK"
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+   }
+}
+[core/table.lua:99]:--> Net Receive: chat.GS2CConsumeMsg = {
+   content = "你获得了@exp@20000#n#cur_6"
+   type = 6
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CPropChange = {
+   role = {
+      agility = 22
+      cure_power = 10
+      endurance = 33
+      exp = 188
+      grade = 11
+      hp = 464
+      mag_attack = 93
+      mag_defense = 97
+      magic = 11
+      mask = "80000040001ffdec2"
+      max_hp = 471
+      max_mp = 340
+      mp = 340
+      phy_attack = 111
+      phy_defense = 122
+      physique = 33
+      prop_info = {
+         [1] = {
+            base = 122600
+            name = "phy_defense"
+         }
+         [2] = {
+            base = 340000
+            name = "max_mp"
+         }
+         [3] = {
+            base = 464000
+            extra = 7000
+            name = "max_hp"
+         }
+         [4] = {
+            base = 118399
+            name = "speed"
+         }
+         [5] = {
+            base = 111000
+            name = "phy_attack"
+         }
+         [6] = {
+            base = 91000
+            extra = 2000
+            name = "mag_attack"
+         }
+         [7] = {
+            base = 97399
+            name = "mag_defense"
+         }
+      }
+      score = 460
+      silver = 10000000
+      speed = 118
+      strength = 11
+   }
+}
+[logic/ui/CViewCtrl.lua:134]:CScoreShowView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CScoreShowView ShowView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== false</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   exdata = "hasplay,GradeGift10"
+   mask = "4"
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideNotifyView ShowView
+[logic/ui/CViewCtrl.lua:134]:CSpeechRecordView CloseView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSNewSysOpenNotified = {
+   sys_ids = {
+      [1] = "SKILL_SYS"
+   }
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2100
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "获得#G20000#n#cur_6,#G10000000#n#cur_4"
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2100"
+}
+[logic/ui/CViewBase.lua:149]:CScoreShowView LoadDone!
+[logic/ui/CViewBase.lua:149]:CGuideNotifyView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>停止引导检查</color>
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>找到新的引导类型 Zhiyin</color>
+[logic/ui/CViewCtrl.lua:134]:CScoreShowView CloseView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Zhiyin"
+      [2] = "Skill"
+      [3] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>执行指引 Zhiyin_1 1</color>
+[core/global.lua:59]:<color=#ffeb04>引导结束 Zhiyin Zhiyin_1 1</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "Zhiyin"
+         step = 1
+      }
+   }
+   mask = "2"
+}
+[logic/guide/CGuideCtrl.lua:351]:已完成引导Zhiyin
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "Zhiyin"
+         step = 1
+      }
+   }
+   mask = "2"
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Skill"
+      [2] = "ImproveHasPlay"
+   }
+}
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 12:59:55
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[core/global.lua:59]:<color=#ffeb04>找到新的引导类型 Skill</color>
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Skill"
+      [2] = "ImproveHasPlay"
+   }
+}
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>执行指引 Skill_1 1</color>
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CSkillMainView ShowView
+[core/global.lua:59]:<color=#ffeb04>引导结束 Skill Skill_1 1</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "Skill"
+         step = 1
+      }
+   }
+   mask = "2"
+}
+[core/global.lua:59]:<color=#ffeb04>HideAreas return 1</color>
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "Skill"
+      [2] = "ImproveHasPlay"
+   }
+}
+[logic/ui/CViewBase.lua:149]:CSkillMainView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>执行指引 Skill_2 2</color>
+[logic/base/CResCtrl.lua:788]:res gc finish!
+[core/global.lua:59]:<color=#ffeb04>res gc skip! m_ReleaseAssetCnt: 0</color>
+[core/global.lua:59]:<color=#ffeb04>引导结束 Skill Skill_2 2</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "Skill"
+         step = 2
+      }
+   }
+   mask = "2"
+}
+[core/global.lua:59]:<color=#ffeb04>执行指引 Skill_3 3</color>
+[core/global.lua:59]:<color=#ffeb04>引导结束 Skill Skill_3 3</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "Skill"
+         step = 3
+      }
+   }
+   mask = "2"
+}
+[core/global.lua:59]:<color=#ffeb04>执行指引 Skill_4 4</color>
+[core/global.lua:59]:<color=#ffeb04>引导结束 Skill Skill_4 4</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "Skill"
+         step = 4
+      }
+   }
+   mask = "2"
+}
+[logic/guide/CGuideCtrl.lua:351]:已完成引导Skill
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "Skill"
+         step = 4
+      }
+   }
+   mask = "2"
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ImproveHasPlay"
+   }
+}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshHuodongState = {
+   hdlist = {
+      scheduleid = 1020
+      state = 1
+      time = "20:30"
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CKaiFuRankReward = {
+   createtime = 1692672613
+   orgcnt = {
+      endtime = 1693929600
+      rewarddata = {
+         [1] = {
+            flag = 80
+         }
+         [2] = {
+            flag = 130
+         }
+         [3] = {
+            flag = 140
+         }
+         [4] = {
+            flag = 110
+         }
+         [5] = {
+            flag = 120
+         }
+      }
+   }
+   orglevel = {
+      endtime = 1693929600
+      rewarddata = {
+         [1] = {
+            flag = 2
+         }
+         [2] = {
+            flag = 3
+         }
+      }
+   }
+   playergrade = {
+      endtime = 1693324800
+      rewarddata = {
+         [1] = {
+            flag = 48
+         }
+         [2] = {
+            flag = 43
+         }
+         [3] = {
+            flag = 38
+         }
+         [4] = {
+            flag = 55
+         }
+      }
+   }
+   playerscore = {
+      endtime = 1693584000
+      rewarddata = {
+         [1] = {
+            flag = 28000
+         }
+      }
+   }
+   sumendtime = 1693411200
+   txendtime = 1693497600
+}
+[core/table.lua:99]:CCelebrationCtrl.GS2CKaiFuRankReward = {
+   createtime = 1692672613
+   orgcnt = {
+      endtime = 1693929600
+      rewarddata = {
+         [1] = {
+            flag = 80
+         }
+         [2] = {
+            flag = 130
+         }
+         [3] = {
+            flag = 140
+         }
+         [4] = {
+            flag = 110
+         }
+         [5] = {
+            flag = 120
+         }
+      }
+   }
+   orglevel = {
+      endtime = 1693929600
+      rewarddata = {
+         [1] = {
+            flag = 2
+         }
+         [2] = {
+            flag = 3
+         }
+      }
+   }
+   playergrade = {
+      endtime = 1693324800
+      rewarddata = {
+         [1] = {
+            flag = 48
+         }
+         [2] = {
+            flag = 43
+         }
+         [3] = {
+            flag = 38
+         }
+         [4] = {
+            flag = 55
+         }
+      }
+   }
+   playerscore = {
+      endtime = 1693584000
+      rewarddata = {
+         [1] = {
+            flag = 28000
+         }
+      }
+   }
+   sumendtime = 1693411200
+   txendtime = 1693497600
+}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshHuodongState = {
+   hdlist = {
+      scheduleid = 1019
+      state = 3
+      time = "12:45"
+   }
+}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshHuodongState = {
+   hdlist = {
+      scheduleid = 1019
+      state = 1
+      time = "19:00"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>找到新的引导类型 ImproveHasPlay</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>执行指引 ImproveHasPlay_1 1</color>
+[logic/ui/CViewCtrl.lua:134]:CSkillMainView CloseView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ImproveHasPlay"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>引导结束 ImproveHasPlay ImproveHasPlay_1 1</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "ImproveHasPlay"
+         step = 1
+      }
+   }
+   mask = "2"
+}
+[logic/guide/CGuideCtrl.lua:351]:已完成引导ImproveHasPlay
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "ImproveHasPlay"
+         step = 1
+      }
+   }
+   mask = "2"
+}
+[core/global.lua:59]:<color=#ffeb04>停止引导检查</color>
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWelfareView ShowView
+[logic/ui/CViewCtrl.lua:134]:CGuideNotifyView CloseView
+[core/table.lua:99]:Table = {
+   [1] = {
+      idx = 1
+      key = "FirstPay"
+   }
+   [2] = {
+      idx = 4
+      key = "Sign"
+   }
+   [3] = {
+      idx = 5
+      key = "OnlineGift"
+   }
+   [4] = {
+      idx = 7
+      key = "FightGift"
+   }
+   [5] = {
+      idx = 8
+      key = "UpgradePack"
+   }
+   [6] = {
+      idx = 10
+      key = "GiftGoldcoin"
+   }
+   [7] = {
+      idx = 11
+      key = "GiftDay"
+   }
+   [8] = {
+      idx = 12
+      key = "Exchange"
+   }
+}
+[logic/ui/CViewBase.lua:149]:CWelfareView LoadDone!
+[core/table.lua:99]:<-- Net Send: player.C2GSRewardGradeGift = {
+   grade = 10
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2419
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "该礼包不存在"
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2419"
+}
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 13:00:05
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[core/table.lua:99]:<-- Net Send: player.C2GSRewardGradeGift = {
+   grade = 10
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2430
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "该礼包不存在"
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2430"
+}
+[core/table.lua:99]:<-- Net Send: player.C2GSRewardGradeGift = {
+   grade = 10
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2439
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "该礼包不存在"
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2439"
+}
+[core/table.lua:99]:<-- Net Send: player.C2GSRewardGradeGift = {
+   grade = 10
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2446
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "该礼包不存在"
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2446"
+}
+[core/table.lua:99]:Table = {
+   key = 5
+   reward = 1001
+   status = 1
+   time = 5
+}
+[core/table.lua:99]:<-- Net Send: huodong.C2GSOnlineGift = {
+   key = 5
+}
+[core/table.lua:99]:--> Net Receive: item.GS2CAddItem = {
+   itemdata = {
+      amount = 1
+      id = 460
+      itemlevel = 2
+      key = 1
+      name = "狂欢令"
+      pos = 101
+      sid = 10160
+   }
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CItemNotify = {
+   amount = 1
+   sid = 10160
+}
+[core/table.lua:99]:--> Net Receive: chat.GS2CConsumeMsg = {
+   content = "获得@qualitytwo@狂欢令#n×#G1#n"
+   type = 6
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2COnlineGiftUnit = {
+   unit = {
+      key = 5
+      status = 2
+   }
+}
+[core/table.lua:99]:Table = {
+   key = 10
+   reward = 1002
+   status = 1
+   time = 10
+}
+[core/table.lua:99]:<-- Net Send: huodong.C2GSOnlineGift = {
+   key = 10
+}
+[core/table.lua:99]:--> Net Receive: item.GS2CItemAmount = {
+   amount = 2
+   id = 460
+}
+[core/table.lua:99]:--> Net Receive: item.GS2CUpdateItemInfo = {
+   itemdata = {
+      amount = 2
+      id = 460
+      itemlevel = 2
+      key = 1
+      name = "狂欢令"
+      pos = 101
+      sid = 10160
+   }
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CItemNotify = {
+   amount = 1
+   sid = 10160
+}
+[core/table.lua:99]:--> Net Receive: chat.GS2CConsumeMsg = {
+   content = "获得@qualitytwo@狂欢令#n×#G1#n"
+   type = 6
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2COnlineGiftUnit = {
+   unit = {
+      key = 10
+      status = 2
+   }
+}
+[core/table.lua:99]:<-- Net Send: player.C2GSRewardGradeGift = {
+   grade = 10
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2494
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "该礼包不存在"
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2494"
+}
+[core/table.lua:99]:<-- Net Send: player.C2GSRewardGradeGift = {
+   grade = 10
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2503
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "该礼包不存在"
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2503"
+}
+[logic/ui/CViewCtrl.lua:134]:CWelfareView CloseView
+[logic/ui/CViewCtrl.lua:134]:CFortuneView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CSkillMainView ShowView
+[logic/ui/CViewBase.lua:149]:CSkillMainView LoadDone!
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 13:00:15
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 13:00:25
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/ui/CViewCtrl.lua:134]:CSkillMainView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CItemMainView ShowView
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:<-- Net Send: player.C2GSGetScore = {
+   op = 2
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2821
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ItemBagView"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>HideAreas return 1</color>
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ItemBagView"
+   }
+}
+[logic/ui/CViewBase.lua:149]:CItemMainView LoadDone!
+[core/table.lua:99]:--> Net Receive: player.GS2CGetScore = {
+   op = 2
+   score = 460
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2821"
+}
+[core/global.lua:59]:<color=#ffeb04>找到新的引导类型 ItemBagView</color>
+[logic/ui/CViewCtrl.lua:134]:CItemMainView CloseView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ItemBagView"
+   }
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CItemMainView ShowView
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:CItemModelPart.InitGridBox = "nil"
+[core/table.lua:99]:<-- Net Send: player.C2GSGetScore = {
+   op = 2
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 3016
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ItemBagView"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>HideAreas return 1</color>
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ItemBagView"
+   }
+}
+[logic/ui/CViewBase.lua:149]:CItemMainView LoadDone!
+[core/table.lua:99]:--> Net Receive: player.GS2CGetScore = {
+   op = 2
+   score = 460
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ItemBagView"
+   }
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ItemBagView"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ItemBagView"
+   }
+}
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "3016"
+}
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {
+   grade = {
+      [1] = "ItemBagView"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>执行指引 ItemBagView_1 1</color>
+[core/global.lua:59]:<color=#ffeb04>引导结束 ItemBagView ItemBagView_1 1</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "ItemBagView"
+         step = 1
+      }
+   }
+   mask = "2"
+}
+[core/global.lua:59]:<color=#ffeb04>执行指引 ItemBagView_2 2</color>
+[core/global.lua:59]:<color=#ffeb04>引导结束 ItemBagView ItemBagView_2 2</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "ItemBagView"
+         step = 2
+      }
+   }
+   mask = "2"
+}
+[core/global.lua:59]:<color=#ffeb04>执行指引 ItemBagView_3 3</color>
+[core/global.lua:59]:<color=#ffeb04>引导结束 ItemBagView ItemBagView_3 3</color>
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "ItemBagView"
+         step = 3
+      }
+   }
+   mask = "2"
+}
+[logic/guide/CGuideCtrl.lua:351]:已完成引导ItemBagView
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSUpdateNewbieGuideInfo = {
+   guide_links = {
+      [1] = {
+         exdata = ""
+         linkid = "ItemBagView"
+         step = 3
+      }
+   }
+   mask = "2"
+}
+[core/global.lua:59]:<color=#ffeb04>停止引导检查</color>
+[logic/misc/CTimeCtrl.lua:80]:同步服务器时间    2023/08/22 13:00:35
+[logic/misc/CTimeCtrl.lua:38]:HeartBeat->心跳包检测正常
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CItemTipsView ShowView
+[logic/ui/CViewBase.lua:149]:CItemTipsView LoadDone!
+[logic/ui/CViewCtrl.lua:134]:CItemTipsView CloseView
+[core/table.lua:99]:<-- Net Send: warehouse.C2GSSwitchWareHouse = {
+   wid = 1
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 3616
+}
+[core/table.lua:99]:--> Net Receive: warehouse.GS2CRefreshWareHouse = {
+   name = "仓库1"
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "3616"
+}
+[logic/ui/CViewCtrl.lua:134]:CItemMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWindowComfirmView ShowView

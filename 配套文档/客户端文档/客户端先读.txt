@@ -1,0 +1,35 @@
+
+客户端首要了解
+1.lua (理解require，.和:的区别，class的实现机制，table做为dict和list的使用)
+2.NGUI基本控件及其使用(lua目录中logic/ui对其的封装)
+
+
+客户端结构说明
+客户端使用Tolua，使用lua实现所有的游戏逻辑，协议层使用云风基于protobuf简化的pbc协议
+C#文件中，luamain.cs是入口
+lua文件中main.lua是入口，luamain.cs调用main.lua中的start和update驱动lua层
+
+目录结构
+core  --lua层库文件
+logic --游戏逻辑
+net   --网络协议处理
+proto --网络协议定义
+System --Tolua框架自带
+UnityEngine --Tolua自带
+main.lua --启动文件
+游戏逻辑修改都在logic，net，proto中修改
+
+协议使用说明：
+proto目录存放协议定义的说明
+base --被引用的的基类协议，比如人物数据
+client --C2GS协议，客户端发服务端的
+server --GS2C协议，服务端发客户端的
+最后所有数据生成一个proto.pb文件，这个才是游戏真正使用的协议文件，.proto只是用于查看
+
+net目录
+netdefines是不同协议的映射表，分发到不同的netxxxx.lua文件
+一个xxx.proto文件会有对应一个netxxx.lua文件
+文件中定义所有GS2C和GS2C协议
+
+
+

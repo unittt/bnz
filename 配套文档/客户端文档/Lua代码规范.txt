@@ -1,0 +1,103 @@
+﻿1.命名
+	一些英文缩写
+		管理类（Ctrl） 如CItemCtrl
+
+	文件夹名小写，和文件夹名一样的lua文件也小写
+		eg. logic
+			 -- logic.lua
+
+	lua文件名大写开头 
+		eg. CButton, CSprite
+
+	函数名用大写开头 
+		eg. xx.GetObject()
+
+	参数名第一个字母不能大写 
+		eg. function f001(name, id)
+			function f001(sName, iGrade)
+
+	类型前缀
+		1.o
+			object
+			一般class的对象都是oXXX
+			比如CItem的对象是oItem
+		2.i
+			int
+		3.d
+			dict
+		4.l
+			list
+		5.s
+			string
+
+
+2.类
+	利用闭包和metatable实现面向对象,具体实现在Lua/lib/function里Class方法
+	
+	和Unity对象有关的类需继承CBase
+		eg. local c = CWiget("CWidget", CBase)
+
+	类的成员变量 m_XXX+ widget name(Sprite, Btn等)
+					eg.m_CloseBtn, m_BgSprite
+
+	类名用C开头
+		eg. CButton
+	实例化一个对象
+		local oIntance = CButton.New(logicobj)
+
+
+3.资源相关 Lua/logic/base/Resource.lua 
+	游戏全部使用异步读取资源LoadAsync.
+	g_InitLoadRes中的资源读取完成才会进入游戏，可用GetPrefabFromCache获取
+
+
+4.各个文件夹分类
+	Lua/main.lua C#调用Lua的main.start()开始处理脚本逻辑
+	Lua/lib/ , 定义一些纯lua实现的常用方法
+	Lua/lib/Utils, 定义了一些非存Lua实现的常用方法
+	Lua/define/const, 定义一些常用的变量
+	Lua/define/enum, 定义Unity以及NGUI的枚举类型
+	Lua/logic/ui, 封装了NGUI的一些常用控件
+	Lua/logic/data, 存导表文件
+	Lua/logic/test, 一些测试代码
+	Lua/logic/editor, 法术编辑器相关代码
+
+
+5.UI界面
+	每个分页继承CPageBase,这样当点击到分页才去初始化分页的控件
+	
+	界面生成流程
+		CViBase.ShowView—>CViewCtrl.ShowView>CViBase.ctor->Resource读取资源->CViBase.OnViewLoad->通知CViewCtrl做些处理
+
+	在CWidget中处理了点击事件
+		eg. oBtn:SetCallback("eventName", callback(obj, "funcName"))
+			eventName 在Lua/define/const 有定义
+			callback() 看Lua/lib/function
+	
+	界面异步读取完回调
+
+
+6.事件回调
+	XXXMgr类可继承CCallbackBase
+	界面在相关功能模块的XXXMgr类中注册回调，属性发生改变时Mgr逐一通知每个界面
+
+
+
+
+
+
+
+lua注意事项：
+
+1.lua对象生命周期引起的问题
+以下代码：
+local btn = self:GetButton(1)
+btn:SetCallback("click", callback(self, "OnClose"))
+或者
+self:GetButton(1):SetCallback("click", callback(self, "OnClose"))
+
+获取到的CButton对象存在于临时的生命周期中，会在lua的gc就清除。
+引起的问题就是，你刚打开界面点button是能收到OnClose回调，然后不定时的luagc后，就收不到OnClose回调了
+
+
+
