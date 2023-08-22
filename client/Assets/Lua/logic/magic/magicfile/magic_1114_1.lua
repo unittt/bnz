@@ -1,0 +1,49 @@
+module(...)
+--magic editor build
+DATA={
+	atk_stophit=true,
+	cmds={
+		[1]={args={alive_time=0.3,},func_name='Name',start_time=0,},
+		[2]={
+			args={alive_time=2,color={a=0,b=255,g=255,r=255,},excutor='atkobj',fade_time=0.5,},
+			func_name='ActorColor',
+			start_time=0.05,
+		},
+		[3]={
+			args={
+				begin_type='current',
+				calc_face=true,
+				ease_type='Linear',
+				end_relative={base_pos='vic',depth=0,relative_angle=0,relative_dis=0.2,},
+				end_type='end_relative',
+				excutor='atkobj',
+				look_at_pos=true,
+				move_time=0.3,
+				move_type='line',
+			},
+			func_name='Move',
+			start_time=0.5,
+		},
+		[4]={
+			args={action_name='attack3',bak_action_name='attack1',excutor='atkobj',},
+			func_name='PlayAction',
+			start_time=0.75,
+		},
+		[5]={
+			args={face_atk=true,hurt_delta=0,play_anim=true,},
+			func_name='VicHitInfo',
+			start_time=1,
+		},
+		[6]={
+			args={face_atk=true,hurt_delta=0,play_anim=true,},
+			func_name='VicHitInfo',
+			start_time=1.3,
+		},
+		[7]={args={},func_name='End',start_time=1.9,},
+	},
+	group_cmds={},
+	pre_load_res={},
+	run_env='war',
+	type=1,
+	wait_goback=true,
+}

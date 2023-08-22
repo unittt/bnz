@@ -1,0 +1,46 @@
+module(...)
+--magic editor build
+DATA={
+	atk_stophit=false,
+	cmds={
+		[1]={
+			args={sound_path={soundpath=[[Audio/Sound/War/dianliu.ogg]],},},
+			func_name=[[PlaySound]],
+			start_time=0,
+		},
+		[2]={
+			args={face_atk=false,hurt_delta=0,play_anim=true,},
+			func_name=[[VicHitInfo]],
+			start_time=0.05,
+		},
+		[3]={
+			args={
+				alive_time=1.4,
+				effect={
+					is_cached=true,
+					path=[[Effect/Magic/skill_eff_137_hit/Prefabs/Skill_eff_137_hit.prefab]],
+				},
+				effect_dir_type=[[forward]],
+				effect_pos={base_pos=[[vic]],depth=0,relative_angle=0,relative_dis=0,},
+				excutor=[[vicobjs]],
+			},
+			func_name=[[StandEffect]],
+			start_time=0.05,
+		},
+		[4]={
+			args={
+				alive_time=0.6,
+				excutor=[[vicobjs]],
+				mat_path=[[Material/effect_Fresnel_Blue.mat]],
+			},
+			func_name=[[ActorMaterial]],
+			start_time=0.05,
+		},
+		[5]={args={},func_name=[[End]],start_time=0.2,},
+	},
+	group_cmds={},
+	pre_load_res={},
+	run_env=[[war]],
+	type=1,
+	wait_goback=true,
+}

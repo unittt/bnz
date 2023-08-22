@@ -1,0 +1,5 @@
+CGuessRiddleCtrl =  require "logic.guessriddle.CGuessRiddleCtrl"
+CGuessRiddleView = require "logic.guessriddle.CGuessRiddleView"
+CHfdmInfoBox = require "logic.guessriddle.CHfdmInfoBox"
+CGuessRiddleBottomBox = require "logic.guessriddle.CGuessRiddleBottomBox"
+CHfdmSkillBox = require "logic.guessriddle.CHfdmSkillBox"

@@ -1,0 +1,6486 @@
+InitScriptMode luaPackage=False
+[core/global.lua:59]:<color=#ffeb04>随机数种子 8881957</color>
+[logic/base/CHttpCtrl.lua:32]:http get ->    https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=cbadGFhCcjh4H0difKnC8P1B&client_secret=3335d6d08034cff3c2f3b1980c050c66&
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CNotifyView ShowView
+[logic/base/CResCtrl.lua:214]:-->resource init done!!! 9
+[logic/ui/CViewBase.lua:149]:CNotifyView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/base/CResCtrl.lua:788]:res gc finish!
+[core/global.lua:59]:<color=#ffeb04>res gc skip! m_ReleaseAssetCnt: 0</color>
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CLoginPhoneView ShowView
+[core/global.lua:59]:<color=#ffeb04>停止引导检查</color>
+[core/global.lua:59]:<color=#ffeb04>CLoginPhoneView.RefreshUI 销毁m_MainNetObj</color>
+[logic/ui/CViewCtrl.lua:134]:CRoleCreateView CloseView
+[core/global.lua:59]:<color=#ffeb04>技术版本号：App:1.0.0.0 Res:1.5.6.0 v0</color>
+[logic/ui/CViewBase.lua:149]:CLoginPhoneView LoadDone!
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[net/CNetCtrl.lua:139]:尝试连接    192.168.8.46    7012
+[core/table.lua:99]:--> Net Receive: login.GS2CHello = {
+   time = 1529754360
+}
+[core/table.lua:99]:<-- Net Send: login.C2GSQueryLogin = {
+   res_file_version = {}
+}
+[core/table.lua:99]:<-- Net Send: login.C2GSLoginAccount = {
+   account = "lw1"
+   app_ver = 26
+   client_ver = "5.6.0"
+   device = "B85-HD3-A (Gigabyte Technology Co., Ltd.)"
+   imei = ""
+   mac = "1C-1B-0D-28-6D-42"
+   os = "Windows 10  (10.0.0) 64bit"
+   platform = 4
+   udid = "7a5929289b915fbfa5e11c4cbe6ef0a53c12c031"
+}
+[core/global.lua:59]:<color=#ffeb04>更新代码 Utils.UpdateCode </color>
+[core/table.lua:99]:--> Net Receive: login.GS2CInviteCodeResult = {}
+[core/table.lua:99]:--> Net Receive: login.GS2CLoginAccount = {
+   account = "lw1"
+   role_list = {
+      [1] = {
+         grade = 60
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 1320
+         }
+         name = "ら℃鳡觉★"
+         pid = 10160
+         school = 6
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/base/CResCtrl.lua:788]:res gc finish!
+[core/global.lua:59]:<color=#ffeb04>res gc skip! m_ReleaseAssetCnt: 0</color>
+[core/table.lua:99]:<-- Net Send: login.C2GSLoginRole = {
+   pid = 10160
+}
+[core/table.lua:99]:--> Net Receive: jjc.GS2CJJCLeftTimes = {
+   left_times = 8
+}
+[core/table.lua:99]:--> Net Receive: wing.GS2CLoginWing = {
+   info = {
+      mask = "37fffc"
+   }
+}
+[core/table.lua:99]:--> Net Receive: login.GS2CLoginRole = {
+   account = "lw1"
+   create_time = 1529737616
+   pid = 10160
+   role = {
+      agility = 60
+      critical_multiple = 2
+      cure_power = 20
+      endurance = 60
+      energy = 200
+      engage_info = {}
+      grade = 60
+      hp = 689
+      icon = 1320
+      mag_attack = 160
+      mag_defense = 402
+      magic = 60
+      mask = "1fc3ffffffffffffffe"
+      max_hp = 689
+      max_mp = 832
+      max_sp = 150
+      model_info = {
+         color = {
+            [1] = 0
+         }
+         shape = 1320
+      }
+      model_info_changed = {
+         color = {
+            [1] = 0
+         }
+         shape = 1320
+      }
+      mp = 832
+      name = "ら℃鳡觉★"
+      phy_attack = 532
+      phy_critical_ratio = 3
+      phy_defense = 182
+      physique = 60
+      position = "未知"
+      position_hide = 1
+      prop_info = {
+         [1] = {
+            base = 182000
+            name = "phy_defense"
+         }
+         [2] = {
+            base = 830000
+            extra = 2000
+            name = "max_mp"
+         }
+         [3] = {
+            base = 680000
+            extra = 9000
+            name = "max_hp"
+         }
+         [4] = {
+            base = 256000
+            extra = 16000
+            name = "speed"
+         }
+         [5] = {
+            base = 460000
+            extra = 72000
+            name = "phy_attack"
+         }
+         [6] = {
+            base = 140000
+            extra = 20000
+            name = "mag_attack"
+         }
+         [7] = {
+            base = 372000
+            extra = 30000
+            name = "mag_defense"
+         }
+      }
+      school = 6
+      score = 4430
+      sex = 2
+      show_id = 10160
+      speed = 272
+      strength = 360
+      title_info = {}
+      title_info_changed = {}
+   }
+   role_token = "15297543600005"
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/ui/CViewCtrl.lua:134]:CLoginPhoneView CloseView
+[logic/ui/CViewCtrl.lua:134]:CServerSelectPhoneView CloseView
+[logic/ui/CViewCtrl.lua:134]:CUserAgreementView CloseView
+[logic/ui/CViewCtrl.lua:134]:CUpdateNoticeView CloseView
+[logic/ui/CViewCtrl.lua:134]:CRoleCreateView CloseView
+[logic/ui/CViewCtrl.lua:134]:CSoccerWorldCupMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CMainMenuView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CMainMenuView ShowView
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== true</color>
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {}
+[core/table.lua:99]:<-- Net Send: openui.C2GSOpenScheduleUI = {}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 509
+}
+[core/table.lua:99]:<-- Net Send: redpacket.C2GSQueryAll = {
+   channel = 101
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CServerGradeInfo = {
+   server_grade = 100
+   server_type = "gs"
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CShowScene = {
+   map_id = 101000
+   scene_id = 10
+   scene_name = "杭州城"
+   x = 23264
+   y = 24516
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[logic/ui/CViewBase.lua:152]:CGuideView LoadDone, not in loadingview!
+[core/global.lua:59]:<color=#ffeb04>停止引导检查</color>
+[core/table.lua:99]:--> Net Receive: item.GS2CLoginItem = {
+   itemdata = {
+      [1] = {
+         amount = 1
+         id = 542
+         itemlevel = 4
+         name = "盘古斧"
+         pos = 8
+         sid = 22800
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: skill.GS2CLoginSkill = {
+   active_skill = {
+      [1] = {
+         level = 1
+         needpoint = 2
+         sk = 1600
+         type = 2
+      }
+      [2] = {
+         needpoint = 1
+         sk = 1601
+         type = 2
+      }
+      [3] = {
+         needpoint = 1
+         sk = 1602
+         type = 2
+      }
+      [4] = {
+         needpoint = 1
+         sk = 1603
+         type = 2
+      }
+      [5] = {
+         needpoint = 1
+         sk = 1604
+         type = 2
+      }
+      [6] = {
+         needpoint = 1
+         sk = 1605
+         type = 2
+      }
+      [7] = {
+         needpoint = 10
+         sk = 1606
+         type = 2
+      }
+   }
+   passive_skill = {
+      [1] = {
+         level = 1
+         needmoney = 318
+         sk = 2601
+         type = 2
+      }
+      [2] = {
+         level = 1
+         needmoney = 318
+         sk = 2602
+         type = 2
+      }
+      [3] = {
+         level = 1
+         needmoney = 318
+         sk = 2603
+         type = 2
+      }
+      [4] = {
+         level = 1
+         needmoney = 318
+         sk = 2604
+         type = 2
+      }
+      [5] = {
+         level = 1
+         needmoney = 318
+         sk = 2605
+         type = 2
+      }
+      [6] = {
+         level = 1
+         needmoney = 318
+         sk = 2606
+         type = 2
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: skill.GS2COrgSkills = {
+   org_skill = {
+      [1] = {
+         level = 20
+         sk = 4104
+      }
+      [2] = {
+         sk = 4105
+      }
+      [3] = {
+         sk = 4106
+      }
+      [4] = {
+         sk = 4107
+      }
+      [5] = {
+         level = 20
+         sk = 4101
+      }
+      [6] = {
+         level = 20
+         sk = 4102
+      }
+      [7] = {
+         level = 20
+         sk = 4103
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>更新技能</color>
+[core/table.lua:99]:--> Net Receive: skill.GS2CMarrySkill = {}
+[core/table.lua:99]:--> Net Receive: skill.GS2CAllFuZhuanSkill = {
+   skill_list = {
+      [1] = {
+         sk = 4304
+      }
+      [2] = {
+         sk = 4305
+      }
+      [3] = {
+         sk = 4306
+      }
+      [4] = {
+         sk = 4300
+      }
+      [5] = {
+         sk = 4301
+      }
+      [6] = {
+         sk = 4302
+      }
+      [7] = {
+         sk = 4303
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: skill.GS2CAllCultivateSkill = {
+   item_useinfo = {
+      [1] = {
+         itemsid = 10007
+      }
+      [2] = {
+         itemsid = 10008
+      }
+   }
+   limit = 2
+   role_sk = 4000
+   skill_info = {
+      [1] = {
+         sk = 4000
+      }
+      [2] = {
+         sk = 4001
+      }
+      [3] = {
+         sk = 4002
+      }
+      [4] = {
+         sk = 4003
+      }
+      [5] = {
+         sk = 4004
+      }
+      [6] = {
+         sk = 4005
+      }
+      [7] = {
+         sk = 4006
+      }
+      [8] = {
+         sk = 4007
+      }
+   }
+   upperlevel = 5
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CEnterScene = {
+   eid = 48
+   pos_info = {
+      face_y = 243062
+      x = 23264
+      y = 24516
+   }
+   scene_id = 10
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CLoginTask = {
+   taskdata = {
+      [1] = {
+         create_time = 1529754046
+         detaildesc = "打听一下头衔的事情。"
+         name = "头衔"
+         target = 5228
+         targetdesc = "找@submitnpc@王老实#n了解头衔"
+         taskid = 30016
+         tasktype = 1
+      }
+      [10] = {
+         clientnpc = {
+            [1] = {
+               func_group = "task.side"
+               map_id = 203000
+               model_info = {
+                  figure = 3104
+               }
+               name = "参老"
+               npcid = 511
+               npctype = 101002
+               pos_info = {
+                  x = 7100
+                  y = 11400
+               }
+               title = "忧心忡忡"
+            }
+         }
+         create_time = 1529754046
+         detaildesc = "去南疆调查"
+         name = "南疆祸乱"
+         target = 101002
+         targetdesc = "和@submitnpc@参老#n对话"
+         taskid = 40501
+         tasktype = 1
+      }
+      [11] = {
+         create_time = 1529754046
+         detaildesc = "去完成一次门派修行吧。"
+         name = "门派修行"
+         targetdesc = "去完成一次门派修行吧(0/1)"
+         taskid = 30006
+         tasktype = 12
+      }
+      [12] = {
+         create_time = 1529738229
+         detaildesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+         name = "师命"
+         target = 5239
+         targetdesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+         taskid = 10039
+         tasktype = 1
+      }
+      [13] = {
+         create_time = 1529754046
+         detaildesc = "去完成一次异宝收集吧。"
+         name = "异宝收集"
+         targetdesc = "去完成一次异宝收集吧(0/1)"
+         taskid = 30009
+         tasktype = 12
+      }
+      [14] = {
+         clientnpc = {
+            [1] = {
+               func_group = "task.side"
+               map_id = 201000
+               model_info = {
+                  figure = 3127
+               }
+               name = "好心的山民"
+               npcid = 514
+               npctype = 40601
+               pos_info = {
+                  x = 9790
+                  y = 18550
+               }
+               title = "逃命"
+            }
+         }
+         create_time = 1529754046
+         detaildesc = "凤凰山出现厉鬼吃人，周围的树木都枯萎。"
+         name = "厉鬼吃人"
+         target = 40601
+         targetdesc = "和@submitnpc@好心的山民#n对话"
+         taskid = 40601
+         tasktype = 1
+      }
+      [15] = {
+         create_time = 1529754046
+         detaildesc = "打听一下装备强化的事情。"
+         name = "装备强化"
+         target = 5228
+         targetdesc = "找@submitnpc@王老实#n了解装备强化"
+         taskid = 30010
+         tasktype = 1
+      }
+      [16] = {
+         create_time = 1529754046
+         detaildesc = "去宠物商店购买宠物#G笋儿#n。"
+         name = "购买宠物"
+         needsum = {
+            [1] = {
+               amount = 1
+               sumid = 1002
+            }
+         }
+         target = 5274
+         targetdesc = "购买@amount@1#n个@summon@笋儿#n"
+         taskid = 30025
+         tasktype = 3
+      }
+      [17] = {
+         create_time = 1529754046
+         detaildesc = "打听一下装备附魂的事情。"
+         name = "装备附魂"
+         target = 5228
+         targetdesc = "找@submitnpc@王老实#n了解装备附魂"
+         taskid = 30012
+         tasktype = 1
+      }
+      [18] = {
+         clientnpc = {
+            [1] = {
+               func_group = "task.side"
+               map_id = 103000
+               model_info = {
+                  figure = 2101
+               }
+               name = "许仙"
+               npcid = 512
+               npctype = 101400
+               pos_info = {
+                  x = 13900
+                  y = 5400
+               }
+               title = "青年才俊"
+            }
+         }
+         create_time = 1529754046
+         detaildesc = "许仙想念师父，要你陪他一起去。"
+         name = "好友同游"
+         target = 101400
+         targetdesc = "和@submitnpc@许仙#n对话"
+         taskid = 40401
+         tasktype = 1
+      }
+      [19] = {
+         create_time = 1529754046
+         detaildesc = "英雄试炼开启了，去了解一下英雄试炼吧。"
+         name = "英雄试炼"
+         target = 5254
+         targetdesc = "找@submitnpc@文思语#n了解英雄试炼"
+         taskid = 30014
+         tasktype = 1
+      }
+      [2] = {
+         create_time = 1529754046
+         detaildesc = "去伏魔吧，收益十分丰厚哦"
+         name = "金刚伏魔"
+         targetdesc = "去伏魔吧，收益十分丰厚哦(0/1)"
+         taskid = 30018
+         tasktype = 12
+      }
+      [20] = {
+         create_time = 1529754046
+         detaildesc = "据说有人能穿越不同的幻境寻找宝藏，去看看吧。"
+         name = "副本"
+         target = 5257
+         targetdesc = "了解副本"
+         taskid = 30007
+         tasktype = 1
+      }
+      [3] = {
+         clientnpc = {
+            [1] = {
+               func_group = "task.side"
+               map_id = 202000
+               model_info = {
+                  figure = 2502
+               }
+               name = "九天玄女"
+               npcid = 513
+               npctype = 101101
+               pos_info = {
+                  x = 2900
+                  y = 21000
+               }
+               title = "羡慕嫉妒"
+            }
+         }
+         create_time = 1529754046
+         detaildesc = "活佛发现九天玄女因为时未寒引下了九天神光而发怒，让你前去劝阻。"
+         name = "九天之怒"
+         target = 101101
+         targetdesc = "和@submitnpc@九天玄女#n对话"
+         taskid = 40101
+         tasktype = 1
+      }
+      [4] = {
+         create_time = 1529754046
+         detaildesc = "了解一下装备洗炼的知识吧。"
+         name = "装备洗炼"
+         target = 5249
+         targetdesc = "找@submitnpc@苏小小#n了解装备洗炼"
+         taskid = 30022
+         tasktype = 1
+      }
+      [5] = {
+         create_time = 1529754046
+         detaildesc = "把门派附近行迹可疑之人赶走"
+         name = "驱赶闲人(1/20)"
+         targetdesc = "门派巡逻(0/1)"
+         taskid = 61607
+         tasktype = 5
+      }
+      [6] = {
+         create_time = 1529754046
+         detaildesc = "神器系统开启了，去了解一下神器的用途吧。"
+         name = "神器"
+         target = 5294
+         targetdesc = "找@submitnpc@国子监祭酒#n了解神器"
+         taskid = 30024
+         tasktype = 1
+      }
+      [7] = {
+         create_time = 1529754046
+         detaildesc = "你在御建城游历不小心碰到了逃家的皇女，你觉得有趣决定带她出去看看。"
+         name = "初次相遇"
+         target = 5278
+         targetdesc = "和@submitnpc@皇女#n对话"
+         taskid = 40201
+         tasktype = 1
+      }
+      [8] = {
+         create_time = 1529754046
+         detaildesc = "青丘国主死的消息都传播开了，百姓担心报复，人心惶惶，你决定找到从没人见过的青丘国。"
+         name = "人心惶惶"
+         target = 5255
+         targetdesc = "和@submitnpc@渔夫#n对话"
+         taskid = 40301
+         tasktype = 1
+      }
+      [9] = {
+         create_time = 1529754046
+         detaildesc = "竞技场开启了，去了解一下竞技场吧。"
+         name = "竞技场"
+         target = 5235
+         targetdesc = "找@submitnpc@武举钦差#n了解竞技场"
+         taskid = 30001
+         tasktype = 1
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CRefreshTask = {
+   detaildesc = "把门派附近行迹可疑之人赶走"
+   mask = "7a"
+   name = "驱赶闲人(1/20)"
+   targetdesc = "门派巡逻(0/1)"
+   taskid = 61607
+}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {
+   [62000] = 0
+   [80001] = 0
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CShimenInfo = {}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {
+   [62000] = 0
+   [80001] = 0
+}
+[core/table.lua:99]:CTaskCtrl.GS2CShimenInfo = {}
+[core/table.lua:99]:--> Net Receive: task.GS2CLoginStoryInfo = {
+   chapter_section = {}
+}
+[core/table.lua:99]:CTaskCtrl.GS2CLoginStoryInfo = {
+   chapter_section = {}
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CLoginUnlockedTags = {}
+[core/table.lua:99]:--> Net Receive: task.GS2CAcceptableTasks = {}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {
+   [62000] = 0
+   [80001] = 0
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CAllEverydayTaskInfo = {
+   all = {
+      [1] = {
+         max_cnt = 15
+         taskid = 1
+      }
+      [10] = {
+         max_cnt = 5
+         taskid = 12
+      }
+      [11] = {
+         max_cnt = 1
+         taskid = 13
+      }
+      [12] = {
+         max_cnt = 1
+         taskid = 14
+      }
+      [13] = {
+         max_cnt = 1
+         taskid = 15
+      }
+      [14] = {
+         max_cnt = 1
+         taskid = 16
+      }
+      [15] = {
+         max_cnt = 1
+         taskid = 18
+      }
+      [16] = {
+         max_cnt = 1
+         taskid = 17
+      }
+      [2] = {
+         max_cnt = 10
+         taskid = 2
+      }
+      [3] = {
+         max_cnt = 20
+         taskid = 3
+      }
+      [4] = {
+         max_cnt = 5
+         taskid = 4
+      }
+      [5] = {
+         max_cnt = 1
+         taskid = 5
+      }
+      [6] = {
+         max_cnt = 1
+         taskid = 7
+      }
+      [7] = {
+         max_cnt = 5
+         taskid = 9
+      }
+      [8] = {
+         max_cnt = 5
+         taskid = 10
+      }
+      [9] = {
+         max_cnt = 3
+         taskid = 11
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CRefreshXuanShang = {
+   mask = "6"
+   tasks = {
+      [1] = {
+         npcid = 90013
+         star = 4
+         status = 1
+         taskid = 90013
+      }
+      [2] = {
+         npcid = 90018
+         star = 3
+         status = 1
+         taskid = 90018
+      }
+      [3] = {
+         npcid = 90015
+         star = 3
+         status = 1
+         taskid = 90015
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CAssistExp = {
+   max_assist_exp = 700000
+}
+[core/table.lua:99]:--> Net Receive: warehouse.GS2CWareHouseInfo = {
+   namelist = {
+      [1] = "仓库1"
+      [2] = "仓库2"
+   }
+   size = 2
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CSysConfig = {}
+[core/table.lua:99]:服务器下发系统设置数据: = {}
+[core/global.lua:59]:<color=#ffeb04>登录系统设置生效</color>
+[core/table.lua:99]:--> Net Receive: player.GS2CGamePushConfig = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CLoginPointPlanInfoList = {
+   selected_plan = 1
+   wash_info_list = {
+      [1] = {
+         plan_id = 1
+         strength = 300
+      }
+      [2] = {
+         plan_id = 2
+         strength = 300
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: team.GS2CRefreshWarCmd = {
+   warcmds = {
+      [1] = {
+         type = 1
+      }
+      [2] = {
+         type = 2
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CSyncTesterKeys = {
+   keys = {
+      [1] = "no_guide"
+      [2] = "sys_open"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>=============== 开放引导</color>
+[core/global.lua:59]:<color=#ffeb04>=============== 开放系统</color>
+[core/table.lua:99]:--> Net Receive: huodong.GS2CAllGrowInfo = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshFubenRewardCnt = {
+   reward_list = {
+      [1] = {
+         fuben_id = 10002
+      }
+      [2] = {
+         fuben_id = 10001
+      }
+      [3] = {
+         fuben_id = 20002
+      }
+      [4] = {
+         fuben_id = 20001
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CZhenmoRefresh = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CLoginGradeGiftInfo = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CLoginPreopenGiftInfo = {}
+[core/table.lua:99]:--> Net Receive: summon.GS2CLoginSummon = {}
+[core/table.lua:99]:--> Net Receive: summon.GS2CSummonFollow = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CSchedule = {
+   curtime = 1529754360
+   db_point_limit = 60
+   hdlist = {
+      [1] = {
+         scheduleid = 1021
+         state = 1
+         time = "10:30"
+      }
+      [2] = {
+         scheduleid = 1018
+         state = 1
+         time = "19:15"
+      }
+      [3] = {
+         scheduleid = 1025
+         state = 4
+         time = "21:00"
+      }
+   }
+   schedules = {
+      [1] = {
+         maxtimes = 35
+         scheduleid = 1008
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== true</color>
+[core/table.lua:99]:--> Net Receive: state.GS2CLoginState = {
+   state_info = {
+      [1] = {
+         data = {
+            [1] = {
+               key = "point"
+            }
+         }
+         desc = "有双倍点数时伏魔可获得道具和双倍经验"
+         hide = "0"
+         name = "双倍点数"
+         state_id = 1004
+      }
+      [2] = {
+         data = {
+            [1] = {
+               key = "ratio"
+               value = 80
+            }
+         }
+         desc = "服务器等级较高，升级享受额外经验加成。"
+         hide = "0"
+         name = "服务器加成"
+         state_id = 1006
+      }
+      [3] = {
+         data = {
+            [1] = {
+               key = "count"
+               value = 198
+            }
+         }
+         desc = "战斗结束时自动恢复人物、伙伴和宠物的气血和法力"
+         hide = "0"
+         name = "饱食"
+         state_id = 1003
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: partner.GS2CLoginPartner = {
+   lineup = 1
+   partners = {
+      [1] = {
+         cure_power = 72
+         equipsid = {
+            [1] = {
+               equip_sid = 1001
+               level = 10
+            }
+            [2] = {
+               equip_sid = 1002
+               level = 10
+            }
+            [3] = {
+               equip_sid = 1003
+               level = 10
+            }
+            [4] = {
+               equip_sid = 1004
+               level = 10
+            }
+            [5] = {
+               equip_sid = 1005
+               level = 10
+            }
+            [6] = {
+               equip_sid = 1006
+               level = 10
+            }
+         }
+         grade = 60
+         hp = 1984
+         id = 1
+         mag_attack = 777
+         mag_defense = 556
+         mask = "ffffffffe"
+         max_hp = 1984
+         max_mp = 1383
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 2101
+         }
+         mp = 1383
+         name = "许仙"
+         phy_attack = 399
+         phy_defense = 550
+         quality = 1
+         race = 1
+         res_seal_ratio = 5
+         school = 3
+         score = 1180
+         sid = 10001
+         skill = {
+            [1] = {
+               level = 1
+               sk = 7104
+            }
+            [2] = {
+               level = 1
+               sk = 7105
+            }
+            [3] = {
+               level = 1
+               sk = 7106
+            }
+            [4] = {
+               level = 1
+               sk = 7307
+            }
+            [5] = {
+               level = 1
+               sk = 7101
+            }
+            [6] = {
+               level = 1
+               sk = 7102
+            }
+            [7] = {
+               level = 1
+               sk = 7103
+            }
+         }
+         speed = 226
+         type = 1
+         upper = 1
+      }
+      [2] = {
+         cure_power = 72
+         equipsid = {
+            [1] = {
+               equip_sid = 2001
+               level = 10
+            }
+            [2] = {
+               equip_sid = 2002
+               level = 10
+            }
+            [3] = {
+               equip_sid = 2003
+               level = 10
+            }
+            [4] = {
+               equip_sid = 2004
+               level = 10
+            }
+            [5] = {
+               equip_sid = 2005
+               level = 10
+            }
+            [6] = {
+               equip_sid = 2006
+               level = 10
+            }
+         }
+         grade = 60
+         hp = 1855
+         id = 2
+         mag_attack = 739
+         mag_defense = 551
+         mask = "ffffffffe"
+         max_hp = 1855
+         max_mp = 1383
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 2102
+         }
+         mp = 1383
+         name = "璃镜"
+         phy_attack = 305
+         phy_defense = 568
+         quality = 1
+         race = 2
+         res_seal_ratio = 5
+         school = 3
+         score = 1100
+         sid = 10002
+         skill = {
+            [1] = {
+               level = 1
+               sk = 7201
+            }
+            [2] = {
+               level = 1
+               sk = 7202
+            }
+            [3] = {
+               level = 1
+               sk = 7203
+            }
+            [4] = {
+               level = 1
+               sk = 7204
+            }
+            [5] = {
+               level = 1
+               sk = 7205
+            }
+            [6] = {
+               level = 1
+               sk = 7206
+            }
+            [7] = {
+               level = 1
+               sk = 7207
+            }
+         }
+         speed = 209
+         type = 1
+         upper = 1
+      }
+   }
+   pos_list = {
+      [1] = 1
+      [2] = 2
+   }
+}
+[core/table.lua:99]:--> Net Receive: title.GS2CTitleInfoList = {}
+[core/table.lua:99]:--> Net Receive: fabao.GS2CAllFaBao = {}
+[core/table.lua:99]:--> Net Receive: touxian.GS2CUpgradeTouxianInfo = {
+   infos = {
+      tid = 6001
+   }
+}
+[core/table.lua:99]:--> Net Receive: formation.GS2CAllFormationInfo = {
+   fmt_curr = 1
+   fmt_learn_limit = 6
+   fmt_list = {
+      [1] = {
+         fmt_id = 1
+         grade = 1
+      }
+   }
+   partner_list = {
+      [1] = 1
+      [2] = 2
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CPromote = {
+   radio = {
+      [1] = 9
+      [10] = 0
+      [11] = 12
+      [12] = 0
+      [13] = 0
+      [14] = 9
+      [15] = 0
+      [2] = 1
+      [3] = 0
+      [4] = 0
+      [5] = 0
+      [6] = 0
+      [7] = 0
+      [8] = 11
+      [9] = 0
+   }
+   result = 7
+   score = 4430
+   sumscore = 61217
+}
+[core/table.lua:99]:--> Net Receive: tempitem.GS2CLoginTempItem = {}
+[core/table.lua:99]:--> Net Receive: ride.GS2CPlayerRideInfo = {
+   info = {
+      mask = "7be"
+      score = 50
+      skills = {
+         [1] = {
+            col = 1
+            level = 1
+            row = 1
+            sk = 5900
+         }
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: store.GS2CLoginStoreInfo = {
+   item_info = {
+      [1] = {
+         item_id = 300301
+         limit = 10
+      }
+      [10] = {
+         item_id = 301021
+         limit = 5
+      }
+      [11] = {
+         item_id = 301022
+         limit = 100
+      }
+      [12] = {
+         item_id = 301023
+         limit = 10
+      }
+      [13] = {
+         item_id = 301036
+         limit = 7
+      }
+      [14] = {
+         item_id = 301037
+         limit = 5
+      }
+      [15] = {
+         item_id = 301028
+         limit = 6
+      }
+      [16] = {
+         item_id = 301029
+         limit = 6
+      }
+      [17] = {
+         item_id = 301030
+         limit = 6
+      }
+      [18] = {
+         item_id = 301032
+         limit = 100
+      }
+      [2] = {
+         item_id = 300302
+         limit = 1
+      }
+      [3] = {
+         item_id = 300303
+         limit = 1
+      }
+      [4] = {
+         item_id = 300304
+         limit = 1
+      }
+      [5] = {
+         item_id = 301043
+         limit = 10
+      }
+      [6] = {
+         item_id = 301044
+         limit = 5
+      }
+      [7] = {
+         item_id = 301057
+         limit = 1
+      }
+      [8] = {
+         item_id = 301058
+         limit = 1
+      }
+      [9] = {
+         item_id = 301027
+         limit = 10
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: item.GS2CEquipLogin = {}
+[core/table.lua:99]:--> Net Receive: summon.GS2CLoginCkSummon = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CUpdateStrengthenInfo = {
+   mask = "6"
+}
+[core/table.lua:99]:--> Net Receive: mail.GS2CLoginMail = {
+   simpleinfo = {
+      [1] = {
+         createtime = 1529754046
+         hasattach = 1
+         icon = "h7_xinfeng_1"
+         mailid = 1
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         readtodel = 1
+         title = "掌门的传音"
+         validtime = 1530358846
+      }
+      [2] = {
+         createtime = 1529754046
+         icon = "h7_xinfeng_1"
+         mailid = 2
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         title = "有新宠物可携带"
+         validtime = 1532346046
+      }
+      [3] = {
+         createtime = 1529754046
+         icon = "h7_xinfeng_1"
+         mailid = 3
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         title = "有新宠物可携带"
+         validtime = 1532346046
+      }
+      [4] = {
+         createtime = 1529754046
+         icon = "h7_xinfeng_1"
+         mailid = 4
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         title = "有新宠物可携带"
+         validtime = 1532346046
+      }
+      [5] = {
+         createtime = 1529754046
+         icon = "h7_xinfeng_1"
+         mailid = 5
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         title = "游戏画面配置"
+         validtime = 1532346046
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: friend.GS2CLoginFriend = {}
+[core/table.lua:99]:--> Net Receive: sysopen.GS2CLoginOpenSys = {
+   open_sys = {
+      [1] = "RETRIEVE_EXP"
+      [10] = "HANG"
+      [100] = "ZEROYUAN"
+      [101] = "SUMMON_HC"
+      [102] = "ORGTASK"
+      [103] = "SHIMEN"
+      [104] = "LUANSHIMOYING"
+      [105] = "PREOPEN"
+      [106] = "KAIFUDIANLI"
+      [107] = "STORE_SYS_203"
+      [108] = "MENTORING"
+      [109] = "BADGE"
+      [11] = "BAITAN"
+      [110] = "BAIKE"
+      [111] = "ACTIVEPOINT_GIFT"
+      [112] = "SIGN"
+      [113] = "SINGLEWAR"
+      [114] = "PAY_SYS"
+      [115] = "XIU_LIAN_SYS"
+      [116] = "ROLE_ADDPOINT"
+      [117] = "GIFT_GOLDCOIN"
+      [118] = "SOURCE_HELP_SKILL"
+      [119] = "SKILL_SYS"
+      [12] = "DISCOUNT_SALE"
+      [120] = "RUNRING"
+      [121] = "ORG_CAMPFIRE"
+      [122] = "SUMMON_RANK"
+      [123] = "SEVENDAY"
+      [124] = "SECOND_PAY"
+      [125] = "STORE_SYS_204"
+      [126] = "LEADER_POINT_STORE"
+      [127] = "LIUMAI"
+      [128] = "REDEEM_CODE"
+      [129] = "RECOVERY"
+      [13] = "PARTNER_JJ"
+      [130] = "LINGXI"
+      [131] = "RECOMMEND"
+      [132] = "RANSE"
+      [133] = "FUMO_HARD"
+      [134] = "RANK_SYS"
+      [135] = "RIDE_TY"
+      [136] = "EVERYDAY_RANK"
+      [137] = "SOURCE_EQUIP"
+      [138] = "SUMMON_XC"
+      [139] = "ADVANCE"
+      [14] = "STATE"
+      [140] = "ORG_SKILL"
+      [141] = "ZHIYIN"
+      [142] = "SCHEDULE"
+      [143] = "BOTTLE"
+      [144] = "CONTINUOUS_CHARGE"
+      [145] = "SHIZHUANG"
+      [146] = "JYFUBEN"
+      [147] = "JINGSAN_HARD"
+      [148] = "JIEBAI"
+      [149] = "ORG_CJ"
+      [15] = "SHOP"
+      [150] = "XUANSHANG"
+      [151] = "SKILL_BD"
+      [152] = "FORESHOW"
+      [153] = "ZHUAGUI"
+      [154] = "BIWU"
+      [155] = "PARTNER_ZB"
+      [156] = "HESHENQIFU"
+      [157] = "DANCE_STAMPS"
+      [158] = "SHOOTCRAPS"
+      [159] = "SUMMON_PY"
+      [16] = "HEROTRIAL"
+      [160] = "PARTNER_SYS"
+      [161] = "YUANBAOJOY"
+      [162] = "WELFARE"
+      [163] = "FESTIVALGIFT"
+      [164] = "FUMO"
+      [165] = "STORE_SYS_304"
+      [166] = "GIFT_DAY"
+      [167] = "ZHENMO"
+      [168] = "CONTINUOUS_EXPENSE"
+      [169] = "XIAYI_POINT_STORE"
+      [17] = "LEITAI"
+      [170] = "FUZHUAN"
+      [171] = "CAISHEN"
+      [172] = "DUANWUQIFU"
+      [173] = "SUMMON_JN"
+      [174] = "AUCTION"
+      [175] = "EQUIP_QH"
+      [176] = "WING"
+      [18] = "HOTTOPIC"
+      [19] = "SUMMON_LY"
+      [2] = "TASKCHAIN"
+      [20] = "ARTIFACT"
+      [21] = "FENGYAO"
+      [22] = "CHUAN_YIN"
+      [23] = "GROW"
+      [24] = "DRAWCARD"
+      [25] = "XINGXIU"
+      [26] = "JJC_SYS"
+      [27] = "FUYUAN_BOX"
+      [28] = "EQUIP_DZ"
+      [29] = "WELFARE_COLLECT"
+      [3] = "TOTAL_CHARGE"
+      [30] = "MONEYTREE"
+      [31] = "RIDE_UPGRADE"
+      [32] = "STORE_SYS_202"
+      [33] = "WELFARE_REBATE"
+      [34] = "PARTNER_ZM"
+      [35] = "SKILL_ZD"
+      [36] = "STRENGTH_RANK"
+      [37] = "IMPROVE"
+      [38] = "ZONGZIGAME"
+      [39] = "JINGSAN"
+      [4] = "EQUIP_XL"
+      [40] = "BAOTU"
+      [41] = "MYSTICALBOX"
+      [42] = "JUBAOPEN"
+      [43] = "MENGZHU"
+      [44] = "SUPERREBATE"
+      [45] = "EQUIP_SYS"
+      [46] = "WORLDCUP_SINGLE"
+      [47] = "GUIDEPAY"
+      [48] = "YAOWANG"
+      [49] = "EACHDAYTASK"
+      [5] = "BAOTASK"
+      [50] = "SOURCE_PARTNER"
+      [51] = "SCHOOLPASS"
+      [52] = "TEMPBAG"
+      [53] = "RETURNGOLDCOIN"
+      [54] = "ENGAGE_SYS"
+      [55] = "BORN_STORY_TASK"
+      [56] = "WUXUN_STORE"
+      [57] = "WORLDCUP_CHAMPION"
+      [58] = "EVERYDAYCHARGE"
+      [59] = "WELFARE_LOGIN"
+      [6] = "FABAO"
+      [60] = "REDPACKET"
+      [61] = "PARTNER_BZ"
+      [62] = "JJCPOINT_STORE"
+      [63] = "DAY_EXPENSE"
+      [64] = "SOURCE_GAME_TECH"
+      [65] = "FMT_SYS"
+      [66] = "GIFT_GRADE"
+      [67] = "STORE_SYS_201"
+      [68] = "GRADE_RANK"
+      [69] = "KS_SYS"
+      [7] = "EQUIP_FH"
+      [70] = "REBATEJOY"
+      [71] = "SUMMON_SYS"
+      [72] = "SCORESHOW"
+      [73] = "FIGHT_GIFT"
+      [74] = "TITLE_RANK"
+      [75] = "TIEXIN"
+      [76] = "UPGRADEPACK"
+      [77] = "FIRST_PAY"
+      [78] = "THREEBIWU"
+      [79] = "STORE_SYS_302"
+      [8] = "SUMMON_POINT_STROE"
+      [80] = "RIDE_SYS"
+      [81] = "TIANMO"
+      [82] = "SHANGHUI"
+      [83] = "VIGOR"
+      [84] = "MAIL_SYS"
+      [85] = "IMPERIALEXAM"
+      [86] = "YIBAO"
+      [87] = "SOURCE_CAMBAT_SKILL"
+      [88] = "CHUMO_POINT_STORE"
+      [89] = "QINGYUAN"
+      [9] = "MARRY_SYS"
+      [90] = "ORG_RANK"
+      [91] = "ORG_SYS"
+      [92] = "ITEMINVEST"
+      [93] = "GUESSGAME"
+      [94] = "STORE_SYS_301"
+      [95] = "SOURCE_SUMMON"
+      [96] = "SOURCE_UPGRADE_TECH"
+      [97] = "EQUIP_XQ"
+      [98] = "ONLINE_GIFT"
+      [99] = "ORGWAR"
+   }
+}
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSGetNewbieGuildInfo = {}
+[core/table.lua:99]:--> Net Receive: newbieguide.GS2CSysOpenNotified = {
+   sys_ids = {
+      [1] = "ORG_SYS"
+      [10] = "SKILL_SYS"
+      [11] = "RANK_SYS"
+      [2] = "SCHEDULE"
+      [3] = "FABAO"
+      [4] = "ARTIFACT"
+      [5] = "PARTNER_SYS"
+      [6] = "WING"
+      [7] = "BADGE"
+      [8] = "RIDE_SYS"
+      [9] = "EQUIP_SYS"
+   }
+}
+[core/table.lua:99]:--> Net Receive: newbieguide.GS2CNewbieGuideInfo = {
+   no_guide = 1
+}
+[core/global.lua:59]:<color=#ffeb04>CGuideHelpCtrl.GS2CNewbieGuideInfo</color>
+[core/table.lua:99]:--> Net Receive: huodong.GS2CFightGiftbagReward = {
+   rewardlist = {
+      [1] = {
+         rank = 100
+         score = 36500
+      }
+      [2] = {
+         rank = 100
+         score = 27000
+      }
+      [3] = {
+         rank = 100
+         score = 12000
+      }
+      [4] = {
+         rank = 100
+         score = 7500
+      }
+      [5] = {
+         rank = 100
+         score = 22500
+      }
+      [6] = {
+         rank = 100
+         score = 30000
+      }
+      [7] = {
+         rank = 100
+         score = 16000
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CImperialexamState = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CSignInOpenUI = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CRetrieveExp = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshSchedule = {
+   schedule = {
+      maxtimes = 35
+      scheduleid = 1008
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== true</color>
+[core/table.lua:99]:--> Net Receive: huodong.GS2CZeroYuanInfo = {
+   activity_endtime = 1531050046
+   info = {
+      [1] = {
+         buy_endtime = 1529797246
+         type = 1
+      }
+      [2] = {
+         buy_endtime = 1529797246
+         type = 3
+      }
+      [3] = {
+         buy_endtime = 1529797246
+         type = 2
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CChargeGiftInfo = {
+   gift_day_list = {
+      [1] = {
+         key = "gift_day_2"
+      }
+      [2] = {
+         key = "gift_day_3"
+      }
+      [3] = {
+         key = "gift_day_all"
+      }
+      [4] = {
+         key = "gift_day_1"
+      }
+   }
+   gift_goldcoin_list = {
+      [1] = {
+         key = "goldcoin_gift_2"
+      }
+      [2] = {
+         key = "goldcoin_gift_1"
+      }
+   }
+   gift_grade_list = {
+      [1] = {
+         key = "grade_gift2_66"
+      }
+      [10] = {
+         key = "grade_gift1_40"
+      }
+      [11] = {
+         key = "grade_gift1_55"
+      }
+      [12] = {
+         key = "grade_gift1_35"
+      }
+      [13] = {
+         key = "grade_gift1_45"
+      }
+      [2] = {
+         key = "grade_gift2_68"
+      }
+      [3] = {
+         key = "grade_gift2_70"
+      }
+      [4] = {
+         key = "grade_gift2_0"
+      }
+      [5] = {
+         key = "grade_gift2_63"
+      }
+      [6] = {
+         key = "grade_gift1_0"
+      }
+      [7] = {
+         key = "grade_gift1_50"
+      }
+      [8] = {
+         key = "grade_gift1_30"
+      }
+      [9] = {
+         key = "grade_gift1_60"
+      }
+   }
+   mask = "e"
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CRplGoldCoinGift = {}
+[core/table.lua:99]:--> Net Receive: other.GS2CPayForGoldInfo = {
+   goldcoin_list = {
+      [1] = {
+         key = "goldcoinstore_1"
+      }
+      [10] = {
+         key = "goldcoinstore_10"
+      }
+      [2] = {
+         key = "goldcoinstore_2"
+      }
+      [3] = {
+         key = "goldcoinstore_3"
+      }
+      [4] = {
+         key = "goldcoinstore_4"
+      }
+      [5] = {
+         key = "goldcoinstore_5"
+      }
+      [6] = {
+         key = "goldcoinstore_6"
+      }
+      [7] = {
+         key = "goldcoinstore_7"
+      }
+      [8] = {
+         key = "goldcoinstore_8"
+      }
+      [9] = {
+         key = "goldcoinstore_9"
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CDanceLeftCnt = {
+   leftcnt = 6
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CDiscountSale = {
+   buy_info = {
+      [1] = {
+         day = 1
+      }
+      [2] = {
+         day = 2
+      }
+      [3] = {
+         day = 3
+      }
+      [4] = {
+         day = 4
+      }
+      [5] = {
+         day = 5
+      }
+      [6] = {
+         day = 6
+      }
+      [7] = {
+         day = 7
+      }
+   }
+   start_time = 1529754046
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CCollectGiftInfo = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2COnlineGift = {
+   end_time = 4071005940
+   login_time = 1529744750
+   start_time = 1483239600
+   statuslist = {
+      [1] = {
+         key = 5
+         status = 1
+      }
+      [2] = {
+         key = 10
+         status = 1
+      }
+      [3] = {
+         key = 30
+         status = 1
+      }
+      [4] = {
+         key = 60
+         status = 1
+      }
+      [5] = {
+         key = 90
+         status = 1
+      }
+      [6] = {
+         key = 120
+         status = 1
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CWelfareGiftInfo = {
+   mask = "100"
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CWelfareGiftInfo = {
+   first_pay_gift = {
+      [1] = {
+         key = "first_pay_reward"
+      }
+      [2] = {
+         key = "create_time"
+         val = 1529737616
+      }
+      [3] = {
+         key = "first_pay_extra"
+      }
+   }
+   first_pay_gift_second = {
+      [1] = {
+         key = "first_pay_reward_second"
+      }
+      [2] = {
+         key = "create_time"
+         val = 1529737616
+      }
+      [3] = {
+         key = "first_pay_extra_second"
+      }
+   }
+   first_pay_gift_third = {
+      [1] = {
+         key = "first_pay_reward_third"
+      }
+      [2] = {
+         key = "create_time"
+         val = 1529737616
+      }
+      [3] = {
+         key = "first_pay_extra_third"
+      }
+   }
+   login_gift = {
+      [1] = {
+         key = "login_gift_8"
+      }
+      [2] = {
+         key = "login_gift_1"
+         val = 1
+      }
+      [3] = {
+         key = "login_gift_2"
+      }
+      [4] = {
+         key = "login_gift_3"
+      }
+      [5] = {
+         key = "login_gift_7"
+      }
+      [6] = {
+         key = "login_gift_4"
+      }
+      [7] = {
+         key = "login_gift_6"
+      }
+      [8] = {
+         key = "login_gift_5"
+      }
+   }
+   mask = "1fe"
+   new_day_time = 58440
+   rebate_gift = {
+      [1] = {
+         key = "rebate_gift_200"
+      }
+      [2] = {
+         key = "rebate_gift_50000"
+      }
+      [3] = {
+         key = "rebate_gift_20000"
+      }
+      [4] = {
+         key = "rebate_gift_1000"
+      }
+      [5] = {
+         key = "rebate_gift_100000"
+      }
+      [6] = {
+         key = "rebate_gift_2000"
+      }
+      [7] = {
+         key = "rebate_gift_5000"
+      }
+      [8] = {
+         key = "rebate_gift_10000"
+      }
+      [9] = {
+         key = "rebate_gold_coin"
+      }
+   }
+   second_pay_gift = {
+      [1] = {
+         key = "second_pay_reward"
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CCaishenRefreshRewardKey = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CMysticalboxGetState = {
+   state = 1
+}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshAllHuodongState = {
+   hdlist = {
+      [1] = {
+         scheduleid = 1021
+         state = 1
+         time = "10:30"
+      }
+      [2] = {
+         scheduleid = 1018
+         state = 1
+         time = "19:15"
+      }
+      [3] = {
+         scheduleid = 1025
+         state = 4
+         time = "21:00"
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: chat.GS2CChatHistory = {}
+[core/table.lua:99]:--> Net Receive: chat.GS2CAllForbinInfo = {}
+[core/table.lua:99]:--> Net Receive: friend.GS2CRecommendFriends = {
+   recommend_friend_list = {
+      [1] = {
+         grade = 60
+         icon = 1120
+         name = "裴念香"
+         pid = 10161
+         school = 2
+         shape = "1120"
+         type = 5
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: openui.GS2CSchedule = {
+   curtime = 1529754360
+   db_point_limit = 60
+   hdlist = {
+      [1] = {
+         scheduleid = 1021
+         state = 1
+         time = "10:30"
+      }
+      [2] = {
+         scheduleid = 1018
+         state = 1
+         time = "19:15"
+      }
+      [3] = {
+         scheduleid = 1025
+         state = 4
+         time = "21:00"
+      }
+   }
+   schedules = {
+      [1] = {
+         maxtimes = 35
+         scheduleid = 1008
+      }
+   }
+}
+[core/table.lua:99]:<-- Net Send: huodong.C2GSTrialOpenUI = {}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 534
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== true</color>
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "509"
+}
+[core/table.lua:99]:--> Net Receive: redpacket.GS2CAll = {}
+[core/table.lua:99]:CRedPacketCtrl.GS2CAll = {}
+[logic/map/CMapCtrl.lua:449]:MapLoadDone,    1010    1010    nil
+[core/global.lua:59]:<color=#ffeb04>CMapCtrl.GetSpecialConfig==>警告：当前不存在的配置数据，请检查是否错误文件路径 D:/workspace/H7/client/client1/Assets/GameRes/Map2d/ConfigData/water_1010.bytes</color>
+[core/global.lua:59]:<color=#ffeb04>CMapCtrl.GetSpecialConfig==>警告：当前不存在的配置数据，请检查是否错误文件路径 D:/workspace/H7/client/client1/Assets/GameRes/Map2d/ConfigData/waterline_1010.bytes</color>
+[core/table.lua:99]:--> Net Receive: newbieguide.GS2CGetNewbieGuildInfo = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CTrialOpenUI = {
+   ret_time = 2
+   total = 1
+   trial_list = {
+      [1] = {
+         base_info = {
+            grade = 60
+            icon = 1120
+            model_info = {
+               color = {
+                  [1] = 0
+               }
+               horse = 1001
+               shape = 1120
+            }
+            name = "裴念香"
+            pid = 10161
+            school = 2
+         }
+         pid = 10161
+         score = 5540
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== true</color>
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "534"
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWelfareView ShowView
+[logic/ui/CViewBase.lua:149]:CMainMenuView LoadDone!
+[core/table.lua:99]:Table = {
+   [1] = {
+      idx = 1
+      key = "FirstPay"
+   }
+   [10] = {
+      idx = 12
+      key = "Exchange"
+   }
+   [2] = {
+      idx = 3
+      key = "YoukaLogin"
+   }
+   [3] = {
+      idx = 4
+      key = "Sign"
+   }
+   [4] = {
+      idx = 5
+      key = "OnlineGift"
+   }
+   [5] = {
+      idx = 7
+      key = "FightGift"
+   }
+   [6] = {
+      idx = 8
+      key = "UpgradePack"
+   }
+   [7] = {
+      idx = 9
+      key = "GiftGrade"
+   }
+   [8] = {
+      idx = 10
+      key = "GiftGoldcoin"
+   }
+   [9] = {
+      idx = 11
+      key = "GiftDay"
+   }
+}
+[core/table.lua:99]:<-- Net Send: huodong.C2GSSignInMainInfo = {}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 821
+}
+[logic/ui/CViewBase.lua:149]:CWelfareView LoadDone!
+[core/table.lua:99]:--> Net Receive: huodong.GS2CSignInMainInfo = {
+   firstmonth = 1
+   rewardset = 2
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "821"
+}
+[logic/ui/CViewCtrl.lua:134]:CWelfareView CloseView
+[logic/ui/CViewCtrl.lua:134]:CFortuneView CloseView
+[core/table.lua:99]:CommonProcess-> = {
+   cb = "function: 0x2435bcf8"
+   json_result = true
+   timer = 12
+}
+[logic/audio/CSpeechCtrl.lua:67]:OnTokenGet err
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CPartnerMainView ShowView
+[logic/ui/CViewBase.lua:149]:CPartnerMainView LoadDone!
+[logic/ui/CViewCtrl.lua:134]:CPartnerMainView CloseView
+[core/table.lua:99]:<-- Net Send: player.C2GSGetPlayerInfo = {
+   pid = 10161
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 1168
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CGetPlayerInfo = {
+   grade = 60
+   icon = 1120
+   model_info = {
+      color = {
+         [1] = 0
+      }
+      horse = 1001
+      shape = 1120
+   }
+   name = "裴念香"
+   pid = 10161
+   position = "未知"
+   position_hide = 1
+   school = 2
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CPlayerInfoView ShowView
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "1168"
+}
+[logic/ui/CViewBase.lua:149]:CPlayerInfoView LoadDone!
+[core/table.lua:99]:<-- Net Send: huodong.C2GSArenaFight = {
+   enemy = 10161
+   fight = 10160
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 1187
+}
+[logic/ui/CViewCtrl.lua:134]:CPlayerInfoView CloseView
+[core/table.lua:99]:--> Net Receive: war.GS2CShowWar = {
+   barrage_send = 1
+   barrage_show = 2
+   map_id = 101000
+   sys_type = 6
+   war_id = 4
+   war_type = 2
+   x = 22723
+   y = 23731
+}
+[core/global.lua:59]:<color=#ffeb04>警告：策划HUD模型配置表未找到，使用默认1110模型配置，未配置的模型ID： 8236 导表地址：https://nsvn.cilugame.com/H7/doc/trunk/daobiao/excel/system/role/hudoffset.xlsx</color>
+[core/global.lua:59]:<color=#ffeb04>警告：策划HUD模型配置表未找到，使用默认1110模型配置，未配置的模型ID： 8236 导表地址：https://nsvn.cilugame.com/H7/doc/trunk/daobiao/excel/system/role/hudoffset.xlsx</color>
+[core/global.lua:59]:<color=#ffeb04>警告：策划HUD模型配置表未找到，使用默认1110模型配置，未配置的模型ID： 8236 导表地址：https://nsvn.cilugame.com/H7/doc/trunk/daobiao/excel/system/role/hudoffset.xlsx</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWarFloatView ShowView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWarMainView ShowView
+[logic/ui/CViewCtrl.lua:134]:CJjcMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CArenaMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CPKPrepareView CloseView
+[logic/ui/CViewCtrl.lua:134]:CWorldBossMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CGmMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CGmWarSimulateView CloseView
+[logic/ui/CViewCtrl.lua:134]:CDialogueOptionView CloseView
+[logic/ui/CViewCtrl.lua:134]:CTeamMemberOpView CloseView
+[logic/ui/CViewCtrl.lua:134]:CPromoteBtnView CloseView
+[logic/ui/CViewCtrl.lua:134]:CFightOutsideBuffView CloseView
+[logic/ui/CViewCtrl.lua:134]:CDialogueMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CThreeBiwuInfoView CloseView
+[logic/ui/CViewCtrl.lua:134]:CJjcMainNewView CloseView
+[logic/ui/CViewCtrl.lua:134]:CJieBaiInvitedMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CJieBaiMainView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWarBg ShowView
+[core/global.lua:59]:<color=#ffeb04>加载战斗场景： 101000</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>战斗地图加载结束</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarAddWarrior = {
+   camp_id = 1
+   type = 1
+   war_id = 4
+   warrior = {
+      appoint = 1
+      pflist = {
+         [1] = {
+            pf_id = 1601
+         }
+      }
+      pid = 10160
+      pos = 1
+      status = {
+         auto_perform = 101
+         grade = 60
+         hp = 689
+         mask = "bfffe"
+         max_hp = 689
+         max_mp = 832
+         max_sp = 150
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 1320
+         }
+         mp = 832
+         name = "ら℃鳡觉★"
+         school = 6
+         sp = 50
+         status = 1
+         zhenqi = 3
+      }
+      wid = 1
+   }
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CPlayerWarriorEnter = {
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "1187"
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarAddWarrior = {
+   camp_id = 2
+   type = 1
+   war_id = 4
+   warrior = {
+      appoint = 1
+      pflist = {
+         [1] = {
+            pf_id = 1201
+         }
+      }
+      pid = 10161
+      pos = 1
+      status = {
+         auto_perform = 1201
+         grade = 60
+         hp = 1656
+         mask = "bfffe"
+         max_hp = 1656
+         max_mp = 832
+         max_sp = 150
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            horse = 1001
+            shape = 1120
+         }
+         mp = 832
+         name = "裴念香"
+         school = 2
+         sp = 50
+         status = 1
+         zhenqi = 5
+      }
+      wid = 2
+   }
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarCampFmtInfo = {
+   fmt_grade1 = 1
+   fmt_grade2 = 1
+   fmt_id1 = 1
+   fmt_id2 = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 1
+   left_time = 30
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/ui/CViewBase.lua:149]:CWarFloatView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>open表未添加该系统！</color>
+[core/global.lua:59]:<color=#ffeb04>open表未添加该系统！</color>
+[core/global.lua:59]:<color=#ffeb04>open表未添加该系统！</color>
+[logic/ui/CViewBase.lua:149]:CWarMainView LoadDone!
+[logic/ui/CViewBase.lua:149]:CWarBg LoadDone!
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 1 1</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      is_auto = 1
+      mask = "400"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/global.lua:59]:<color=#ffeb04>TimeUp!!!! Bout | CurTimes1 1529754430 0 1</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      is_auto = 1
+      mask = "400"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 5
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 7
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "4"
+      mp = 682
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarSkill = {
+   action_wlist = {
+      [1] = 2
+   }
+   magic_id = 1
+   select_wlist = {
+      [1] = 1
+   }
+   skill_id = 1201
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -94
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 595
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 60
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -109
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 1547
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 53
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：1201 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:1201_1120_1 | ID:1</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr1.mp3 nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm1.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm2.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:1201_1120_1 | ID:1执行耗时:1505  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:2</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:2执行耗时:1474  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 2
+   left_time = 30
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:536  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 2</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 7
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 9
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "4"
+      mp = 532
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarSkill = {
+   action_wlist = {
+      [1] = 2
+   }
+   magic_id = 1
+   select_wlist = {
+      [1] = 1
+   }
+   skill_id = 1201
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -94
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 501
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      aura = 1
+      mask = "80"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 70
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -109
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 1438
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 56
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：1201 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:1201_1120_1 | ID:3</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr1.mp3 nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm1.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm2.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:1201_1120_1 | ID:3执行耗时:1509  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:4</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:4执行耗时:1446  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 3
+   left_time = 30
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:532  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 3</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 9
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 11
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "4"
+      mp = 382
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarSkill = {
+   action_wlist = {
+      [1] = 2
+   }
+   magic_id = 1
+   select_wlist = {
+      [1] = 1
+   }
+   skill_id = 1201
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -94
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 407
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 80
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -116
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 1322
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 59
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：1201 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:1201_1120_1 | ID:5</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr1.mp3 nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm1.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm2.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:1201_1120_1 | ID:5执行耗时:1519  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:6</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:6执行耗时:1464  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 4
+   left_time = 30
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:549  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 4</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 11
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 13
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "4"
+      mp = 232
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarSkill = {
+   action_wlist = {
+      [1] = 2
+   }
+   magic_id = 1
+   select_wlist = {
+      [1] = 1
+   }
+   skill_id = 1201
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -94
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 313
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      aura = 2
+      mask = "80"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 90
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -118
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 1204
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 62
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：1201 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:1201_1120_1 | ID:7</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr1.mp3 nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm1.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm2.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:1201_1120_1 | ID:7执行耗时:1538  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:8</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:8执行耗时:1442  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 5
+   left_time = 30
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:533  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 5</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 13
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 15
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "4"
+      mp = 82
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarSkill = {
+   action_wlist = {
+      [1] = 2
+   }
+   magic_id = 1
+   select_wlist = {
+      [1] = 1
+   }
+   skill_id = 1201
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -94
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 219
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 100
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -113
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 1091
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 65
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：1201 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:1201_1120_1 | ID:9</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr1.mp3 nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm1.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/jgfm2.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:1201_1120_1 | ID:9执行耗时:1514  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:10</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:10执行耗时:1467  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 6
+   left_time = 30
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:552  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 6</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "80000"
+      zhenqi = 15
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 2
+   select_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -116
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 975
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 68
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：101 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1120_1 | ID:11</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/shan.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/piaodai.ogg nil nil</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1120_1 | ID:11执行耗时:1022  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:511  </color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:12</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:12执行耗时:732  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:531  </color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 7
+   left_time = 30
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 7</color>
+[logic/war/CWarCtrl.lua:1264]:客户端发送动作结束 SendToServer AniEnd    4    7
+[core/table.lua:99]:<-- Net Send: war.C2GSWarAnimationEnd = {
+   bout_id = 7
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 2
+   select_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -39
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 180
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 103
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -111
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 864
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 71
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：101 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1120_1 | ID:13</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/piaodai.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/shan.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1120_1 | ID:13执行耗时:1005  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:552  </color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:14</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:14执行耗时:703  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:533  </color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 8
+   left_time = 30
+   war_id = 4
+}
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 8</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/war/CWarCtrl.lua:1264]:客户端发送动作结束 SendToServer AniEnd    4    8
+[core/table.lua:99]:<-- Net Send: war.C2GSWarAnimationEnd = {
+   bout_id = 8
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/global.lua:59]:<color=#ffeb04>TimeUp!!!! Bout | CurTimes8 1529754471 0 8</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 2
+   select_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -39
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 141
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      aura = 3
+      mask = "80"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 106
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -118
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 746
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 74
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：101 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1120_1 | ID:15</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/shan.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/piaodai.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1120_1 | ID:15执行耗时:1032  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:531  </color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:16</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:16执行耗时:707  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:553  </color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 9
+   left_time = 30
+   war_id = 4
+}
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 9</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/war/CWarCtrl.lua:1264]:客户端发送动作结束 SendToServer AniEnd    4    9
+[core/table.lua:99]:<-- Net Send: war.C2GSWarAnimationEnd = {
+   bout_id = 9
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 2
+   select_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -36
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 105
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 109
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -118
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 628
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 77
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：101 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1120_1 | ID:17</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/shan.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/piaodai.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1120_1 | ID:17执行耗时:1028  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:524  </color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:18</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:18执行耗时:737  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:537  </color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 10
+   left_time = 30
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 10</color>
+[logic/war/CWarCtrl.lua:1264]:客户端发送动作结束 SendToServer AniEnd    4    10
+[core/table.lua:99]:<-- Net Send: war.C2GSWarAnimationEnd = {
+   bout_id = 10
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 2
+   select_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -36
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 69
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 112
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -114
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 514
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 80
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：101 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1120_1 | ID:19</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/piaodai.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/shan.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1120_1 | ID:19执行耗时:1008  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:532  </color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:20</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:20执行耗时:720  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:530  </color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 11
+   left_time = 30
+   war_id = 4
+}
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 11</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/war/CWarCtrl.lua:1264]:客户端发送动作结束 SendToServer AniEnd    4    11
+[core/table.lua:99]:<-- Net Send: war.C2GSWarAnimationEnd = {
+   bout_id = 11
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 2
+   select_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -36
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 33
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 115
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 1
+   select_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -122
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      hp = 392
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+      sp = 83
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：101 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1120_1 | ID:21</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/piaodai.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/shan.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1120_1 | ID:21执行耗时:1025  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:522  </color>
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：ら℃鳡觉★ | ID：101 | Shape：1320 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1320_1 | ID:22</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/qin.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/fqr2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1320_1 | ID:22执行耗时:709  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:530  </color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 12
+   left_time = 30
+   war_id = 4
+}
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 0 12</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[logic/war/CWarCtrl.lua:1264]:客户端发送动作结束 SendToServer AniEnd    4    12
+[core/table.lua:99]:<-- Net Send: war.C2GSWarAnimationEnd = {
+   bout_id = 12
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      cmd = 1
+      mask = "8000"
+   }
+   type = 1
+   war_id = 4
+   wid = 2
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarNormalAttack = {
+   action_wid = 2
+   select_wid = 1
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDamage = {
+   damage = -76
+   iscrit = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "100"
+      status = 2
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "2"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      aura = 3
+      mask = "80"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "1000"
+   }
+   type = 1
+   war_id = 4
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarGoback = {
+   action_wid = 2
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutEnd = {
+   war_id = 4
+}
+[logic/magic/CMagicCtrl.lua:43]:<color=#F75000> >>> .NewMagicUnit | 加载技能 </color>    Name：裴念香 | ID：101 | Shape：1120 | Index：1
+[core/global.lua:59]:<color=#ffeb04>CWarCmd.Magic Magic:101_1120_1 | ID:23</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/piaodai.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/War/shan.ogg nil nil</color>
+[core/global.lua:59]:<color=#ffeb04>======== 播放音效 ======= Audio/Sound/Model/yyy2.mp3 true true</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> Magic:101_1120_1 | ID:23执行耗时:1017  </color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.ProcessActionList --> Skip action</color>
+[logic/war/WarTools.lua:126]:<color=Lime> >>> GoBack执行耗时:556  </color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarDelWarrior = {
+   war_end = 1
+   war_id = 4
+   wid = 1
+}
+[logic/war/CWarCtrl.lua:1264]:客户端发送动作结束 SendToServer AniEnd    4    12
+[core/table.lua:99]:<-- Net Send: war.C2GSWarAnimationEnd = {
+   bout_id = 12
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarResult = {
+   bout_id = 12
+   war_id = 4
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CShowScene = {
+   map_id = 101000
+   scene_id = 10
+   scene_name = "杭州城"
+   x = 22723
+   y = 23731
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CWarFloatView CloseView
+[logic/ui/CViewCtrl.lua:134]:CWarMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CWarItemView CloseView
+[logic/ui/CViewCtrl.lua:134]: CloseView
+[logic/ui/CViewCtrl.lua:134]:CWarMagicView CloseView
+[logic/ui/CViewCtrl.lua:134]:CMagicDescView CloseView
+[logic/ui/CViewCtrl.lua:134]:CWarSelAutoView CloseView
+[logic/ui/CViewCtrl.lua:134]:CWarSummonView CloseView
+[logic/ui/CViewCtrl.lua:134]:CWarTargetDetailView CloseView
+[logic/ui/CViewCtrl.lua:134]: CloseView
+[core/table.lua:99]:warend 执行缓存协议:5 true = {
+   [1] = {
+      [1] = "war"
+      [2] = "GS2CWarFail"
+      [3] = {
+         gameplay = "arena"
+         war_id = 4
+      }
+   }
+   [2] = {
+      [1] = "scene"
+      [2] = "GS2CEnterScene"
+      [3] = {
+         eid = 48
+         pos_info = {
+            face_y = 349728
+            x = 22723
+            y = 23731
+         }
+         scene_id = 10
+      }
+   }
+   [3] = {
+      [1] = "player"
+      [2] = "GS2CPromote"
+      [3] = {
+         open = 1
+         radio = {
+            [1] = 9
+            [10] = 0
+            [11] = 12
+            [12] = 0
+            [13] = 0
+            [14] = 9
+            [15] = 0
+            [2] = 1
+            [3] = 0
+            [4] = 0
+            [5] = 0
+            [6] = 0
+            [7] = 0
+            [8] = 11
+            [9] = 0
+         }
+         result = 7
+         score = 4430
+         sumscore = 61217
+      }
+   }
+   [4] = {
+      [1] = "war"
+      [2] = "GS2CWarFail"
+      [3] = {
+         gameplay = "arena"
+         war_id = 4
+      }
+   }
+   [5] = {
+      [1] = "player"
+      [2] = "GS2CPromote"
+      [3] = {
+         open = 1
+         radio = {
+            [1] = 9
+            [10] = 0
+            [11] = 12
+            [12] = 0
+            [13] = 0
+            [14] = 9
+            [15] = 0
+            [2] = 1
+            [3] = 0
+            [4] = 0
+            [5] = 0
+            [6] = 0
+            [7] = 0
+            [8] = 11
+            [9] = 0
+         }
+         result = 7
+         score = 4430
+         sumscore = 61217
+      }
+   }
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWarFailPromoteView ShowView
+[logic/ui/CViewCtrl.lua:134]:CPlotMaskView CloseView
+[logic/ui/CViewBase.lua:149]:CWarFailPromoteView LoadDone!
+[logic/ui/CViewCtrl.lua:134]:CWarFailPromoteView CloseView
+[core/table.lua:99]:--> Net Receive: openui.GS2CMaintainUI = {}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWindowComfirmView ShowView
+[logic/ui/CViewBase.lua:149]:CWindowComfirmView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>CNetCtrl.OnSocketEvent 销毁m_MainNetObj</color>
+你的主机中的软件中止了一个已建立的连接。
+
+  at System.Net.Sockets.Socket+SocketAsyncResult.CheckIfThrowDelayedException () [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.EndReceive (IAsyncResult asyncResult, System.Net.Sockets.SocketError& errorCode) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.EndReceive (IAsyncResult result) [0x00000] in <filename unknown>:0 
+  at TcpClient.OnReceive (IAsyncResult ar) [0x00022] in D:\workspace\H7\client\client1\Assets\Scripts\Net\Tcp\TcpClient.cs:208 
+[net/CNetCtrl.lua:139]:尝试连接    192.168.8.46    27013
+[core/table.lua:99]:--> Net Receive: login.GS2CHello = {
+   time = 1529894259
+}
+[core/table.lua:99]:<-- Net Send: login.C2GSQueryLogin = {
+   res_file_version = {}
+}
+[core/table.lua:99]:<-- Net Send: login.C2GSReLoginRole = {
+   app_ver = 26
+   pid = 10160
+   role_token = "15297543600005"
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2151
+}
+[core/global.lua:59]:<color=#ffeb04>更新代码 Utils.UpdateCode </color>
+[core/table.lua:99]:--> Net Receive: login.GS2CLoginError = {
+   errcode = 1012
+}
+[core/global.lua:59]:<color=#ffeb04>警告：策划HUD模型配置表未找到，使用默认1110模型配置，未配置的模型ID： 8236 导表地址：https://nsvn.cilugame.com/H7/doc/trunk/daobiao/excel/system/role/hudoffset.xlsx</color>
+[core/global.lua:59]:<color=#ffeb04>警告：策划HUD模型配置表未找到，使用默认1110模型配置，未配置的模型ID： 8236 导表地址：https://nsvn.cilugame.com/H7/doc/trunk/daobiao/excel/system/role/hudoffset.xlsx</color>
+[core/global.lua:59]:<color=#ffeb04>警告：策划HUD模型配置表未找到，使用默认1110模型配置，未配置的模型ID： 8236 导表地址：https://nsvn.cilugame.com/H7/doc/trunk/daobiao/excel/system/role/hudoffset.xlsx</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CWarBg CloseView
+[logic/ui/CViewCtrl.lua:134]:CWindowComfirmView CloseView
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:134]:CMainMenuView CloseView
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/base/CResCtrl.lua:788]:res gc finish!
+[core/global.lua:59]:<color=#ffeb04>res gc skip! m_ReleaseAssetCnt: 0</color>
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CLoginPhoneView ShowView
+[net/netlogin.lua:188]:Login err    0    1012
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2151"
+}
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>CLoginPhoneView.RefreshUI 销毁m_MainNetObj</color>
+[logic/ui/CViewCtrl.lua:134]:CRoleCreateView CloseView
+[core/global.lua:59]:<color=#ffeb04>技术版本号：App:1.0.0.0 Res:1.5.6.0 v0</color>
+[logic/ui/CViewBase.lua:149]:CLoginPhoneView LoadDone!
+[net/CNetCtrl.lua:139]:尝试连接    192.168.8.46    27012
+[core/table.lua:99]:--> Net Receive: login.GS2CHello = {
+   time = 1529894260
+}
+[core/table.lua:99]:<-- Net Send: login.C2GSQueryLogin = {
+   res_file_version = {}
+}
+[core/table.lua:99]:<-- Net Send: login.C2GSLoginAccount = {
+   account = "lw1"
+   app_ver = 26
+   client_ver = "5.6.0"
+   device = "B85-HD3-A (Gigabyte Technology Co., Ltd.)"
+   imei = ""
+   mac = "1C-1B-0D-28-6D-42"
+   os = "Windows 10  (10.0.0) 64bit"
+   platform = 4
+   udid = "7a5929289b915fbfa5e11c4cbe6ef0a53c12c031"
+}
+[core/global.lua:59]:<color=#ffeb04>更新代码 Utils.UpdateCode </color>
+[core/table.lua:99]:--> Net Receive: login.GS2CInviteCodeResult = {}
+[core/table.lua:99]:--> Net Receive: login.GS2CLoginAccount = {
+   account = "lw1"
+   role_list = {
+      [1] = {
+         grade = 60
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 1320
+         }
+         name = "ら℃鳡觉★"
+         pid = 10160
+         school = 6
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/base/CResCtrl.lua:788]:res gc finish!
+[core/global.lua:59]:<color=#ffeb04>res gc skip! m_ReleaseAssetCnt: 0</color>
+[core/table.lua:99]:<-- Net Send: login.C2GSLoginRole = {
+   pid = 10160
+}
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[core/table.lua:99]:--> Net Receive: jjc.GS2CJJCLeftTimes = {
+   left_times = 8
+}
+[core/table.lua:99]:--> Net Receive: wing.GS2CLoginWing = {
+   info = {
+      mask = "37fffc"
+   }
+}
+[core/table.lua:99]:--> Net Receive: login.GS2CLoginRole = {
+   account = "lw1"
+   create_time = 1529737616
+   pid = 10160
+   role = {
+      agility = 60
+      critical_multiple = 2
+      cure_power = 20
+      endurance = 60
+      energy = 200
+      engage_info = {}
+      grade = 60
+      hp = 689
+      icon = 1320
+      mag_attack = 160
+      mag_defense = 402
+      magic = 60
+      mask = "1fc3ffffffffffffffe"
+      max_hp = 689
+      max_mp = 832
+      max_sp = 150
+      model_info = {
+         color = {
+            [1] = 0
+         }
+         shape = 1320
+      }
+      model_info_changed = {
+         color = {
+            [1] = 0
+         }
+         shape = 1320
+      }
+      mp = 832
+      name = "ら℃鳡觉★"
+      phy_attack = 532
+      phy_critical_ratio = 3
+      phy_defense = 182
+      physique = 60
+      position = "未知"
+      position_hide = 1
+      prop_info = {
+         [1] = {
+            base = 182000
+            name = "phy_defense"
+         }
+         [2] = {
+            base = 830000
+            extra = 2000
+            name = "max_mp"
+         }
+         [3] = {
+            base = 680000
+            extra = 9000
+            name = "max_hp"
+         }
+         [4] = {
+            base = 256000
+            extra = 16000
+            name = "speed"
+         }
+         [5] = {
+            base = 460000
+            extra = 72000
+            name = "phy_attack"
+         }
+         [6] = {
+            base = 140000
+            extra = 20000
+            name = "mag_attack"
+         }
+         [7] = {
+            base = 372000
+            extra = 30000
+            name = "mag_defense"
+         }
+      }
+      school = 6
+      score = 4430
+      sex = 2
+      show_id = 10160
+      speed = 272
+      strength = 360
+      title_info = {}
+      title_info_changed = {}
+   }
+   role_token = "15298942610001"
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/ui/CViewCtrl.lua:134]:CLoginPhoneView CloseView
+[logic/ui/CViewCtrl.lua:134]:CServerSelectPhoneView CloseView
+[logic/ui/CViewCtrl.lua:134]:CUserAgreementView CloseView
+[logic/ui/CViewCtrl.lua:134]:CUpdateNoticeView CloseView
+[logic/ui/CViewCtrl.lua:134]:CRoleCreateView CloseView
+[logic/ui/CViewCtrl.lua:134]:CSoccerWorldCupMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CMainMenuView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CMainMenuView ShowView
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {}
+[core/table.lua:99]:<-- Net Send: openui.C2GSOpenScheduleUI = {}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2221
+}
+[core/table.lua:99]:<-- Net Send: redpacket.C2GSQueryAll = {
+   channel = 101
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CServerGradeInfo = {
+   server_grade = 100
+   server_type = "gs"
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CShowScene = {
+   map_id = 101000
+   scene_id = 10
+   scene_name = "杭州城"
+   x = 22723
+   y = 23731
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/table.lua:99]:--> Net Receive: scene.GS2CEnterScene = {
+   eid = 45
+   pos_info = {
+      face_y = 349728
+      v = 2800
+      x = 22723
+      y = 23731
+   }
+   scene_id = 10
+}
+[core/table.lua:99]:--> Net Receive: item.GS2CLoginItem = {
+   itemdata = {
+      [1] = {
+         amount = 1
+         id = 273
+         itemlevel = 4
+         name = "盘古斧"
+         pos = 8
+         sid = 22800
+      }
+   }
+}
+[core/table.lua:99]:<-- Net Send: formation.C2GSAllFormationInfo = {}
+[core/table.lua:99]:<-- Net Send: formation.C2GSAllFormationInfo = {}
+[core/table.lua:99]:--> Net Receive: skill.GS2CLoginSkill = {
+   active_skill = {
+      [1] = {
+         level = 1
+         needpoint = 2
+         sk = 1600
+         type = 2
+      }
+      [2] = {
+         needpoint = 1
+         sk = 1601
+         type = 2
+      }
+      [3] = {
+         needpoint = 1
+         sk = 1602
+         type = 2
+      }
+      [4] = {
+         needpoint = 1
+         sk = 1603
+         type = 2
+      }
+      [5] = {
+         needpoint = 1
+         sk = 1604
+         type = 2
+      }
+      [6] = {
+         needpoint = 1
+         sk = 1605
+         type = 2
+      }
+      [7] = {
+         needpoint = 10
+         sk = 1606
+         type = 2
+      }
+   }
+   passive_skill = {
+      [1] = {
+         level = 1
+         needmoney = 318
+         sk = 2601
+         type = 2
+      }
+      [2] = {
+         level = 1
+         needmoney = 318
+         sk = 2602
+         type = 2
+      }
+      [3] = {
+         level = 1
+         needmoney = 318
+         sk = 2603
+         type = 2
+      }
+      [4] = {
+         level = 1
+         needmoney = 318
+         sk = 2604
+         type = 2
+      }
+      [5] = {
+         level = 1
+         needmoney = 318
+         sk = 2605
+         type = 2
+      }
+      [6] = {
+         level = 1
+         needmoney = 318
+         sk = 2606
+         type = 2
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: skill.GS2COrgSkills = {
+   org_skill = {
+      [1] = {
+         level = 20
+         sk = 4104
+      }
+      [2] = {
+         sk = 4105
+      }
+      [3] = {
+         sk = 4106
+      }
+      [4] = {
+         sk = 4107
+      }
+      [5] = {
+         level = 20
+         sk = 4101
+      }
+      [6] = {
+         level = 20
+         sk = 4102
+      }
+      [7] = {
+         level = 20
+         sk = 4103
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>更新技能</color>
+[core/table.lua:99]:--> Net Receive: skill.GS2CMarrySkill = {}
+[core/table.lua:99]:--> Net Receive: skill.GS2CAllFuZhuanSkill = {
+   skill_list = {
+      [1] = {
+         sk = 4304
+      }
+      [2] = {
+         sk = 4305
+      }
+      [3] = {
+         sk = 4306
+      }
+      [4] = {
+         sk = 4300
+      }
+      [5] = {
+         sk = 4301
+      }
+      [6] = {
+         sk = 4302
+      }
+      [7] = {
+         sk = 4303
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: skill.GS2CAllCultivateSkill = {
+   item_useinfo = {
+      [1] = {
+         itemsid = 10007
+      }
+      [2] = {
+         itemsid = 10008
+      }
+   }
+   limit = 2
+   role_sk = 4000
+   skill_info = {
+      [1] = {
+         sk = 4000
+      }
+      [2] = {
+         sk = 4001
+      }
+      [3] = {
+         sk = 4002
+      }
+      [4] = {
+         sk = 4003
+      }
+      [5] = {
+         sk = 4004
+      }
+      [6] = {
+         sk = 4005
+      }
+      [7] = {
+         sk = 4006
+      }
+      [8] = {
+         sk = 4007
+      }
+   }
+   upperlevel = 5
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CLoginTask = {
+   taskdata = {
+      [1] = {
+         create_time = 1529754046
+         detaildesc = "打听一下头衔的事情。"
+         name = "头衔"
+         target = 5228
+         targetdesc = "找@submitnpc@王老实#n了解头衔"
+         taskid = 30016
+         tasktype = 1
+      }
+      [10] = {
+         clientnpc = {
+            [1] = {
+               func_group = "task.side"
+               map_id = 203000
+               model_info = {
+                  figure = 3104
+               }
+               name = "参老"
+               npcid = 184
+               npctype = 101002
+               pos_info = {
+                  x = 7100
+                  y = 11400
+               }
+               title = "忧心忡忡"
+            }
+         }
+         create_time = 1529754046
+         detaildesc = "去南疆调查"
+         name = "南疆祸乱"
+         target = 101002
+         targetdesc = "和@submitnpc@参老#n对话"
+         taskid = 40501
+         tasktype = 1
+      }
+      [11] = {
+         create_time = 1529754046
+         detaildesc = "去完成一次门派修行吧。"
+         name = "门派修行"
+         targetdesc = "去完成一次门派修行吧(0/1)"
+         taskid = 30006
+         tasktype = 12
+      }
+      [12] = {
+         create_time = 1529754046
+         detaildesc = "据说有人能穿越不同的幻境寻找宝藏，去看看吧。"
+         name = "副本"
+         target = 5257
+         targetdesc = "了解副本"
+         taskid = 30007
+         tasktype = 1
+      }
+      [13] = {
+         create_time = 1529738229
+         detaildesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+         name = "师命"
+         target = 5239
+         targetdesc = "此去经年，道祖法旨召门徒，惜别授业恩师"
+         taskid = 10039
+         tasktype = 1
+      }
+      [14] = {
+         create_time = 1529754046
+         detaildesc = "去完成一次异宝收集吧。"
+         name = "异宝收集"
+         targetdesc = "去完成一次异宝收集吧(0/1)"
+         taskid = 30009
+         tasktype = 12
+      }
+      [15] = {
+         create_time = 1529754046
+         detaildesc = "打听一下装备强化的事情。"
+         name = "装备强化"
+         target = 5228
+         targetdesc = "找@submitnpc@王老实#n了解装备强化"
+         taskid = 30010
+         tasktype = 1
+      }
+      [16] = {
+         clientnpc = {
+            [1] = {
+               func_group = "task.side"
+               map_id = 201000
+               model_info = {
+                  figure = 3127
+               }
+               name = "好心的山民"
+               npcid = 185
+               npctype = 40601
+               pos_info = {
+                  x = 9790
+                  y = 18550
+               }
+               title = "逃命"
+            }
+         }
+         create_time = 1529754046
+         detaildesc = "凤凰山出现厉鬼吃人，周围的树木都枯萎。"
+         name = "厉鬼吃人"
+         target = 40601
+         targetdesc = "和@submitnpc@好心的山民#n对话"
+         taskid = 40601
+         tasktype = 1
+      }
+      [17] = {
+         create_time = 1529754046
+         detaildesc = "打听一下装备附魂的事情。"
+         name = "装备附魂"
+         target = 5228
+         targetdesc = "找@submitnpc@王老实#n了解装备附魂"
+         taskid = 30012
+         tasktype = 1
+      }
+      [18] = {
+         create_time = 1529754046
+         detaildesc = "竞技场开启了，去了解一下竞技场吧。"
+         name = "竞技场"
+         target = 5235
+         targetdesc = "找@submitnpc@武举钦差#n了解竞技场"
+         taskid = 30001
+         tasktype = 1
+      }
+      [19] = {
+         create_time = 1529754046
+         detaildesc = "英雄试炼开启了，去了解一下英雄试炼吧。"
+         name = "英雄试炼"
+         target = 5254
+         targetdesc = "找@submitnpc@文思语#n了解英雄试炼"
+         taskid = 30014
+         tasktype = 1
+      }
+      [2] = {
+         create_time = 1529754046
+         detaildesc = "去伏魔吧，收益十分丰厚哦"
+         name = "金刚伏魔"
+         targetdesc = "去伏魔吧，收益十分丰厚哦(0/1)"
+         taskid = 30018
+         tasktype = 12
+      }
+      [20] = {
+         create_time = 1529754046
+         detaildesc = "去宠物商店购买宠物#G笋儿#n。"
+         name = "购买宠物"
+         needsum = {
+            [1] = {
+               amount = 1
+               sumid = 1002
+            }
+         }
+         target = 5274
+         targetdesc = "购买@amount@1#n个@summon@笋儿#n"
+         taskid = 30025
+         tasktype = 3
+      }
+      [3] = {
+         clientnpc = {
+            [1] = {
+               func_group = "task.side"
+               map_id = 202000
+               model_info = {
+                  figure = 2502
+               }
+               name = "九天玄女"
+               npcid = 183
+               npctype = 101101
+               pos_info = {
+                  x = 2900
+                  y = 21000
+               }
+               title = "羡慕嫉妒"
+            }
+         }
+         create_time = 1529754046
+         detaildesc = "活佛发现九天玄女因为时未寒引下了九天神光而发怒，让你前去劝阻。"
+         name = "九天之怒"
+         target = 101101
+         targetdesc = "和@submitnpc@九天玄女#n对话"
+         taskid = 40101
+         tasktype = 1
+      }
+      [4] = {
+         create_time = 1529754046
+         detaildesc = "了解一下装备洗炼的知识吧。"
+         name = "装备洗炼"
+         target = 5249
+         targetdesc = "找@submitnpc@苏小小#n了解装备洗炼"
+         taskid = 30022
+         tasktype = 1
+      }
+      [5] = {
+         create_time = 1529754046
+         detaildesc = "把门派附近行迹可疑之人赶走"
+         name = "驱赶闲人(1/20)"
+         targetdesc = "门派巡逻(0/1)"
+         taskid = 61607
+         tasktype = 5
+      }
+      [6] = {
+         create_time = 1529754046
+         detaildesc = "神器系统开启了，去了解一下神器的用途吧。"
+         name = "神器"
+         target = 5294
+         targetdesc = "找@submitnpc@国子监祭酒#n了解神器"
+         taskid = 30024
+         tasktype = 1
+      }
+      [7] = {
+         create_time = 1529754046
+         detaildesc = "你在御建城游历不小心碰到了逃家的皇女，你觉得有趣决定带她出去看看。"
+         name = "初次相遇"
+         target = 5278
+         targetdesc = "和@submitnpc@皇女#n对话"
+         taskid = 40201
+         tasktype = 1
+      }
+      [8] = {
+         create_time = 1529754046
+         detaildesc = "青丘国主死的消息都传播开了，百姓担心报复，人心惶惶，你决定找到从没人见过的青丘国。"
+         name = "人心惶惶"
+         target = 5255
+         targetdesc = "和@submitnpc@渔夫#n对话"
+         taskid = 40301
+         tasktype = 1
+      }
+      [9] = {
+         clientnpc = {
+            [1] = {
+               func_group = "task.side"
+               map_id = 103000
+               model_info = {
+                  figure = 2101
+               }
+               name = "许仙"
+               npcid = 182
+               npctype = 101400
+               pos_info = {
+                  x = 13900
+                  y = 5400
+               }
+               title = "青年才俊"
+            }
+         }
+         create_time = 1529754046
+         detaildesc = "许仙想念师父，要你陪他一起去。"
+         name = "好友同游"
+         target = 101400
+         targetdesc = "和@submitnpc@许仙#n对话"
+         taskid = 40401
+         tasktype = 1
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CRefreshTask = {
+   detaildesc = "把门派附近行迹可疑之人赶走"
+   mask = "7a"
+   name = "驱赶闲人(1/20)"
+   targetdesc = "门派巡逻(0/1)"
+   taskid = 61607
+}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {
+   [62000] = 0
+   [80001] = 0
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CShimenInfo = {}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {
+   [62000] = 0
+   [80001] = 0
+}
+[core/table.lua:99]:CTaskCtrl.GS2CShimenInfo = {}
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[logic/ui/CViewBase.lua:149]:CMainMenuView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>停止引导检查</color>
+[core/table.lua:99]:--> Net Receive: task.GS2CLoginStoryInfo = {
+   chapter_section = {}
+}
+[core/table.lua:99]:CTaskCtrl.GS2CLoginStoryInfo = {
+   chapter_section = {}
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CLoginUnlockedTags = {}
+[core/table.lua:99]:--> Net Receive: task.GS2CAcceptableTasks = {}
+[core/table.lua:99]:self.m_AceTaskNotify数据 = {
+   [62000] = 0
+   [80001] = 0
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CAllEverydayTaskInfo = {
+   all = {
+      [1] = {
+         max_cnt = 15
+         taskid = 1
+      }
+      [10] = {
+         max_cnt = 5
+         taskid = 12
+      }
+      [11] = {
+         max_cnt = 1
+         taskid = 13
+      }
+      [12] = {
+         max_cnt = 1
+         taskid = 14
+      }
+      [13] = {
+         max_cnt = 1
+         taskid = 15
+      }
+      [14] = {
+         max_cnt = 1
+         taskid = 16
+      }
+      [15] = {
+         max_cnt = 1
+         taskid = 18
+      }
+      [16] = {
+         max_cnt = 1
+         taskid = 17
+      }
+      [2] = {
+         max_cnt = 10
+         taskid = 2
+      }
+      [3] = {
+         max_cnt = 20
+         taskid = 3
+      }
+      [4] = {
+         max_cnt = 5
+         taskid = 4
+      }
+      [5] = {
+         max_cnt = 1
+         taskid = 5
+      }
+      [6] = {
+         max_cnt = 1
+         taskid = 7
+      }
+      [7] = {
+         max_cnt = 5
+         taskid = 9
+      }
+      [8] = {
+         max_cnt = 5
+         taskid = 10
+      }
+      [9] = {
+         max_cnt = 3
+         taskid = 11
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CRefreshXuanShang = {
+   mask = "6"
+   tasks = {
+      [1] = {
+         npcid = 90011
+         star = 3
+         status = 1
+         taskid = 90011
+      }
+      [2] = {
+         npcid = 90015
+         star = 3
+         status = 1
+         taskid = 90015
+      }
+      [3] = {
+         npcid = 90019
+         star = 3
+         status = 1
+         taskid = 90019
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CAssistExp = {
+   max_assist_exp = 700000
+}
+[core/table.lua:99]:--> Net Receive: warehouse.GS2CWareHouseInfo = {
+   namelist = {
+      [1] = "仓库1"
+      [2] = "仓库2"
+   }
+   size = 2
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CSysConfig = {}
+[core/table.lua:99]:服务器下发系统设置数据: = {}
+[core/global.lua:59]:<color=#ffeb04>登录系统设置生效</color>
+[core/table.lua:99]:--> Net Receive: player.GS2CGamePushConfig = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CLoginPointPlanInfoList = {
+   selected_plan = 1
+   wash_info_list = {
+      [1] = {
+         plan_id = 1
+         strength = 300
+      }
+      [2] = {
+         plan_id = 2
+         strength = 300
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: team.GS2CRefreshWarCmd = {
+   warcmds = {
+      [1] = {
+         type = 1
+      }
+      [2] = {
+         type = 2
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CSyncTesterKeys = {
+   keys = {
+      [1] = "no_guide"
+      [2] = "sys_open"
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>=============== 开放引导</color>
+[core/global.lua:59]:<color=#ffeb04>=============== 开放系统</color>
+[core/table.lua:99]:--> Net Receive: huodong.GS2CAllGrowInfo = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshFubenRewardCnt = {
+   reward_list = {
+      [1] = {
+         fuben_id = 10002
+      }
+      [2] = {
+         fuben_id = 10001
+      }
+      [3] = {
+         fuben_id = 20002
+      }
+      [4] = {
+         fuben_id = 20001
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: task.GS2CZhenmoRefresh = {
+   is_newday = 1
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CLoginGradeGiftInfo = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CLoginPreopenGiftInfo = {}
+[core/table.lua:99]:--> Net Receive: summon.GS2CLoginSummon = {}
+[core/table.lua:99]:--> Net Receive: summon.GS2CSummonFollow = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CSchedule = {
+   curtime = 1529894261
+   db_point_limit = 180
+   hdlist = {
+      [1] = {
+         scheduleid = 1012
+         state = 1
+         time = "20:30"
+      }
+      [2] = {
+         scheduleid = 1021
+         state = 1
+         time = "17:00"
+      }
+      [3] = {
+         scheduleid = 1018
+         state = 1
+         time = "19:15"
+      }
+      [4] = {
+         scheduleid = 1041
+         state = 1
+         time = "12:00"
+      }
+   }
+   schedules = {
+      [1] = {
+         maxtimes = 35
+         scheduleid = 1008
+      }
+   }
+}
+[core/table.lua:99]:<-- Net Send: huodong.C2GSTrialOpenUI = {}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2445
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== true</color>
+[core/table.lua:99]:--> Net Receive: state.GS2CAddState = {
+   state_info = {
+      data = {
+         [1] = {
+            key = "ratio"
+            value = 80
+         }
+      }
+      desc = "服务器等级较高，升级享受额外经验加成。"
+      hide = "0"
+      name = "服务器加成"
+      state_id = 1006
+   }
+}
+[core/table.lua:99]:--> Net Receive: state.GS2CLoginState = {
+   state_info = {
+      [1] = {
+         data = {
+            [1] = {
+               key = "point"
+            }
+         }
+         desc = "有双倍点数时伏魔可获得道具和双倍经验"
+         hide = "0"
+         name = "双倍点数"
+         state_id = 1004
+      }
+      [2] = {
+         data = {
+            [1] = {
+               key = "ratio"
+               value = 80
+            }
+         }
+         desc = "服务器等级较高，升级享受额外经验加成。"
+         hide = "0"
+         name = "服务器加成"
+         state_id = 1006
+      }
+      [3] = {
+         data = {
+            [1] = {
+               key = "count"
+               value = 198
+            }
+         }
+         desc = "战斗结束时自动恢复人物、伙伴和宠物的气血和法力"
+         hide = "0"
+         name = "饱食"
+         state_id = 1003
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: partner.GS2CLoginPartner = {
+   lineup = 1
+   partners = {
+      [1] = {
+         cure_power = 72
+         equipsid = {
+            [1] = {
+               equip_sid = 1001
+               level = 10
+            }
+            [2] = {
+               equip_sid = 1002
+               level = 10
+            }
+            [3] = {
+               equip_sid = 1003
+               level = 10
+            }
+            [4] = {
+               equip_sid = 1004
+               level = 10
+            }
+            [5] = {
+               equip_sid = 1005
+               level = 10
+            }
+            [6] = {
+               equip_sid = 1006
+               level = 10
+            }
+         }
+         grade = 60
+         hp = 1984
+         id = 1
+         mag_attack = 777
+         mag_defense = 556
+         mask = "ffffffffe"
+         max_hp = 1984
+         max_mp = 1383
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 2101
+         }
+         mp = 1383
+         name = "许仙"
+         phy_attack = 399
+         phy_defense = 550
+         quality = 1
+         race = 1
+         res_seal_ratio = 5
+         school = 3
+         score = 1180
+         sid = 10001
+         skill = {
+            [1] = {
+               level = 1
+               sk = 7104
+            }
+            [2] = {
+               level = 1
+               sk = 7105
+            }
+            [3] = {
+               level = 1
+               sk = 7106
+            }
+            [4] = {
+               level = 1
+               sk = 7307
+            }
+            [5] = {
+               level = 1
+               sk = 7101
+            }
+            [6] = {
+               level = 1
+               sk = 7102
+            }
+            [7] = {
+               level = 1
+               sk = 7103
+            }
+         }
+         speed = 226
+         type = 1
+         upper = 1
+      }
+      [2] = {
+         cure_power = 72
+         equipsid = {
+            [1] = {
+               equip_sid = 2001
+               level = 10
+            }
+            [2] = {
+               equip_sid = 2002
+               level = 10
+            }
+            [3] = {
+               equip_sid = 2003
+               level = 10
+            }
+            [4] = {
+               equip_sid = 2004
+               level = 10
+            }
+            [5] = {
+               equip_sid = 2005
+               level = 10
+            }
+            [6] = {
+               equip_sid = 2006
+               level = 10
+            }
+         }
+         grade = 60
+         hp = 1855
+         id = 2
+         mag_attack = 739
+         mag_defense = 551
+         mask = "ffffffffe"
+         max_hp = 1855
+         max_mp = 1383
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 2102
+         }
+         mp = 1383
+         name = "璃镜"
+         phy_attack = 305
+         phy_defense = 568
+         quality = 1
+         race = 2
+         res_seal_ratio = 5
+         school = 3
+         score = 1100
+         sid = 10002
+         skill = {
+            [1] = {
+               level = 1
+               sk = 7201
+            }
+            [2] = {
+               level = 1
+               sk = 7202
+            }
+            [3] = {
+               level = 1
+               sk = 7203
+            }
+            [4] = {
+               level = 1
+               sk = 7204
+            }
+            [5] = {
+               level = 1
+               sk = 7205
+            }
+            [6] = {
+               level = 1
+               sk = 7206
+            }
+            [7] = {
+               level = 1
+               sk = 7207
+            }
+         }
+         speed = 209
+         type = 1
+         upper = 1
+      }
+   }
+   pos_list = {
+      [1] = 1
+      [2] = 2
+   }
+}
+[core/table.lua:99]:--> Net Receive: title.GS2CTitleInfoList = {}
+[core/table.lua:99]:--> Net Receive: fabao.GS2CAllFaBao = {}
+[core/table.lua:99]:--> Net Receive: touxian.GS2CUpgradeTouxianInfo = {
+   infos = {
+      tid = 6001
+   }
+}
+[core/table.lua:99]:--> Net Receive: formation.GS2CAllFormationInfo = {
+   fmt_curr = 1
+   fmt_learn_limit = 6
+   fmt_list = {
+      [1] = {
+         fmt_id = 1
+         grade = 1
+      }
+   }
+   partner_list = {
+      [1] = 1
+      [2] = 2
+   }
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CPromote = {
+   radio = {
+      [1] = 9
+      [10] = 0
+      [11] = 12
+      [12] = 0
+      [13] = 0
+      [14] = 9
+      [15] = 0
+      [2] = 1
+      [3] = 0
+      [4] = 0
+      [5] = 0
+      [6] = 0
+      [7] = 0
+      [8] = 11
+      [9] = 0
+   }
+   result = 7
+   score = 4430
+   sumscore = 61217
+}
+[core/table.lua:99]:--> Net Receive: tempitem.GS2CLoginTempItem = {}
+[core/table.lua:99]:--> Net Receive: ride.GS2CPlayerRideInfo = {
+   info = {
+      mask = "7be"
+      score = 50
+      skills = {
+         [1] = {
+            col = 1
+            level = 1
+            row = 1
+            sk = 5900
+         }
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: store.GS2CLoginStoreInfo = {
+   item_info = {
+      [1] = {
+         item_id = 300301
+         limit = 10
+      }
+      [10] = {
+         item_id = 301021
+         limit = 5
+      }
+      [11] = {
+         item_id = 301022
+         limit = 100
+      }
+      [12] = {
+         item_id = 301023
+         limit = 10
+      }
+      [13] = {
+         item_id = 301036
+         limit = 7
+      }
+      [14] = {
+         item_id = 301037
+         limit = 5
+      }
+      [15] = {
+         item_id = 301028
+         limit = 6
+      }
+      [16] = {
+         item_id = 301029
+         limit = 6
+      }
+      [17] = {
+         item_id = 301030
+         limit = 6
+      }
+      [18] = {
+         item_id = 301032
+         limit = 100
+      }
+      [2] = {
+         item_id = 300302
+         limit = 1
+      }
+      [3] = {
+         item_id = 300303
+         limit = 1
+      }
+      [4] = {
+         item_id = 300304
+         limit = 1
+      }
+      [5] = {
+         item_id = 301043
+         limit = 10
+      }
+      [6] = {
+         item_id = 301044
+         limit = 5
+      }
+      [7] = {
+         item_id = 301057
+         limit = 1
+      }
+      [8] = {
+         item_id = 301058
+         limit = 1
+      }
+      [9] = {
+         item_id = 301027
+         limit = 10
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: item.GS2CEquipLogin = {}
+[core/table.lua:99]:--> Net Receive: summon.GS2CLoginCkSummon = {}
+[core/table.lua:99]:--> Net Receive: player.GS2CUpdateStrengthenInfo = {
+   mask = "6"
+}
+[core/table.lua:99]:--> Net Receive: mail.GS2CLoginMail = {
+   simpleinfo = {
+      [1] = {
+         createtime = 1529754046
+         hasattach = 1
+         icon = "h7_xinfeng_1"
+         mailid = 1
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         readtodel = 1
+         title = "掌门的传音"
+         validtime = 1530358846
+      }
+      [2] = {
+         createtime = 1529754046
+         icon = "h7_xinfeng_1"
+         mailid = 2
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         title = "有新宠物可携带"
+         validtime = 1532346046
+      }
+      [3] = {
+         createtime = 1529754046
+         icon = "h7_xinfeng_1"
+         mailid = 3
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         title = "有新宠物可携带"
+         validtime = 1532346046
+      }
+      [4] = {
+         createtime = 1529754046
+         icon = "h7_xinfeng_1"
+         mailid = 4
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         title = "有新宠物可携带"
+         validtime = 1532346046
+      }
+      [5] = {
+         createtime = 1529754046
+         icon = "h7_xinfeng_1"
+         mailid = 5
+         mailtype = 101
+         openicon = "h7_xinfeng_6"
+         title = "游戏画面配置"
+         validtime = 1532346046
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: friend.GS2CLoginFriend = {}
+[core/table.lua:99]:--> Net Receive: sysopen.GS2CLoginOpenSys = {
+   open_sys = {
+      [1] = "REDEEM_CODE"
+      [10] = "YAOWANG"
+      [100] = "CHUMO_POINT_STORE"
+      [101] = "SUMMON_HC"
+      [102] = "ORGTASK"
+      [103] = "SEVENDAY"
+      [104] = "LUANSHIMOYING"
+      [105] = "PREOPEN"
+      [106] = "EQUIP_QH"
+      [107] = "BOTTLE"
+      [108] = "QINGYUAN"
+      [109] = "BADGE"
+      [11] = "BAITAN"
+      [110] = "EQUIP_XL"
+      [111] = "ACTIVEPOINT_GIFT"
+      [112] = "IMPROVE"
+      [113] = "EVERYDAY_RANK"
+      [114] = "PAY_SYS"
+      [115] = "TITLE_RANK"
+      [116] = "SOURCE_EQUIP"
+      [117] = "STRENGTH_RANK"
+      [118] = "ROLE_ADDPOINT"
+      [119] = "RIDE_UPGRADE"
+      [12] = "BIWU"
+      [120] = "RUNRING"
+      [121] = "ORG_CAMPFIRE"
+      [122] = "SUMMON_RANK"
+      [123] = "RIDE_SYS"
+      [124] = "EQUIP_FH"
+      [125] = "RECOMMEND"
+      [126] = "IMPERIALEXAM"
+      [127] = "LEADER_POINT_STORE"
+      [128] = "RANSE"
+      [129] = "DISCOUNT_SALE"
+      [13] = "PARTNER_ZM"
+      [130] = "RANK_SYS"
+      [131] = "LINGXI"
+      [132] = "HANG"
+      [133] = "SOURCE_HELP_SKILL"
+      [134] = "EQUIP_DZ"
+      [135] = "SUMMON_JN"
+      [136] = "PARTNER_JJ"
+      [137] = "PARTNER_BZ"
+      [138] = "LIUMAI"
+      [139] = "ADVANCE"
+      [14] = "STATE"
+      [140] = "FIGHT_GIFT"
+      [141] = "KAIFUDIANLI"
+      [142] = "SCHEDULE"
+      [143] = "MAIL_SYS"
+      [144] = "SOURCE_SUMMON"
+      [145] = "FIRST_PAY"
+      [146] = "MENGZHU"
+      [147] = "MARRY_SYS"
+      [148] = "ONLINE_GIFT"
+      [149] = "ORG_CJ"
+      [15] = "SHOP"
+      [150] = "XUANSHANG"
+      [151] = "JINGSAN_HARD"
+      [152] = "ZONGZIGAME"
+      [153] = "ZHUAGUI"
+      [154] = "MONEYTREE"
+      [155] = "HEROTRIAL"
+      [156] = "SIGN"
+      [157] = "FENGYAO"
+      [158] = "SHOOTCRAPS"
+      [159] = "SUMMON_PY"
+      [16] = "WUXUN_STORE"
+      [160] = "PARTNER_SYS"
+      [161] = "YUANBAOJOY"
+      [162] = "JJC_SYS"
+      [163] = "FESTIVALGIFT"
+      [164] = "FUMO"
+      [165] = "STORE_SYS_304"
+      [166] = "JINGSAN"
+      [167] = "ZHENMO"
+      [168] = "CONTINUOUS_EXPENSE"
+      [169] = "XIAYI_POINT_STORE"
+      [17] = "LEITAI"
+      [170] = "STORE_SYS_302"
+      [171] = "CAISHEN"
+      [172] = "DUANWUQIFU"
+      [173] = "FORESHOW"
+      [174] = "AUCTION"
+      [175] = "GIFT_GOLDCOIN"
+      [176] = "WING"
+      [18] = "HOTTOPIC"
+      [19] = "SUMMON_LY"
+      [2] = "TASKCHAIN"
+      [20] = "ARTIFACT"
+      [21] = "SKILL_BD"
+      [22] = "CHUAN_YIN"
+      [23] = "GROW"
+      [24] = "DANCE_STAMPS"
+      [25] = "TIEXIN"
+      [26] = "XINGXIU"
+      [27] = "FUYUAN_BOX"
+      [28] = "SECOND_PAY"
+      [29] = "WELFARE_COLLECT"
+      [3] = "TOTAL_CHARGE"
+      [30] = "RIDE_TY"
+      [31] = "STORE_SYS_202"
+      [32] = "WELFARE_REBATE"
+      [33] = "STORE_SYS_301"
+      [34] = "KS_SYS"
+      [35] = "ZHIYIN"
+      [36] = "ZEROYUAN"
+      [37] = "YIBAO"
+      [38] = "ENGAGE_SYS"
+      [39] = "BAOTU"
+      [4] = "FUMO_HARD"
+      [40] = "MYSTICALBOX"
+      [41] = "JUBAOPEN"
+      [42] = "ORG_SKILL"
+      [43] = "SUPERREBATE"
+      [44] = "EQUIP_SYS"
+      [45] = "WORLDCUP_SINGLE"
+      [46] = "GUIDEPAY"
+      [47] = "SHIZHUANG"
+      [48] = "EACHDAYTASK"
+      [49] = "SOURCE_PARTNER"
+      [5] = "BAOTASK"
+      [50] = "VIGOR"
+      [51] = "TEMPBAG"
+      [52] = "RETURNGOLDCOIN"
+      [53] = "FUZHUAN"
+      [54] = "BORN_STORY_TASK"
+      [55] = "WELFARE_LOGIN"
+      [56] = "JIEBAI"
+      [57] = "EVERYDAYCHARGE"
+      [58] = "SUMMON_XC"
+      [59] = "REDPACKET"
+      [6] = "FABAO"
+      [60] = "WORLDCUP_CHAMPION"
+      [61] = "BAIKE"
+      [62] = "DRAWCARD"
+      [63] = "SOURCE_GAME_TECH"
+      [64] = "FMT_SYS"
+      [65] = "SUMMON_SYS"
+      [66] = "STORE_SYS_201"
+      [67] = "SCHOOLPASS"
+      [68] = "XIU_LIAN_SYS"
+      [69] = "STORE_SYS_203"
+      [7] = "SUMMON_POINT_STROE"
+      [70] = "REBATEJOY"
+      [71] = "THREEBIWU"
+      [72] = "SCORESHOW"
+      [73] = "GIFT_GRADE"
+      [74] = "HESHENQIFU"
+      [75] = "DAY_EXPENSE"
+      [76] = "UPGRADEPACK"
+      [77] = "STORE_SYS_204"
+      [78] = "RECOVERY"
+      [79] = "PARTNER_ZB"
+      [8] = "RETRIEVE_EXP"
+      [80] = "MENTORING"
+      [81] = "TIANMO"
+      [82] = "SHANGHUI"
+      [83] = "SHIMEN"
+      [84] = "SOURCE_CAMBAT_SKILL"
+      [85] = "WELFARE"
+      [86] = "GRADE_RANK"
+      [87] = "SKILL_ZD"
+      [88] = "JJCPOINT_STORE"
+      [89] = "ITEMINVEST"
+      [9] = "ORG_RANK"
+      [90] = "ORG_SYS"
+      [91] = "SKILL_SYS"
+      [92] = "GIFT_DAY"
+      [93] = "GUESSGAME"
+      [94] = "SINGLEWAR"
+      [95] = "JYFUBEN"
+      [96] = "SOURCE_UPGRADE_TECH"
+      [97] = "EQUIP_XQ"
+      [98] = "CONTINUOUS_CHARGE"
+      [99] = "ORGWAR"
+   }
+}
+[core/table.lua:99]:<-- Net Send: newbieguide.C2GSGetNewbieGuildInfo = {}
+[core/table.lua:99]:--> Net Receive: newbieguide.GS2CSysOpenNotified = {
+   sys_ids = {
+      [1] = "SKILL_SYS"
+      [10] = "SCHEDULE"
+      [11] = "ORG_SYS"
+      [2] = "ARTIFACT"
+      [3] = "RANK_SYS"
+      [4] = "EQUIP_SYS"
+      [5] = "FABAO"
+      [6] = "RIDE_SYS"
+      [7] = "BADGE"
+      [8] = "PARTNER_SYS"
+      [9] = "WING"
+   }
+}
+[core/table.lua:99]:--> Net Receive: newbieguide.GS2CNewbieGuideInfo = {
+   no_guide = 1
+}
+[core/global.lua:59]:<color=#ffeb04>CGuideHelpCtrl.GS2CNewbieGuideInfo</color>
+[core/table.lua:99]:--> Net Receive: huodong.GS2CRetrieveExp = {
+   retrieves = {
+      [1] = {
+         count = 20
+         scheduleid = 1040
+      }
+      [10] = {
+         count = 16
+         scheduleid = 1007
+      }
+      [2] = {
+         count = 20
+         scheduleid = 1027
+      }
+      [3] = {
+         count = 10
+         scheduleid = 1031
+      }
+      [4] = {
+         count = 10
+         scheduleid = 1017
+      }
+      [5] = {
+         count = 40
+         scheduleid = 1001
+      }
+      [6] = {
+         count = 20
+         scheduleid = 1003
+      }
+      [7] = {
+         count = 120
+         scheduleid = 1004
+      }
+      [8] = {
+         count = 10
+         scheduleid = 1005
+      }
+      [9] = {
+         count = 10
+         scheduleid = 1006
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CForeShowInfo = {
+   info_list = {
+      [1] = {
+         content_id = 1002
+         show_type = 1
+      }
+      [2] = {
+         content_id = 2001
+         show_type = 2
+      }
+      [3] = {
+         content_id = 3007
+         show_type = 3
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshSchedule = {
+   schedule = {
+      maxtimes = 35
+      scheduleid = 1008
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== true</color>
+[core/table.lua:99]:--> Net Receive: huodong.GS2CCaishenRefreshRewardKey = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CCollectGiftInfo = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CFightGiftbagReward = {
+   rewardlist = {
+      [1] = {
+         rank = 100
+         score = 36500
+      }
+      [2] = {
+         rank = 100
+         score = 27000
+      }
+      [3] = {
+         rank = 100
+         score = 12000
+      }
+      [4] = {
+         rank = 100
+         score = 7500
+      }
+      [5] = {
+         rank = 100
+         score = 22500
+      }
+      [6] = {
+         rank = 100
+         score = 30000
+      }
+      [7] = {
+         rank = 100
+         score = 16000
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CWelfareGiftInfo = {
+   mask = "100"
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CWelfareGiftInfo = {
+   first_pay_gift = {
+      [1] = {
+         key = "first_pay_reward"
+      }
+      [2] = {
+         key = "create_time"
+         val = 1529737616
+      }
+      [3] = {
+         key = "first_pay_extra"
+      }
+   }
+   first_pay_gift_second = {
+      [1] = {
+         key = "first_pay_reward_second"
+      }
+      [2] = {
+         key = "create_time"
+         val = 1529737616
+      }
+      [3] = {
+         key = "first_pay_extra_second"
+      }
+   }
+   first_pay_gift_third = {
+      [1] = {
+         key = "first_pay_reward_third"
+      }
+      [2] = {
+         key = "create_time"
+         val = 1529737616
+      }
+      [3] = {
+         key = "first_pay_extra_third"
+      }
+   }
+   login_gift = {
+      [1] = {
+         key = "login_gift_2"
+         val = 1
+      }
+      [2] = {
+         key = "login_gift_6"
+      }
+      [3] = {
+         key = "login_gift_1"
+         val = 1
+      }
+      [4] = {
+         key = "login_gift_3"
+      }
+      [5] = {
+         key = "login_gift_7"
+      }
+      [6] = {
+         key = "login_gift_8"
+      }
+      [7] = {
+         key = "login_gift_4"
+      }
+      [8] = {
+         key = "login_gift_5"
+      }
+   }
+   mask = "1fe"
+   new_day_time = 4939
+   rebate_gift = {
+      [1] = {
+         key = "rebate_gift_200"
+      }
+      [2] = {
+         key = "rebate_gift_50000"
+      }
+      [3] = {
+         key = "rebate_gift_10000"
+      }
+      [4] = {
+         key = "rebate_gift_2000"
+      }
+      [5] = {
+         key = "rebate_gift_100000"
+      }
+      [6] = {
+         key = "rebate_gift_20000"
+      }
+      [7] = {
+         key = "rebate_gift_5000"
+      }
+      [8] = {
+         key = "rebate_gift_1000"
+      }
+      [9] = {
+         key = "rebate_gold_coin"
+      }
+   }
+   second_pay_gift = {
+      [1] = {
+         key = "second_pay_reward"
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CImperialexamState = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CChargeGiftInfo = {
+   gift_day_list = {
+      [1] = {
+         key = "gift_day_2"
+      }
+      [2] = {
+         key = "gift_day_3"
+      }
+      [3] = {
+         key = "gift_day_1"
+      }
+      [4] = {
+         key = "gift_day_all"
+      }
+   }
+   gift_goldcoin_list = {
+      [1] = {
+         key = "goldcoin_gift_2"
+      }
+      [2] = {
+         key = "goldcoin_gift_1"
+      }
+   }
+   gift_grade_list = {
+      [1] = {
+         key = "grade_gift1_60"
+      }
+      [10] = {
+         key = "grade_gift1_40"
+      }
+      [11] = {
+         key = "grade_gift1_55"
+      }
+      [12] = {
+         key = "grade_gift1_35"
+      }
+      [13] = {
+         key = "grade_gift2_66"
+      }
+      [2] = {
+         key = "grade_gift2_68"
+      }
+      [3] = {
+         key = "grade_gift2_70"
+      }
+      [4] = {
+         key = "grade_gift2_0"
+      }
+      [5] = {
+         key = "grade_gift1_45"
+      }
+      [6] = {
+         key = "grade_gift1_0"
+      }
+      [7] = {
+         key = "grade_gift1_50"
+      }
+      [8] = {
+         key = "grade_gift1_30"
+      }
+      [9] = {
+         key = "grade_gift2_63"
+      }
+   }
+   mask = "e"
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CRplGoldCoinGift = {}
+[core/table.lua:99]:--> Net Receive: other.GS2CPayForGoldInfo = {
+   goldcoin_list = {
+      [1] = {
+         key = "goldcoinstore_1"
+      }
+      [10] = {
+         key = "goldcoinstore_10"
+      }
+      [2] = {
+         key = "goldcoinstore_2"
+      }
+      [3] = {
+         key = "goldcoinstore_3"
+      }
+      [4] = {
+         key = "goldcoinstore_4"
+      }
+      [5] = {
+         key = "goldcoinstore_5"
+      }
+      [6] = {
+         key = "goldcoinstore_6"
+      }
+      [7] = {
+         key = "goldcoinstore_7"
+      }
+      [8] = {
+         key = "goldcoinstore_8"
+      }
+      [9] = {
+         key = "goldcoinstore_9"
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CDanceLeftCnt = {
+   leftcnt = 6
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CZeroYuanInfo = {
+   activity_endtime = 1531050046
+   info = {
+      [1] = {
+         buy_endtime = 1529797246
+         type = 2
+      }
+      [2] = {
+         buy_endtime = 1529797246
+         type = 3
+      }
+      [3] = {
+         buy_endtime = 1529797246
+         type = 1
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CDiscountSale = {
+   buy_info = {
+      [1] = {
+         day = 1
+      }
+      [2] = {
+         day = 2
+      }
+      [3] = {
+         day = 3
+      }
+      [4] = {
+         day = 4
+      }
+      [5] = {
+         day = 5
+      }
+      [6] = {
+         day = 6
+      }
+      [7] = {
+         day = 7
+      }
+   }
+   start_time = 1529754046
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CSignInOpenUI = {}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CMysticalboxGetState = {
+   state = 1
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2COnlineGift = {
+   end_time = 4071005940
+   login_time = 1529894261
+   start_time = 1483239600
+}
+[core/table.lua:99]:--> Net Receive: openui.GS2CRefreshAllHuodongState = {
+   hdlist = {
+      [1] = {
+         scheduleid = 1012
+         state = 1
+         time = "20:30"
+      }
+      [2] = {
+         scheduleid = 1021
+         state = 1
+         time = "17:00"
+      }
+      [3] = {
+         scheduleid = 1018
+         state = 1
+         time = "19:15"
+      }
+      [4] = {
+         scheduleid = 1041
+         state = 1
+         time = "12:00"
+      }
+   }
+}
+[core/table.lua:99]:--> Net Receive: huodong.GS2CHotTopicList = {}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CHotTopicView ShowView
+[core/table.lua:99]:--> Net Receive: chat.GS2CChatHistory = {}
+[core/table.lua:99]:--> Net Receive: chat.GS2CConsumeMsg = {
+   content = "距离上次离线时间#G2326#n分钟，共获得#G960571#n储备经验"
+   type = 6
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "距离上次离线时间#G2326#n分钟，共获得#G960571#n储备经验"
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CPropChange = {
+   role = {
+      agility = 60
+      chubeiexp = 960571
+      critical_multiple = 2
+      cure_power = 20
+      endurance = 60
+      energy = 200
+      hp = 689
+      mag_attack = 160
+      mag_defense = 402
+      magic = 60
+      mask = "80000041c7fffff00"
+      max_hp = 689
+      max_mp = 832
+      mp = 832
+      phy_attack = 532
+      phy_critical_ratio = 3
+      phy_defense = 182
+      physique = 60
+      prop_info = {
+         [1] = {
+            base = 182000
+            name = "phy_defense"
+         }
+         [2] = {
+            base = 830000
+            extra = 2000
+            name = "max_mp"
+         }
+         [3] = {
+            base = 680000
+            extra = 9000
+            name = "max_hp"
+         }
+         [4] = {
+            base = 256000
+            extra = 16000
+            name = "speed"
+         }
+         [5] = {
+            base = 460000
+            extra = 72000
+            name = "phy_attack"
+         }
+         [6] = {
+            base = 140000
+            extra = 20000
+            name = "mag_attack"
+         }
+         [7] = {
+            base = 372000
+            extra = 30000
+            name = "mag_defense"
+         }
+      }
+      score = 4430
+      speed = 272
+      strength = 360
+   }
+}
+[logic/ui/CViewCtrl.lua:134]:CSpeechRecordView CloseView
+[core/table.lua:99]:--> Net Receive: chat.GS2CAllForbinInfo = {}
+[core/table.lua:99]:--> Net Receive: openui.GS2CSchedule = {
+   curtime = 1529894261
+   db_point_limit = 180
+   hdlist = {
+      [1] = {
+         scheduleid = 1012
+         state = 1
+         time = "20:30"
+      }
+      [2] = {
+         scheduleid = 1021
+         state = 1
+         time = "17:00"
+      }
+      [3] = {
+         scheduleid = 1018
+         state = 1
+         time = "19:15"
+      }
+      [4] = {
+         scheduleid = 1041
+         state = 1
+         time = "12:00"
+      }
+   }
+   schedules = {
+      [1] = {
+         maxtimes = 35
+         scheduleid = 1008
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== true</color>
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2221"
+}
+[core/table.lua:99]:--> Net Receive: redpacket.GS2CAll = {}
+[core/table.lua:99]:CRedPacketCtrl.GS2CAll = {}
+[core/table.lua:99]:--> Net Receive: formation.GS2CAllFormationInfo = {
+   fmt_curr = 1
+   fmt_learn_limit = 6
+   fmt_list = {
+      [1] = {
+         fmt_id = 1
+         grade = 1
+      }
+   }
+   partner_list = {
+      [1] = 1
+      [2] = 2
+   }
+}
+[core/table.lua:99]:--> Net Receive: formation.GS2CAllFormationInfo = {
+   fmt_curr = 1
+   fmt_learn_limit = 6
+   fmt_list = {
+      [1] = {
+         fmt_id = 1
+         grade = 1
+      }
+   }
+   partner_list = {
+      [1] = 1
+      [2] = 2
+   }
+}
+[logic/map/CMapCtrl.lua:449]:MapLoadDone,    1010    1010    nil
+[core/table.lua:99]:--> Net Receive: huodong.GS2CTrialOpenUI = {
+   ret_time = 2
+   total = 1
+   trial_list = {
+      [1] = {
+         base_info = {
+            grade = 60
+            icon = 1120
+            model_info = {
+               color = {
+                  [1] = 0
+               }
+               horse = 1001
+               shape = 1120
+            }
+            name = "裴念香"
+            pid = 10161
+            school = 2
+         }
+         pid = 10161
+         score = 5540
+      }
+   }
+}
+[core/global.lua:59]:<color=#ffeb04>===============redpointSta====== true</color>
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2445"
+}
+[core/table.lua:99]:--> Net Receive: newbieguide.GS2CGetNewbieGuildInfo = {}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWelfareView ShowView
+[core/table.lua:99]:Table = {
+   [1] = {
+      idx = 1
+      key = "FirstPay"
+   }
+   [10] = {
+      idx = 11
+      key = "GiftDay"
+   }
+   [11] = {
+      idx = 12
+      key = "Exchange"
+   }
+   [2] = {
+      idx = 3
+      key = "YoukaLogin"
+   }
+   [3] = {
+      idx = 4
+      key = "Sign"
+   }
+   [4] = {
+      idx = 5
+      key = "OnlineGift"
+   }
+   [5] = {
+      idx = 6
+      key = "ExpRecycle"
+   }
+   [6] = {
+      idx = 7
+      key = "FightGift"
+   }
+   [7] = {
+      idx = 8
+      key = "UpgradePack"
+   }
+   [8] = {
+      idx = 9
+      key = "GiftGrade"
+   }
+   [9] = {
+      idx = 10
+      key = "GiftGoldcoin"
+   }
+}
+[core/table.lua:99]:<-- Net Send: huodong.C2GSSignInMainInfo = {}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2562
+}
+[logic/ui/CViewBase.lua:149]:CWelfareView LoadDone!
+[logic/ui/CViewBase.lua:149]:CHotTopicView LoadDone!
+[core/table.lua:99]:--> Net Receive: huodong.GS2CSignInMainInfo = {
+   firstmonth = 1
+   rewardset = 2
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2562"
+}
+[logic/ui/CViewCtrl.lua:134]:CWelfareView CloseView
+[logic/ui/CViewCtrl.lua:134]:CFortuneView CloseView
+[logic/ui/CViewCtrl.lua:134]:CHotTopicView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGmMainView ShowView
+[logic/ui/CViewBase.lua:149]:CGmMainView LoadDone!
+[core/table.lua:99]:<-- Net Send: other.C2GSGMCmd = {
+   cmd = "updatelocal"
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "update all ok"
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "update all ok"
+}
+[logic/ui/CViewCtrl.lua:134]:CGmMainView CloseView
+[core/table.lua:99]:<-- Net Send: player.C2GSGetPlayerInfo = {
+   pid = 10161
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2851
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CGetPlayerInfo = {
+   grade = 60
+   icon = 1120
+   model_info = {
+      color = {
+         [1] = 0
+      }
+      horse = 1001
+      shape = 1120
+   }
+   name = "裴念香"
+   pid = 10161
+   position = "未知"
+   position_hide = 1
+   school = 2
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CPlayerInfoView ShowView
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2851"
+}
+[logic/ui/CViewBase.lua:149]:CPlayerInfoView LoadDone!
+[core/table.lua:99]:<-- Net Send: team.C2GSInviteTeam = {
+   target = 10161
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2874
+}
+[logic/ui/CViewCtrl.lua:134]:CPlayerInfoView CloseView
+[core/table.lua:99]:--> Net Receive: team.GS2CAddTeam = {
+   fmt_grade = 1
+   fmt_id = 1
+   leader = 10160
+   member = {
+      [1] = {
+         pid = 10160
+         status_info = {
+            grade = 60
+            hp = 689
+            icon = 1320
+            mask = "1ffe"
+            max_hp = 689
+            max_mp = 832
+            model_info = {
+               color = {
+                  [1] = 0
+               }
+               shape = 1320
+            }
+            mp = 832
+            name = "ら℃鳡觉★"
+            school = 6
+            score = 4430
+            status = 1
+         }
+      }
+   }
+   partner_list = {
+      [1] = {
+         grade = 60
+         id = 1
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 2101
+         }
+         sid = 10001
+      }
+      [2] = {
+         grade = 60
+         id = 2
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 2102
+         }
+         sid = 10002
+      }
+   }
+   target_info = {
+      max_grade = 65
+      min_grade = 55
+   }
+   teamid = 1
+}
+[core/table.lua:99]:--> Net Receive: team.GS2CRefreshTeamAppoint = {
+   pid = 10160
+}
+[core/table.lua:99]:--> Net Receive: team.GS2CTeamApplyInfo = {}
+[core/table.lua:99]:--> Net Receive: team.GS2CInviteInfo = {}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "创建队伍成功"
+}
+[core/table.lua:99]:--> Net Receive: state.GS2CAddState = {
+   state_info = {
+      desc = "带队伏魔经验增加30%；带队某些玩法经验增加10%"
+      hide = "0"
+      name = "队长加成"
+      state_id = 1007
+   }
+}
+[core/table.lua:99]:--> Net Receive: notify.GS2CNotify = {
+   cmd = "已邀请裴念香加入队伍，请耐心等待回复"
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2874"
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CSceneCreateTeam = {
+   pid_list = {
+      [1] = 10160
+   }
+   scene_id = 10
+   team_id = 1
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CTeamMemberOpView ShowView
+[logic/ui/CViewBase.lua:149]:CTeamMemberOpView LoadDone!
+[core/table.lua:99]:<-- Net Send: team.C2GSLeaveTeam = {}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2911
+}
+[logic/ui/CViewCtrl.lua:134]:CTeamMemberOpView CloseView
+[core/table.lua:99]:--> Net Receive: team.GS2CInviteInfo = {}
+[core/table.lua:99]:--> Net Receive: team.GS2CDelTeam = {}
+[logic/ui/CViewCtrl.lua:134]:CSpeechRecordView CloseView
+[core/table.lua:99]:--> Net Receive: state.GS2CRemoveState = {
+   state_id = 1007
+}
+[core/table.lua:99]:--> Net Receive: chat.GS2CChat = {
+   cmd = "队伍解散"
+   role_info = {}
+   type = 2
+}
+[core/table.lua:99]:--> Net Receive: chat.GS2CChat = {
+   cmd = "@role@ら℃鳡觉★#n离开了队伍"
+   role_info = {}
+   type = 2
+}
+[core/table.lua:99]:--> Net Receive: scene.GS2CSceneRemoveTeam = {
+   scene_id = 10
+   team_id = 1
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2911"
+}
+[core/table.lua:99]:<-- Net Send: player.C2GSGetPlayerInfo = {
+   pid = 10161
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2932
+}
+[core/table.lua:99]:--> Net Receive: player.GS2CGetPlayerInfo = {
+   grade = 60
+   icon = 1120
+   model_info = {
+      color = {
+         [1] = 0
+      }
+      horse = 1001
+      shape = 1120
+   }
+   name = "裴念香"
+   pid = 10161
+   position = "未知"
+   position_hide = 1
+   school = 2
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CPlayerInfoView ShowView
+[logic/ui/CViewBase.lua:149]:CPlayerInfoView LoadDone!
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2932"
+}
+[core/table.lua:99]:<-- Net Send: huodong.C2GSArenaFight = {
+   enemy = 10161
+   fight = 10160
+}
+[core/table.lua:99]:<-- Net Send: other.C2GSOpSession = {
+   session = 2953
+}
+[logic/ui/CViewCtrl.lua:134]:CPlayerInfoView CloseView
+[core/table.lua:99]:--> Net Receive: war.GS2CShowWar = {
+   barrage_send = 1
+   barrage_show = 2
+   map_id = 101000
+   sys_type = 6
+   war_id = 1
+   war_type = 2
+   x = 23718
+   y = 24633
+}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWarFloatView ShowView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWarMainView ShowView
+[logic/ui/CViewCtrl.lua:134]:CJjcMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CArenaMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CPKPrepareView CloseView
+[logic/ui/CViewCtrl.lua:134]:CWorldBossMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CGmMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CGmWarSimulateView CloseView
+[logic/ui/CViewCtrl.lua:134]:CDialogueOptionView CloseView
+[logic/ui/CViewCtrl.lua:134]:CTeamMemberOpView CloseView
+[logic/ui/CViewCtrl.lua:134]:CPromoteBtnView CloseView
+[logic/ui/CViewCtrl.lua:134]:CFightOutsideBuffView CloseView
+[logic/ui/CViewCtrl.lua:134]:CDialogueMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CThreeBiwuInfoView CloseView
+[logic/ui/CViewCtrl.lua:134]:CJjcMainNewView CloseView
+[logic/ui/CViewCtrl.lua:134]:CJieBaiInvitedMainView CloseView
+[logic/ui/CViewCtrl.lua:134]:CJieBaiMainView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWarBg ShowView
+[core/global.lua:59]:<color=#ffeb04>加载战斗场景： 101000</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 60 60</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/table.lua:99]:--> Net Receive: war.GS2CWarAddWarrior = {
+   camp_id = 1
+   type = 1
+   war_id = 1
+   warrior = {
+      appoint = 1
+      pflist = {
+         [1] = {
+            pf_id = 1601
+         }
+      }
+      pid = 10160
+      pos = 1
+      status = {
+         auto_perform = 101
+         grade = 60
+         hp = 689
+         mask = "bfffe"
+         max_hp = 689
+         max_mp = 832
+         max_sp = 150
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 1320
+         }
+         mp = 832
+         name = "ら℃鳡觉★"
+         school = 6
+         sp = 50
+         status = 1
+         zhenqi = 4
+      }
+      wid = 1
+   }
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CPlayerWarriorEnter = {
+   war_id = 1
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarAddWarrior = {
+   camp_id = 1
+   partnerwarrior = {
+      pid = 1
+      pos = 2
+      status = {
+         grade = 60
+         hp = 1984
+         mask = "3017e"
+         max_hp = 1984
+         max_mp = 1383
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            shape = 2101
+         }
+         mp = 1383
+         name = "许仙"
+         school = 3
+         status = 1
+      }
+      wid = 2
+   }
+   type = 4
+   war_id = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarAddWarrior = {
+   camp_id = 2
+   type = 1
+   war_id = 1
+   warrior = {
+      appoint = 1
+      pflist = {
+         [1] = {
+            pf_id = 1201
+         }
+      }
+      pid = 10161
+      pos = 1
+      status = {
+         auto_perform = 1201
+         grade = 60
+         hp = 1656
+         mask = "bfffe"
+         max_hp = 1656
+         max_mp = 832
+         max_sp = 150
+         model_info = {
+            color = {
+               [1] = 0
+            }
+            horse = 1001
+            shape = 1120
+         }
+         mp = 832
+         name = "裴念香"
+         school = 2
+         sp = 50
+         status = 1
+         zhenqi = 4
+      }
+      wid = 3
+   }
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarCampFmtInfo = {
+   fmt_grade1 = 1
+   fmt_grade2 = 1
+   fmt_id1 = 1
+   fmt_id2 = 1
+   war_id = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarBoutStart = {
+   bout_id = 1
+   left_time = 30
+   war_id = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 1
+   wid = 1
+}
+[core/table.lua:99]:--> Net Receive: war.GS2CWarWarriorStatus = {
+   status = {
+      mask = "8000"
+   }
+   type = 1
+   war_id = 1
+   wid = 3
+}
+[core/table.lua:99]:--> Net Receive: other.GS2COpSessionResponse = {
+   session = "2953"
+}
+[logic/ui/CViewBase.lua:149]:CWarFloatView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>open表未添加该系统！</color>
+[core/global.lua:59]:<color=#ffeb04>open表未添加该系统！</color>
+[core/global.lua:59]:<color=#ffeb04>open表未添加该系统！</color>
+[logic/ui/CViewBase.lua:149]:CWarMainView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>战斗地图加载结束</color>
+[core/global.lua:59]:<color=#ffeb04>CWarCtrl.BoutStart -->> ActionFlag | iBout: 1 1</color>
+[logic/ui/CViewBase.lua:149]:CWarBg LoadDone!
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWindowComfirmView ShowView

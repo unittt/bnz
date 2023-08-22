@@ -1,0 +1,11 @@
+CDungeonConfirmView = require "logic.dungeon.CDungeonConfirmView"
+CDungeonMainView = require "logic.dungeon.CDungeonMainView"
+CDungeonRewardView = require "logic.dungeon.CDungeonRewardView"
+CDungeonCtrl = require "logic.dungeon.CDungeonCtrl"
+CDungeonTitleView = require "logic.dungeon.CDungeonTitleView"
+-- 普通副本用，原来的界面用于六道传说
+CDungeonNewMainView = require "logic.dungeon.CDungeonNewMainView"
+CDungeonPassBox = require "logic.dungeon.CDungeonPassBox"
+CDungeonTaskCtrl = require "logic.dungeon.CDungeonTaskCtrl"
+CExpandDungeonPart = require "logic.dungeon.CExpandDungeonPart"
+CExpandJyDungeonPart = require "logic.dungeon.CExpandJyDungeonPart"

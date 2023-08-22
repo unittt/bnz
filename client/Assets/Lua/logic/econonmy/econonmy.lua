@@ -1,0 +1,27 @@
+CEcononmyMainView = require "logic.econonmy.CEcononmyMainView"
+CEcononmyStallPart = require "logic.econonmy.CEcononmyStallPart"
+CEcononmyStallSaleBox = require "logic.econonmy.CEcononmyStallSaleBox"
+CEcononmyStallShoppingBox = require "logic.econonmy.CEcononmyStallShoppingBox"
+-- CEcononmyCatalogListBox = require "logic.econonmy.CEcononmyCatalogListBox"
+CEcononmySubCatalogListBox = require "logic.econonmy.CEcononmySubCatalogListBox"
+CEcononmyStallItemListBox = require "logic.econonmy.CEcononmyStallItemListBox"
+CEcononmyBatchStallView = require "logic.econonmy.CEcononmyBatchStallView"
+CEcononmyStallOparateView = require "logic.econonmy.CEcononmyStallOparateView"
+
+CEcononmyGuildPart = require "logic.econonmy.CEcononmyGuildPart"
+CEcononmyGuildItemListBox = require "logic.econonmy.CEcononmyGuildItemListBox"
+
+CEcononmyAuctionPart = require "logic.econonmy.CEcononmyAuctionPart"
+CEcononmyAuctionItemListBox = require "logic.econonmy.CEcononmyAuctionItemListBox"
+-- CEcononmyAuctionBidView = require "logic.econonmy.CEcononmyAuctionBidView"
+-- CEcononmyAuctionOparateView = require "logic.econonmy.CEcononmyAuctionOparateView"
+-- CEcononmyAuctionBuyBox = require "logic.econonmy.CEcononmyAuctionBuyBox"
+-- CEcononmyAuctionSaleBox = require "logic.econonmy.CEcononmyAuctionSaleBox"
+-- CEcononmyAuctionItemListBox = require "logic.econonmy.CEcononmyAuctionItemListBox"
+-- CEcononmyAuctionRecordView = require "logic.econonmy.CEcononmyAuctionRecordView"
+
+CEcononmyCatalogListBoxNew = require "logic.econonmy.CEcononmyCatalogListBoxNew"
+CEcononmyCatalogBoxNew = require "logic.econonmy.CEcononmyCatalogBoxNew"
+CEcononmyBagItemListBox = require "logic.econonmy.CEcononmyBagItemListBox"
+
+CEcononmyCtrl = require "logic.econonmy.CEcononmyCtrl"

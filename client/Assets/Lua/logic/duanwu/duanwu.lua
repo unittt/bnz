@@ -1,0 +1,7 @@
+CDuanWuHuodongCtrl = require "logic.duanwu.CDuanWuHuodongCtrl"
+CDuanWuQiFuPart = require "logic.duanwu.CDuanWuQiFuPart"
+CDuanWuMatchPart = require "logic.duanwu.CDuanWuMatchPart"
+CDuanWuMainView = require "logic.duanwu.CDuanWuMainView"
+CProgressReward = require "logic.duanwu.CProgressReward"
+CRewardItem = require "logic.duanwu.CRewardItem"
+CZongZiGameProgress = require "logic.duanwu.CZongZiGameProgress"

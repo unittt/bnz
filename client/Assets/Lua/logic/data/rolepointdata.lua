@@ -1,0 +1,130 @@
+module(...)
+--auto generate data
+ROLEPOINT={
+	agility={
+		mag_attack=0.0,
+		mag_defense=0.0,
+		max_hp=0.0,
+		max_mp=0,
+		phy_attack=0.0,
+		phy_defense=0.0,
+		speed=1.5,
+	},
+	endurance={
+		mag_attack=0.0,
+		mag_defense=0.2,
+		max_hp=0.0,
+		max_mp=0,
+		phy_attack=0.0,
+		phy_defense=2.2,
+		speed=0.2,
+	},
+	magic={
+		mag_attack=1.0,
+		mag_defense=1.0,
+		max_hp=0.0,
+		max_mp=0,
+		phy_attack=0.0,
+		phy_defense=0.0,
+		speed=0.0,
+	},
+	physique={
+		mag_attack=0.0,
+		mag_defense=0.4,
+		max_hp=8.0,
+		max_mp=0,
+		phy_attack=0.0,
+		phy_defense=0.0,
+		speed=0.2,
+	},
+	strength={
+		mag_attack=0.0,
+		mag_defense=0.6,
+		max_hp=0.0,
+		max_mp=0,
+		phy_attack=1.0,
+		phy_defense=0.0,
+		speed=0.2,
+	},
+}
+
+LEVEL={
+	[1]={id=1,name=[[方案一]],unlock_lev=40,},
+	[2]={id=2,name=[[方案二]],unlock_lev=60,},
+	[3]={id=3,name=[[方案三]],unlock_lev=80,},
+}
+
+INIT={
+	[1]={
+		agility=0,
+		critical_multiple=2,
+		cure_power=10,
+		endurance=0,
+		energy=0,
+		exp=0,
+		grade=0,
+		hit_ratio=100,
+		hit_res_ratio=5,
+		mag_attack=80,
+		mag_critical_ratio=0,
+		mag_defense=60,
+		mag_hit_ratio=100,
+		mag_hit_res_ratio=0,
+		magic=0,
+		max_hp=200,
+		max_mp=200,
+		phy_attack=100,
+		phy_critical_ratio=3,
+		phy_defense=50,
+		phy_hit_ratio=100,
+		phy_hit_res_ratio=5,
+		physique=0,
+		point=0,
+		res_mag_critical_ratio=0,
+		res_phy_critical_ratio=0,
+		res_seal_ratio=0,
+		seal_ratio=0,
+		sp=0,
+		speed=70,
+		strength=0,
+	},
+}
+
+ROLEBASICSCORE={
+	agility={command=[[attr*2]],macro=[[agility]],name=[[敏捷]],},
+	endurance={command=[[attr*2]],macro=[[endurance]],name=[[耐力]],},
+	mag_attack={
+		command=[[attr*1]],
+		macro=[[mag_attack]],
+		name=[[魔法攻击]],
+	},
+	mag_defense={
+		command=[[attr*0.5]],
+		macro=[[mag_defense]],
+		name=[[魔法防御]],
+	},
+	magic={command=[[attr*2]],macro=[[magic]],name=[[魔力]],},
+	max_hp={
+		command=[[attr*0.16]],
+		macro=[[max_hp]],
+		name=[[最大血量]],
+	},
+	max_mp={
+		command=[[attr*0.16]],
+		macro=[[max_mp]],
+		name=[[最大魔量]],
+	},
+	phy_attack={
+		command=[[attr*1.15]],
+		macro=[[phy_attack]],
+		name=[[物理攻击]],
+	},
+	phy_defense={
+		command=[[attr*0.79]],
+		macro=[[phy_defense]],
+		name=[[物理防御]],
+	},
+	physique={command=[[attr*2]],macro=[[physique]],name=[[体质]],},
+	speed={command=[[attr*3]],macro=[[speed]],name=[[速度]],},
+	strength={command=[[attr*2]],macro=[[strength]],name=[[力量]],},
+}

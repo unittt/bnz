@@ -1,0 +1,56 @@
+module(...)
+--magic editor build
+DATA={
+	atk_stophit=false,
+	cmds={
+		[1]={args={alive_time=0.5,shot=true,show=true,},func_name=[[Name]],start_time=0,},
+		[2]={
+			args={
+				alive_time=2,
+				effect={
+					is_cached=true,
+					magic_layer=[[center]],
+					path=[[Effect/Magic/skill_eff_161_hit/Prefabs/skill_eff_161_hit.prefab]],
+					preload=false,
+				},
+				effect_dir_type=[[forward]],
+				effect_pos={base_pos=[[vic]],depth=0,relative_angle=0,relative_dis=0,},
+				excutor=[[vicobjs]],
+			},
+			func_name=[[StandEffect]],
+			start_time=0,
+		},
+		[3]={
+			args={sound_path={soundpath=[[Audio/Sound/War/xqgd.ogg]],},},
+			func_name=[[PlaySound]],
+			start_time=0.2,
+		},
+		[4]={
+			args={
+				alive_time=1,
+				effect={
+					is_cached=true,
+					magic_layer=[[center]],
+					path=[[Effect/Magic/Skill_eff_180_full/Prefabs/Skill_eff_180_full.prefab]],
+					preload=false,
+				},
+				effect_dir_type=[[backward]],
+				effect_pos={base_pos=[[vic]],depth=-0.2,relative_angle=0,relative_dis=0.3,},
+				excutor=[[vicobjs]],
+			},
+			func_name=[[StandEffect]],
+			start_time=1,
+		},
+		[5]={
+			args={face_atk=false,hurt_delta=0,play_anim=false,},
+			func_name=[[VicHitInfo]],
+			start_time=1.3,
+		},
+		[6]={args={},func_name=[[End]],start_time=1.9,},
+	},
+	group_cmds={},
+	pre_load_res={},
+	run_env=[[war]],
+	type=1,
+	wait_goback=true,
+}

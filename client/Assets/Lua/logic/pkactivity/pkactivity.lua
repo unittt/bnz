@@ -1,0 +1,6 @@
+CPKPrepareView = require "logic.pkactivity.CPKPrepareView"
+CPKFailView = require "logic.pkactivity.CPKFailView"
+CPKWinView = require "logic.pkactivity.CPKWinView"
+CPKRankView = require "logic.pkactivity.CPKRankView"
+CPKCtrl = require "logic.pkactivity.CPKCtrl"
+CPkInfoPart = require "logic.pkactivity.CPkInfoPart"

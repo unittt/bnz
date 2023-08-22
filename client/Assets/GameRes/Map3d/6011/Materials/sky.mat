@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: sky
+  m_Shader: {fileID: 4800000, guid: 53201ef8b52057046932decc6df8d318, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Detail
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 7509f523a97ff5c4ab03ea67ebe8144a, type: 3}
+        m_Scale: {x: 0.8, y: 0.8}
+        m_Offset: {x: 0.19, y: 0.05}
+    - first:
+        name: _MaskTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MutateTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cull
+      second: 2
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _RimWidth
+      second: 0
+    - first:
+        name: _Shininess
+      second: 0.7
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _blendFactorA
+      second: 0
+    - first:
+        name: _blendFactorB
+      second: 0
+    - first:
+        name: _blendFactorG
+      second: 0
+    - first:
+        name: _blendFactorR
+      second: 0
+    - first:
+        name: _maskThreshold
+      second: 1
+    - first:
+        name: _rimColor
+      second: 0
+    m_Colors:
+    - first:
+        name: B_Vec
+      second: {r: 50, g: 1, b: 1, a: 0}
+    - first:
+        name: G_Vec
+      second: {r: 50, g: 1, b: 1, a: 0}
+    - first:
+        name: R_Vec
+      second: {r: 50, g: 1, b: 1, a: 0}
+    - first:
+        name: _Alpha
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _BHueShift1
+      second: {r: 1, g: 0, b: 0, a: 0}
+    - first:
+        name: _BHueShift2
+      second: {r: 0, g: 1, b: 0, a: 0}
+    - first:
+        name: _BHueShift3
+      second: {r: 0, g: 0, b: 1, a: 0}
+    - first:
+        name: _Color
+      second: {r: 0.89705884, g: 0.96166337, b: 1, a: 1}
+    - first:
+        name: _ColorAlpha
+      second: {r: 1, g: 1, b: 1, a: 0.903}
+    - first:
+        name: _Emission
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _GHueShift1
+      second: {r: 1, g: 0, b: 0, a: 0}
+    - first:
+        name: _GHueShift2
+      second: {r: 0, g: 1, b: 0, a: 0}
+    - first:
+        name: _GHueShift3
+      second: {r: 0, g: 0, b: 1, a: 0}
+    - first:
+        name: _RHueShift1
+      second: {r: 1, g: 0, b: 0, a: 0}
+    - first:
+        name: _RHueShift2
+      second: {r: 0, g: 1, b: 0, a: 0}
+    - first:
+        name: _RHueShift3
+      second: {r: 0, g: 0, b: 1, a: 0}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _aColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _bColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _gColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _rColor
+      second: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,10 @@
+CCelebrationView = require "logic.celebration.CCelebrationView"
+CCelebrationRankListView = require "logic.celebration.CCelebrationRankListView"
+CCelebrationCtrl = require "logic.celebration.CCelebrationCtrl"
+
+CCelebrationGradeRankPart = require "logic.celebration.CCelebrationGradeRankPart"
+CCelebrationStrengthRankPart = require "logic.celebration.CCelebrationStrengthRankPart"
+CCelebrationTitleRankPart = require "logic.celebration.CCelebrationTitleRankPart"
+CCelebrationSummonRankPart = require "logic.celebration.CCelebrationSummonRankPart"
+CCelebrationOrgRankPart = require "logic.celebration.CCelebrationOrgRankPart"
+CPayGetRewardPart =  require "logic.celebration.CPayGetRewardPart"

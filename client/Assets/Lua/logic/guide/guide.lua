@@ -1,0 +1,15 @@
+CGuideCtrl = require "logic.guide.CGuideCtrl"
+CGuideHelpCtrl = require "logic.guide.CGuideHelpCtrl"
+CGuideFocusBox = require "logic.guide.CGuideFocusBox"
+CGuideView = require "logic.guide.CGuideView"
+CGuideTextureBox = require "logic.guide.CGuideTextureBox"
+CGuideOpenBox = require "logic.guide.CGuideOpenBox"
+
+CGuideSelectView = require "logic.guide.CGuideSelectView"
+CGuideFuncNotifyView = require "logic.guide.CGuideFuncNotifyView"
+CGuideSelectSummonView = require "logic.guide.CGuideSelectSummonView"
+CFuncNotifyMainView = require "logic.guide.CFuncNotifyMainView"
+CFuncNotifyShowView = require "logic.guide.CFuncNotifyShowView"
+CGuideNotifyView = require "logic.guide.CGuideNotifyView"
+
+CGuideData = require "logic.guide.guidedata"

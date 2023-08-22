@@ -1,0 +1,187 @@
+module(...)
+--auto generate data
+GIFT={
+	collect_gift_1={
+		collect_key=[[collect_key_1]],
+		cost_item={[1]={num=1,sid=10187,},[2]={num=1,sid=10186,},},
+		key=[[collect_gift_1]],
+		redeem_num=10,
+		reward=2001,
+	},
+	collect_gift_2={
+		collect_key=[[collect_key_1]],
+		cost_item={[1]={num=1,sid=10189,},[2]={num=1,sid=10188,},},
+		key=[[collect_gift_2]],
+		redeem_num=5,
+		reward=2002,
+	},
+	collect_gift_3={
+		collect_key=[[collect_key_1]],
+		cost_item={
+			[1]={num=1,sid=10189,},
+			[2]={num=1,sid=10188,},
+			[3]={num=1,sid=10187,},
+			[4]={num=1,sid=10186,},
+		},
+		key=[[collect_gift_3]],
+		redeem_num=3,
+		reward=2003,
+	},
+	collect_gift_4={
+		collect_key=[[collect_key_2]],
+		cost_item={[1]={num=1,sid=10187,},[2]={num=1,sid=10186,},},
+		key=[[collect_gift_4]],
+		redeem_num=10,
+		reward=2001,
+	},
+	collect_gift_5={
+		collect_key=[[collect_key_2]],
+		cost_item={[1]={num=1,sid=10189,},[2]={num=1,sid=10188,},},
+		key=[[collect_gift_5]],
+		redeem_num=5,
+		reward=2002,
+	},
+	collect_gift_6={
+		collect_key=[[collect_key_2]],
+		cost_item={
+			[1]={num=1,sid=10189,},
+			[2]={num=1,sid=10188,},
+			[3]={num=1,sid=10187,},
+			[4]={num=1,sid=10186,},
+		},
+		key=[[collect_gift_6]],
+		redeem_num=3,
+		reward=2003,
+	},
+}
+
+CONFIG={
+	collect_key_1={
+		collect_end_time=[[2018-05-31 20:30:00]],
+		collect_start_time=[[2018-05-31 15:30:00]],
+		key=[[collect_key_1]],
+		redeem_end_time=[[2018-05-31 20:30:00]],
+		redeem_start_time=[[2018-05-31 15:30:00]],
+		server_list={},
+		server_type={[1]=0,[2]=1,[3]=2,[4]=3,[5]=4,},
+	},
+}
+
+ITEM={
+	[1]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={[1]=10002,[2]=10001,},
+		hd_key=[[schoolpass]],
+	},
+	[2]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={
+			[1]=1001,
+			[2]=1002,
+			[3]=1003,
+			[4]=1004,
+			[5]=1005,
+			[6]=1006,
+			[7]=2001,
+			[8]=2002,
+			[9]=2003,
+			[10]=2004,
+			[11]=2005,
+			[12]=2006,
+		},
+		hd_key=[[fengyao]],
+	},
+	[3]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={[1]=2001,[2]=2002,[3]=2003,[4]=2004,[5]=2005,},
+		hd_key=[[baike]],
+	},
+	[4]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={[1]=1001,[2]=1002,[3]=1003,[4]=1004,[5]=1005,},
+		hd_key=[[fumo]],
+	},
+	[5]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={[1]=1001,},
+		hd_key=[[ghost]],
+	},
+	[6]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={[1]=1001,[2]=1002,[3]=1003,[4]=1004,[5]=1005,},
+		hd_key=[[jingsan]],
+	},
+	[7]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={[1]=1001,},
+		hd_key=[[lingxi]],
+	},
+	[8]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={[1]=2001,[2]=2002,[3]=2003,[4]=2004,[5]=2005,},
+		hd_key=[[mengzhu]],
+	},
+	[9]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={[1]=1001,},
+		hd_key=[[orgtask]],
+	},
+	[10]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={[1]=1001,},
+		hd_key=[[shimen]],
+	},
+	[11]={
+		collect_key=[[collect_key_1]],
+		collect_reward=1001,
+		condition_ids={
+			[1]=1001,
+			[2]=1002,
+			[3]=1003,
+			[4]=1004,
+			[5]=1005,
+			[6]=1006,
+			[7]=1007,
+			[8]=1008,
+			[9]=1009,
+			[10]=1010,
+			[11]=1011,
+			[12]=1012,
+		},
+		hd_key=[[yibao]],
+	},
+}
+
+TEXT={
+	[1001]={
+		choose={},
+		content=[[系统暂未开放]],
+		id=1001,
+		seconds=0.0,
+		type=1003,
+	},
+	[1002]={
+		choose={},
+		content=[[已经兑换完了]],
+		id=1002,
+		seconds=0.0,
+		type=1003,
+	},
+	[1003]={
+		choose={},
+		content=[[物品不足]],
+		id=1003,
+		seconds=0.0,
+		type=1003,
+	},
+}

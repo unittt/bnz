@@ -1,0 +1,49 @@
+module(...)
+--magic editor build
+DATA={
+	atk_stophit=true,
+	cmds={
+		[1]={
+			args={
+				begin_type=[[current]],
+				calc_face=true,
+				ease_type=[[Linear]],
+				end_relative={base_pos=[[vic]],depth=0,relative_angle=0,relative_dis=3.5,},
+				end_type=[[end_relative]],
+				excutor=[[atkobj]],
+				look_at_pos=true,
+				move_time=0.2,
+				move_type=[[line]],
+			},
+			func_name=[[Move]],
+			start_time=0,
+		},
+		[2]={
+			args={action_name=[[run]],excutor=[[atkobj]],},
+			func_name=[[PlayAction]],
+			start_time=0,
+		},
+		[3]={
+			args={action_name=[[attack1]],excutor=[[atkobj]],},
+			func_name=[[PlayAction]],
+			start_time=0.1,
+		},
+		[4]={
+			args={
+				consider_hight=false,
+				damage_follow=true,
+				face_atk=true,
+				hurt_delta=0,
+				play_anim=true,
+			},
+			func_name=[[VicHitInfo]],
+			start_time=0.65,
+		},
+		[5]={args={},func_name=[[End]],start_time=0.8,},
+	},
+	group_cmds={},
+	pre_load_res={},
+	run_env=[[war]],
+	type=1,
+	wait_goback=true,
+}

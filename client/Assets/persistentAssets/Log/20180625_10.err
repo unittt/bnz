@@ -1,0 +1,19 @@
+你的主机中的软件中止了一个已建立的连接。
+
+  at System.Net.Sockets.Socket+SocketAsyncResult.CheckIfThrowDelayedException () [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.EndReceive (IAsyncResult asyncResult, System.Net.Sockets.SocketError& errorCode) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.EndReceive (IAsyncResult result) [0x00000] in <filename unknown>:0 
+  at TcpClient.OnReceive (IAsyncResult ar) [0x00022] in D:\workspace\H7\client\client1\Assets\Scripts\Net\Tcp\TcpClient.cs:208 
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+GameDebug:CallUpdate() (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:101)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:96)
+
+
+你的主机中的软件中止了一个已建立的连接。
+
+  at System.Net.Sockets.Socket+SocketAsyncResult.CheckIfThrowDelayedException () [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.EndReceive (IAsyncResult asyncResult, System.Net.Sockets.SocketError& errorCode) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.EndReceive (IAsyncResult result) [0x00000] in <filename unknown>:0 
+  at TcpClient.OnReceive (IAsyncResult ar) [0x00022] in D:\workspace\H7\client\client1\Assets\Scripts\Net\Tcp\TcpClient.cs:208 
+

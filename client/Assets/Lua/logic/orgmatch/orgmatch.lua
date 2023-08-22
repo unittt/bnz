@@ -1,0 +1,5 @@
+COrgMatchTeamOparateView = require "logic.orgmatch.COrgMatchTeamOparateView"
+COrgMatchTeamListBox = require "logic.orgmatch.COrgMatchTeamListBox"
+COrgMatchTeamBox = require "logic.orgmatch.COrgMatchTeamBox"
+COrgMatchListView = require "logic.orgmatch.COrgMatchListView"
+COrgMatchCtrl = require "logic.orgmatch.COrgMatchCtrl"

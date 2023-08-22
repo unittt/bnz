@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: skill_eff_147_hit_guangdai
+  m_Shader: {fileID: 4800000, guid: 394026e7745e887489762a336b70a873, type: 3}
+  m_ShaderKeywords: _EMISSION _UORV_ON
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Blend_Texture
+      second:
+        m_Texture: {fileID: 2800000, guid: 7acc33f24a06fcd46baa112415b42195, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Blend_Texture01
+      second:
+        m_Texture: {fileID: 2800000, guid: f32d8cbdfa3df5e48a885c48e037a62b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Dissolve_Tex
+      second:
+        m_Texture: {fileID: 2800000, guid: 7acc33f24a06fcd46baa112415b42195, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DistortTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 7acc33f24a06fcd46baa112415b42195, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Distort_Tex
+      second:
+        m_Texture: {fileID: 2800000, guid: 1a1992c76cf9d75479ecc734a7216892, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTeX_Mask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 6475569e57de23843b4c52854998a6af, type: 3}
+        m_Scale: {x: 1.45, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex_copy
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask
+      second:
+        m_Texture: {fileID: 2800000, guid: 28e49795c6548154e820572f9a5d061b, type: 3}
+        m_Scale: {x: -1, y: 1}
+        m_Offset: {x: 0.95, y: 0}
+    - first:
+        name: _MaskTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 338da3b1ff12cec4a8e54eb4415e162b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpreadTEX
+      second:
+        m_Texture: {fileID: 2800000, guid: 37ee760a586a62e43b3881dd3d683228, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Spread_TEX
+      second:
+        m_Texture: {fileID: 2800000, guid: 42fdc99f9c82e764a9f4dbe8344f5e2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TEX
+      second:
+        m_Texture: {fileID: 2800000, guid: ce7871527de74eb44ab72cb3039dfd8c, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _dissolve_Tex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _dissolve_tex
+      second:
+        m_Texture: {fileID: 2800000, guid: b9a7f5fb90567434992ff4737f365378, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mask2
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Alpha
+      second: 2
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Desaturate
+      second: 0
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _Dist_Mask_Amount
+      second: 1
+    - first:
+        name: _Dist_Mask_Power
+      second: 5
+    - first:
+        name: _Dist_Mask_Rotate
+      second: 0
+    - first:
+        name: _Dist_SppedX
+      second: 5
+    - first:
+        name: _Dist_SppedY
+      second: -7
+    - first:
+        name: _Dist_amountX
+      second: 0
+    - first:
+        name: _Dist_amountY
+      second: -2.76
+    - first:
+        name: _Distort_PowerX
+      second: 0.1
+    - first:
+        name: _Distort_PowerY
+      second: 0.1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Glow_Level
+      second: 0
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _Lighten
+      second: 1
+    - first:
+        name: _LightenMain
+      second: 1
+    - first:
+        name: _LightingLevels
+      second: 7
+    - first:
+        name: _MT_Rotate
+      second: 0
+    - first:
+        name: _MT_Speed
+      second: -25
+    - first:
+        name: _MainTex_Alpha
+      second: 3
+    - first:
+        name: _MainTex_Power
+      second: 11
+    - first:
+        name: _MainTex_Rotate
+      second: 0
+    - first:
+        name: _Mask_Amount
+      second: 50
+    - first:
+        name: _Mask_UV
+      second: 0
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _RotateSpeed
+      second: 0.5
+    - first:
+        name: _Rotatespeed
+      second: 0.5
+    - first:
+        name: _Slider
+      second: 1
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _Speed00
+      second: 2
+    - first:
+        name: _Speed01
+      second: 1
+    - first:
+        name: _Speed02
+      second: 1
+    - first:
+        name: _Speed_X
+      second: 0.2
+    - first:
+        name: _Speed_Y
+      second: 0.2
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UorV
+      second: -1
+    - first:
+        name: _X_dir
+      second: 1
+    - first:
+        name: _Y_dir
+      second: 0
+    - first:
+        name: _ZT
+      second: 4
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _blackcolor_switch
+      second: 0
+    - first:
+        name: _diss_amount
+      second: 1
+    - first:
+        name: _doubleface_color
+      second: 0
+    - first:
+        name: _maskUV_switch
+      second: 0
+    - first:
+        name: _particle_alpha
+      second: 0
+    - first:
+        name: _particle_control
+      second: 0
+    - first:
+        name: _particle_controlA
+      second: 0
+    - first:
+        name: _particle_controldiss
+      second: 0
+    - first:
+        name: _sudu
+      second: 2
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Color01
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Color02
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Color03
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _InColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0.40365133, g: 1, b: 0.11764705, a: 1}
+    - first:
+        name: _Outline_Colr
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

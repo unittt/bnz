@@ -1,0 +1,49 @@
+module(...)
+--magic editor build
+DATA={
+	cmds={
+		[1]={
+			args={action_name='attack4',excutor='atkobj',},
+			func_name='PlayAction',
+			start_time=0.2,
+		},
+		[2]={
+			args={
+				alive_time=2,
+				effect={
+					flip=false,
+					path='Effect/Magic/magic_eff_3204/Prefabs/magic_eff_3204_att.prefab',
+				},
+				effect_dir_pos={base_pos='atk',depth=0,relative_angle=0,relative_dis=1,},
+				effect_pos={base_pos='atk',depth=0,relative_angle=0,relative_dis=0,},
+				excutor='vicobj',
+			},
+			func_name='StandEffect',
+			start_time=0.2,
+		},
+		[3]={
+			args={
+				alive_time=2,
+				effect={
+					flip=false,
+					path='Effect/Magic/magic_eff_3204/Prefabs/magic_eff_3204_hit.prefab',
+				},
+				effect_dir_pos={base_pos='vic',depth=0,relative_angle=0,relative_dis=1,},
+				effect_pos={base_pos='vic',depth=0,relative_angle=0,relative_dis=0,},
+				excutor='vicobj',
+			},
+			func_name='StandEffect',
+			start_time=1.8,
+		},
+		[4]={args={},func_name='FirstHit',start_time=1.8,},
+		[5]={args={face_atk=true,hurt_delta=0,},func_name='VicHitInfo',start_time=1.9,},
+		[6]={args={},func_name='LastHit',start_time=1.95,},
+		[7]={args={},func_name='End',start_time=2.25,},
+	},
+	first_hit_time=1.8,
+	group_cmds={},
+	last_hit_time=1.95,
+	pre_load_res={},
+	run_env='war',
+	type=1,
+}

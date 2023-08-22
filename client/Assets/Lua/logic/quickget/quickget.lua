@@ -1,0 +1,7 @@
+CQuickGetItemView = require "logic.quickget.CQuickGetItemView"
+CQuickGetCoinView = require "logic.quickget.CQuickGetCoinView"
+CQuickGetTipView = require "logic.quickget.CQuickGetTipView"
+CQuickGetCtrl = require "logic.quickget.CQuickGetCtrl"
+CQuickBuyBox = require "logic.quickget.CQuickBuyBox"
+CQuickGetPrice = require "logic.quickget.CQuickGetPrice"
+CQuickGetCostHelp = require "logic.quickget.CQuickGetCostHelp"

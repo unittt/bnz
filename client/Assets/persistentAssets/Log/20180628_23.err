@@ -1,0 +1,524 @@
+netdefines GS2C undefined 6035
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:336: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+netdefines GS2C undefined 6035
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:336: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+netdefines GS2C undefined 6035
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:336: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+netdefines GS2C undefined 6035
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:336: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+[string "logic/task/CTaskCtrl"]:232: attempt to index a nil value
+stack traceback:
+	[string "core/global"]:81: in function '__newindex'
+	[string "logic/task/CTaskCtrl"]:232: in function 'GS2CAddTask'
+	[string "net/nettask"]:14: in function <[string "net/nettask"]:11>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:253: in function 'ProtoHandlerCheck'
+	[string "net/CNetCtrl"]:276: in function 'DoReceive'
+	[string "net/CNetCtrl"]:261: in function 'cb'
+	[string "net/CNetCtrl"]:267: in function 'Receive'
+	[string "net/CNetCtrl"]:199: in function 'm_Callback'
+	[string "net/CTcpClient"]:43: in function <[string "net/CTcpClient"]:37>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+TcpClient:Update() (at Assets/Scripts/Net/Tcp/TcpClient.cs:87)
+NetworkManager:CallUpdate() (at Assets/Scripts/Net/NetworkManager.cs:57)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:95)
+
+
+[string "logic/task/CTaskCtrl"]:232: attempt to index a nil value
+stack traceback:
+	[string "core/global"]:81: in function '__newindex'
+	[string "logic/task/CTaskCtrl"]:232: in function 'GS2CAddTask'
+	[string "net/nettask"]:14: in function <[string "net/nettask"]:11>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:253: in function 'ProtoHandlerCheck'
+	[string "net/CNetCtrl"]:276: in function 'DoReceive'
+	[string "net/CNetCtrl"]:261: in function 'cb'
+	[string "net/CNetCtrl"]:267: in function 'Receive'
+	[string "net/CNetCtrl"]:199: in function 'm_Callback'
+	[string "net/CTcpClient"]:43: in function <[string "net/CTcpClient"]:37>
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+[string "net/CNetCtrl"]:628: UnMask fail 50 error
+stack traceback:
+	[string "core/global"]:81: in function <[string "core/global"]:73>
+	[C]: in function 'assert'
+	[string "net/CNetCtrl"]:628: in function 'DecodeMaskData'
+	[string "net/netsummon"]:46: in function <[string "net/netsummon"]:42>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+[string "logic/npcshop/CShopCtrl"]:245: attempt to call upvalue 'cb' (a table value)
+stack traceback:
+	[string "core/global"]:81: in function 'cb'
+	[string "logic/npcshop/CShopCtrl"]:245: in function 'm_LoadDoneFunc'
+	[string "logic/ui/CViewBase"]:147: in function <[string "logic/ui/CViewBase"]:103>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CResCtrl"]:298: in function 'DoCloneCallback'
+	[string "logic/base/CResCtrl"]:285: in function 'CloneWithAsset'
+	[string "logic/base/CResCtrl"]:245: in function <[string "logic/base/CResCtrl"]:244>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CResCtrl"]:305: in function 'DoAssetCallback'
+	[string "logic/base/CResCtrl"]:361: in function <[string "logic/base/CResCtrl"]:347>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CDelegate"]:25: in function <[string "logic/base/CDelegate"]:20>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+<LoadAsync>c__AnonStorey73:<>m__C7(Object) (at Assets/Scripts/Resource/ResourceManager.cs:95)
+AssetPipeline.AssetHandler:Excute(Object) (at Assets/Standard Assets/GameFramework/AssetPipeline/AssetManager.cs:59)
+AssetPipeline.<LoadAssetFromProjectAsync>c__Iterator23:MoveNext() (at Assets/Standard Assets/GameFramework/AssetPipeline/AssetManager.cs:730)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+[string "logic/npcshop/CShopCtrl"]:245: attempt to call upvalue 'cb' (a table value)
+stack traceback:
+	[string "core/global"]:81: in function 'cb'
+	[string "logic/npcshop/CShopCtrl"]:245: in function 'm_LoadDoneFunc'
+	[string "logic/ui/CViewBase"]:147: in function <[string "logic/ui/CViewBase"]:103>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CResCtrl"]:298: in function 'DoCloneCallback'
+	[string "logic/base/CResCtrl"]:285: in function 'CloneWithAsset'
+	[string "logic/base/CResCtrl"]:245: in function <[string "logic/base/CResCtrl"]:244>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CResCtrl"]:305: in function 'DoAssetCallback'
+	[string "logic/base/CResCtrl"]:361: in function <[string "logic/base/CResCtrl"]:347>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CDelegate"]:25: in function <[string "logic/base/CDelegate"]:20>
+
+[string "logic/task/CTaskCtrl"]:177: attempt to index a nil value
+stack traceback:
+	[string "core/global"]:81: in function '__newindex'
+	[string "logic/task/CTaskCtrl"]:177: in function 'GS2CLoginTask'
+	[string "net/nettask"]:8: in function <[string "net/nettask"]:5>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+[string "logic/task/CTaskCtrl"]:177: attempt to index a nil value
+stack traceback:
+	[string "core/global"]:81: in function '__newindex'
+	[string "logic/task/CTaskCtrl"]:177: in function 'GS2CLoginTask'
+	[string "net/nettask"]:8: in function <[string "net/nettask"]:5>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+netdefines GS2C undefined 6035
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:336: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+netdefines GS2C undefined 6035
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:336: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+触发协议锁,详细信息参考下一条内容 item C2GSEquipStrength
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:480: in function 'Send'
+	[string "net/netitem"]:381: in function 'C2GSEquipStrength'
+	[string "logic/forge/CForgeStrengthenPart"]:531: in function 'func'
+	[string "logic/ui/CUIEventHandler"]:149: in function <[string "logic/ui/CUIEventHandler"]:138>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CDelegate"]:25: in function <[string "logic/base/CDelegate"]:20>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+GlobalEventHanlder:Call(Int32, Int32) (at Assets/Standard Assets/NGUI/Scripts/GlobalEventHanlder.cs:27)
+UIEventHandler:Call(EventType) (at Assets/Standard Assets/NGUI/Scripts/UI/UIEventHandler.cs:545)
+UIEventHandler:<AddEventType>m__118(GameObject) (at Assets/Standard Assets/NGUI/Scripts/UI/UIEventHandler.cs:222)
+UIEventHandler:OnClick() (at Assets/Standard Assets/NGUI/Scripts/UI/UIEventHandler.cs:76)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UICamera:Notify(GameObject, String, Object) (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:1629)
+UICamera:ProcessRelease(Boolean, Single) (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:2491)
+UICamera:ProcessTouch(Boolean, Boolean) (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:2536)
+UICamera:ProcessMouse() (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:1975)
+UICamera:ProcessTouches() (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:2089)
+UICamera:ProcessEvents() (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:1802)
+UICamera:Update() (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:1761)
+
+
+触发协议锁,详细信息参考下一条内容 item C2GSEquipStrength
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:480: in function 'Send'
+	[string "net/netitem"]:381: in function 'C2GSEquipStrength'
+	[string "logic/forge/CForgeStrengthenPart"]:531: in function 'func'
+	[string "logic/ui/CUIEventHandler"]:149: in function <[string "logic/ui/CUIEventHandler"]:138>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CDelegate"]:25: in function <[string "logic/base/CDelegate"]:20>
+
+触发协议锁,详细信息参考下一条内容 item C2GSEquipStrength
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:480: in function 'Send'
+	[string "net/netitem"]:381: in function 'C2GSEquipStrength'
+	[string "logic/forge/CForgeStrengthenPart"]:531: in function 'func'
+	[string "logic/ui/CUIEventHandler"]:149: in function <[string "logic/ui/CUIEventHandler"]:138>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CDelegate"]:25: in function <[string "logic/base/CDelegate"]:20>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+GlobalEventHanlder:Call(Int32, Int32) (at Assets/Standard Assets/NGUI/Scripts/GlobalEventHanlder.cs:27)
+UIEventHandler:Call(EventType) (at Assets/Standard Assets/NGUI/Scripts/UI/UIEventHandler.cs:545)
+UIEventHandler:<AddEventType>m__118(GameObject) (at Assets/Standard Assets/NGUI/Scripts/UI/UIEventHandler.cs:222)
+UIEventHandler:OnClick() (at Assets/Standard Assets/NGUI/Scripts/UI/UIEventHandler.cs:76)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UICamera:Notify(GameObject, String, Object) (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:1629)
+UICamera:ProcessRelease(Boolean, Single) (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:2491)
+UICamera:ProcessTouch(Boolean, Boolean) (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:2554)
+UICamera:ProcessMouse() (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:1975)
+UICamera:ProcessTouches() (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:2089)
+UICamera:ProcessEvents() (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:1802)
+UICamera:Update() (at Assets/Standard Assets/NGUI/Scripts/UI/UICamera.cs:1761)
+
+
+触发协议锁,详细信息参考下一条内容 item C2GSEquipStrength
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:480: in function 'Send'
+	[string "net/netitem"]:381: in function 'C2GSEquipStrength'
+	[string "logic/forge/CForgeStrengthenPart"]:531: in function 'func'
+	[string "logic/ui/CUIEventHandler"]:149: in function <[string "logic/ui/CUIEventHandler"]:138>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CDelegate"]:25: in function <[string "logic/base/CDelegate"]:20>
+
+[string "logic/npcshop/CShopCtrl"]:245: attempt to call upvalue 'cb' (a table value)
+stack traceback:
+	[string "core/global"]:81: in function 'cb'
+	[string "logic/npcshop/CShopCtrl"]:245: in function 'm_LoadDoneFunc'
+	[string "logic/ui/CViewBase"]:147: in function <[string "logic/ui/CViewBase"]:103>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CResCtrl"]:298: in function 'DoCloneCallback'
+	[string "logic/base/CResCtrl"]:285: in function 'CloneWithAsset'
+	[string "logic/base/CResCtrl"]:245: in function <[string "logic/base/CResCtrl"]:244>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CResCtrl"]:305: in function 'DoAssetCallback'
+	[string "logic/base/CResCtrl"]:361: in function <[string "logic/base/CResCtrl"]:347>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CDelegate"]:25: in function <[string "logic/base/CDelegate"]:20>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+<LoadAsync>c__AnonStorey73:<>m__C7(Object) (at Assets/Scripts/Resource/ResourceManager.cs:95)
+AssetPipeline.AssetHandler:Excute(Object) (at Assets/Standard Assets/GameFramework/AssetPipeline/AssetManager.cs:59)
+AssetPipeline.<LoadAssetFromProjectAsync>c__Iterator23:MoveNext() (at Assets/Standard Assets/GameFramework/AssetPipeline/AssetManager.cs:730)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+
+[string "logic/npcshop/CShopCtrl"]:245: attempt to call upvalue 'cb' (a table value)
+stack traceback:
+	[string "core/global"]:81: in function 'cb'
+	[string "logic/npcshop/CShopCtrl"]:245: in function 'm_LoadDoneFunc'
+	[string "logic/ui/CViewBase"]:147: in function <[string "logic/ui/CViewBase"]:103>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CResCtrl"]:298: in function 'DoCloneCallback'
+	[string "logic/base/CResCtrl"]:285: in function 'CloneWithAsset'
+	[string "logic/base/CResCtrl"]:245: in function <[string "logic/base/CResCtrl"]:244>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CResCtrl"]:305: in function 'DoAssetCallback'
+	[string "logic/base/CResCtrl"]:361: in function <[string "logic/base/CResCtrl"]:347>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CDelegate"]:25: in function <[string "logic/base/CDelegate"]:20>
+
+[string "logic/task/CTaskCtrl"]:177: attempt to index a nil value
+stack traceback:
+	[string "core/global"]:81: in function '__newindex'
+	[string "logic/task/CTaskCtrl"]:177: in function 'GS2CLoginTask'
+	[string "net/nettask"]:8: in function <[string "net/nettask"]:5>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+[string "logic/task/CTaskCtrl"]:177: attempt to index a nil value
+stack traceback:
+	[string "core/global"]:81: in function '__newindex'
+	[string "logic/task/CTaskCtrl"]:177: in function 'GS2CLoginTask'
+	[string "net/nettask"]:8: in function <[string "net/nettask"]:5>
+	[C]: in function 'xxpcall'
+	[string "net/CNetCtrl"]:357: in function 'ProtoCall'
+	[string "net/CNetCtrl"]:329: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+
+netdefines GS2C undefined 6035
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:336: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+netdefines GS2C undefined 6035
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:336: in function 'ProcessProto'
+	[string "net/CNetCtrl"]:665: in function 'Update'
+	[string "main"]:24: in function <[string "main"]:19>
+

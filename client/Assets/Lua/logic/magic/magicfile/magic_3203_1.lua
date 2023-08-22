@@ -1,0 +1,44 @@
+module(...)
+--magic editor build
+DATA={
+	cmds={
+		[1]={
+			args={action_name='attack3',excutor='atkobj',},
+			func_name='PlayAction',
+			start_time=0.2,
+		},
+		[2]={
+			args={
+				alive_time=2.77,
+				effect={
+					flip=false,
+					path='Effect/Magic/magic_eff_3203/Prefabs/magic_eff_3203_att.prefab',
+				},
+				effect_dir_pos={base_pos='atk',depth=0,relative_angle=0,relative_dis=1,},
+				effect_pos={base_pos='atk',depth=0,relative_angle=0,relative_dis=0,},
+				excutor='vicobj',
+			},
+			func_name='StandEffect',
+			start_time=0.2,
+		},
+		[3]={
+			args={
+				alive_time=2,
+				effect={
+					flip=false,
+					path='Effect/Magic/magic_eff_3203/Prefabs/magic_eff_3203_hit.prefab',
+				},
+				effect_dir_pos={base_pos='vic',depth=0,relative_angle=0,relative_dis=1,},
+				effect_pos={base_pos='vic',depth=0,relative_angle=0,relative_dis=0,},
+				excutor='vicobj',
+			},
+			func_name='StandEffect',
+			start_time=1,
+		},
+		[4]={args={},func_name='End',start_time=2.2,},
+	},
+	group_cmds={},
+	pre_load_res={},
+	run_env='war',
+	type=1,
+}

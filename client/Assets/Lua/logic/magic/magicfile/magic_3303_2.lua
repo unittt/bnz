@@ -1,0 +1,42 @@
+module(...)
+--magic editor build
+DATA={
+	cmds={
+		[1]={
+			args={
+				alive_time=0.4,
+				begin_pos={base_pos='atk',depth=0.6,relative_angle=0,relative_dis=0,},
+				ease_type='Linear',
+				effect={
+					flip=false,
+					path='Effect/Magic/magic_eff_3303/Prefabs/magic_eff_3303_fly.prefab',
+				},
+				end_pos={base_pos='vic',depth=0.6,relative_angle=0,relative_dis=0,},
+				excutor='vicobjs',
+				move_time=0.35,
+			},
+			func_name='ShootEffect',
+			start_time=0,
+		},
+		[2]={
+			args={
+				alive_time=0.47,
+				effect={
+					flip=false,
+					path='Effect/Magic/magic_eff_3303/Prefabs/magic_eff_3303_hit.prefab',
+				},
+				effect_dir_pos={base_pos='atkobj',depth=0,relative_angle=0,relative_dis=0,},
+				effect_pos={base_pos='vic',depth=0.5,relative_angle=0,relative_dis=0,},
+				excutor='vicobjs',
+			},
+			func_name='StandEffect',
+			start_time=0.17,
+		},
+		[3]={args={face_atk=true,hurt_delta=0,},func_name='VicHitInfo',start_time=0.41,},
+		[4]={args={},func_name='End',start_time=0.42,},
+	},
+	group_cmds={},
+	pre_load_res={},
+	run_env='war',
+	type=1,
+}

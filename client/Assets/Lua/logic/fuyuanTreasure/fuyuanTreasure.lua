@@ -1,0 +1,5 @@
+CFuyuanTreasureCtrl = require "logic.fuyuanTreasure.CFuyuanTreasureCtrl"
+CFuyuanTreasureView = require "logic.fuyuanTreasure.CFuyuanTreasureView"
+CFuyuanRewardBox = require "logic.fuyuanTreasure.CFuyuanRewardBox"
+CFuyuanTreasureRewardView = require "logic.fuyuanTreasure.CFuyuanTreasureRewardView"
+CFuyuanTreasureTipBox = require "logic.fuyuanTreasure.CFuyuanTreasureTipBox"

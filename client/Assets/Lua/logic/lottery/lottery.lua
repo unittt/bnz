@@ -1,0 +1,6 @@
+CLotteryView = require "logic.lottery.CLotteryView"
+CLotteryCtrl = require "logic.lottery.CLotteryCtrl"
+CLotteryBox = require "logic.lottery.CLotteryBox"
+CCaishenGiftView = require "logic.lottery.CCaishenGiftView"
+CLotteryRecordBox = require "logic.lottery.CLotteryRecordBox"
+CLotteryPlateBox = require "logic.lottery.CLotteryPlateBox"

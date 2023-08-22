@@ -1,0 +1,29 @@
+module(...)
+--magic editor build
+DATA={
+	atk_stophit=true,
+	cmds={
+		[1]={args={alive_time=0.5,},func_name=[[Name]],start_time=0,},
+		[2]={
+			args={sound_path={soundpath=[[Audio/Sound/War/zhaohuan.ogg]],},},
+			func_name=[[PlaySound]],
+			start_time=0,
+		},
+		[3]={
+			args={action_name=[[magic]],bak_action_name=[[attack1]],excutor=[[atkobj]],},
+			func_name=[[PlayAction]],
+			start_time=0.85,
+		},
+		[4]={
+			args={sound_path={soundpath=[[Audio/Sound/War/ranshao.ogg]],},},
+			func_name=[[PlaySound]],
+			start_time=1,
+		},
+		[5]={args={},func_name=[[End]],start_time=2.34,},
+	},
+	group_cmds={},
+	pre_load_res={},
+	run_env=[[war]],
+	type=1,
+	wait_goback=false,
+}

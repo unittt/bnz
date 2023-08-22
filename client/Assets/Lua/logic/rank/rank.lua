@@ -1,0 +1,6 @@
+CRankListView = require "logic.rank.CRankListView"
+CRankTypeMenuBox = require "logic.rank.CRankTypeMenuBox"
+CRankInfoBox = require "logic.rank.CRankInfoBox"
+CRankCtrl = require "logic.rank.CRankCtrl"
+CRankMeinBox = require "logic.rank.CRankMeinBox"
+CRankMeinItemBox = require "logic.rank.CRankMeinItemBox"

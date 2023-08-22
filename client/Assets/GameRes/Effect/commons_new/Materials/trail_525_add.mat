@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: trail_525_add
+  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _DISS_TYPE_ON _PARTICLE_CONTROLA_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Dissolve_Tex
+      second:
+        m_Texture: {fileID: 2800000, guid: 8d4fa605ed2360b45a78626bfd86da6b, type: 3}
+        m_Scale: {x: 0.45, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MASK
+      second:
+        m_Texture: {fileID: 2800000, guid: a7fe1885323d1fd44a30545b706f0861, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: a7fe1885323d1fd44a30545b706f0861, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MaskTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TEX
+      second:
+        m_Texture: {fileID: 2800000, guid: a7fe1885323d1fd44a30545b706f0861, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Tex_Dis
+      second:
+        m_Texture: {fileID: 2800000, guid: a7fe1885323d1fd44a30545b706f0861, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _dissolveTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mask
+      second:
+        m_Texture: {fileID: 2800000, guid: 338da3b1ff12cec4a8e54eb4415e162b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mask2
+      second:
+        m_Texture: {fileID: 2800000, guid: 51d3c6bb54998da469c36bf47a5b725b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Desaturate
+      second: 0
+    - first:
+        name: _Dis_U_Speed
+      second: 4
+    - first:
+        name: _Dis_V_Speed
+      second: 0
+    - first:
+        name: _Disturbance
+      second: 2
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _MainTex_Power
+      second: 1
+    - first:
+        name: _MainTex_Rotate
+      second: 0
+    - first:
+        name: _Power
+      second: 1
+    - first:
+        name: _U_Sapeed
+      second: 0
+    - first:
+        name: _V_Speed
+      second: 0
+    - first:
+        name: _ZT
+      second: 1
+    - first:
+        name: _dissEdge_Width
+      second: 1
+    - first:
+        name: _diss_Amount
+      second: 0
+    - first:
+        name: _diss_amount
+      second: -0.01
+    - first:
+        name: _diss_type
+      second: 1
+    - first:
+        name: _maskUV_switch
+      second: 0
+    - first:
+        name: _particle_controlA
+      second: 1
+    - first:
+        name: _rim_Power
+      second: 1
+    - first:
+        name: _rim_alpha
+      second: 1
+    - first:
+        name: _rimedge_Power
+      second: 0.5
+    - first:
+        name: _sudu
+      second: 1
+    m_Colors:
+    - first:
+        name: _ColorIn
+      second: {r: 0.4411765, g: 0.4411765, b: 0.4411765, a: 1}
+    - first:
+        name: _ColorOut
+      second: {r: 0.8676471, g: 0.8676471, b: 0.8676471, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _MainTex_Color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _dissEdge_Color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

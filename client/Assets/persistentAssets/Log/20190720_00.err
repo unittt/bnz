@@ -1,0 +1,33 @@
+触发协议锁,详细信息参考下一条内容 newbieguide C2GSNewSysOpenNotified
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:480: in function 'Send'
+	[string "net/netnewbieguide"]:38: in function 'C2GSNewSysOpenNotified'
+	[string "logic/misc/COpenSysCtrl"]:567: in function 'SetOpenEffect'
+	[string "logic/misc/COpenSysCtrl"]:554: in function <[string "logic/misc/COpenSysCtrl"]:539>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CTimerCtrl"]:51: in function 'UpdateList'
+	[string "logic/base/CTimerCtrl"]:70: in function 'Update'
+	[string "main"]:22: in function <[string "main"]:19>
+UnityEngine.Debug:LogError(Object)
+GameDebug:LogError(String, String) (at Assets/Standard Assets/GameFramework/Helper/GameDebug.cs:142)
+UtilsWrap:LogError(IntPtr) (at Assets/Scripts/Lib/UtilsWrap.cs:558)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaStatePtr.cs:311)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/Standard Assets/ToLua/Core/LuaState.cs:649)
+LuaInterface.LuaFunction:PCall() (at Assets/Standard Assets/ToLua/Core/LuaFunction.cs:96)
+LuaMain:Update() (at Assets/Scripts/LuaMain.cs:103)
+
+
+触发协议锁,详细信息参考下一条内容 newbieguide C2GSNewSysOpenNotified
+stack traceback:
+	[string "core/global"]:81: in function 'printerror'
+	[string "net/CNetCtrl"]:480: in function 'Send'
+	[string "net/netnewbieguide"]:38: in function 'C2GSNewSysOpenNotified'
+	[string "logic/misc/COpenSysCtrl"]:567: in function 'SetOpenEffect'
+	[string "logic/misc/COpenSysCtrl"]:554: in function <[string "logic/misc/COpenSysCtrl"]:539>
+	[C]: in function 'xxpcall'
+	[string "logic/base/CTimerCtrl"]:51: in function 'UpdateList'
+	[string "logic/base/CTimerCtrl"]:70: in function 'Update'
+	[string "main"]:22: in function <[string "main"]:19>
+

@@ -1,0 +1,5 @@
+CWaiGuanCtrl = require "logic.waiguan.CWaiGuanCtrl"
+CWaiGuanPart = require "logic.waiguan.CWaiGuanPart"
+CClothesBox = require "logic.waiguan.CClothesBox"
+CColorBox = require "logic.waiguan.CColorBox"
+CClothesBuyView = require "logic.waiguan.CClothesBuyView"

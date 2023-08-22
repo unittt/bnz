@@ -1,0 +1,6 @@
+CHorseTongYuMainView = require "logic.horsetongyu.CHorseTongYuMainView"
+CHorseTongYuOpPart = require "logic.horsetongyu.CHorseTongYuOpPart"
+CHorseWenShiPart = require "logic.horsetongyu.CHorseWenShiPart"
+CHorseWenShiItemBox = require "logic.horsetongyu.CHorseWenShiItemBox"
+CHorseWenShiSubItemBox = require "logic.horsetongyu.CHorseWenShiSubItemBox"
+CHorseWenShiSkillView = require "logic.horsetongyu.CHorseWenShiSkillView"

@@ -1,0 +1,1 @@
+CNianShouCtrl = require "logic.nianshou.CNianShouCtrl"

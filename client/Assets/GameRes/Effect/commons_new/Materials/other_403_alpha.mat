@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: other_403_alpha
+  m_Shader: {fileID: 4800000, guid: d00b9da161130a9468468659ac67c08b, type: 3}
+  m_ShaderKeywords: _EMISSION _PARTICLE_CONTROLA_ON _PARTICLE_CONTROLDISS_ON _PARTICLE_CONTROLR_ON
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Dissolve_Tex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DistortTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 7acc33f24a06fcd46baa112415b42195, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MASK
+      second:
+        m_Texture: {fileID: 2800000, guid: 9f04b31295ab1204bb7f56bc9de6477a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 9f04b31295ab1204bb7f56bc9de6477a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Spread_TEX
+      second:
+        m_Texture: {fileID: 2800000, guid: cf06fda7585047f4bae76ed280019d45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TEX
+      second:
+        m_Texture: {fileID: 2800000, guid: 9f04b31295ab1204bb7f56bc9de6477a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _blendTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 1a1992c76cf9d75479ecc734a7216892, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _dissolveTex
+      second:
+        m_Texture: {fileID: 2800000, guid: b9a7f5fb90567434992ff4737f365378, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _dissolve_tex
+      second:
+        m_Texture: {fileID: 2800000, guid: b9a7f5fb90567434992ff4737f365378, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _ALPHA
+      second: 3
+    - first:
+        name: _Alpha
+      second: 1
+    - first:
+        name: _Bian
+      second: 15
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Desaturate
+      second: 0
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _Dist_Mask_Amount
+      second: 1
+    - first:
+        name: _Dist_Mask_Power
+      second: 5
+    - first:
+        name: _Dist_Mask_Rotate
+      second: 0
+    - first:
+        name: _Distort_PowerX
+      second: 0.1
+    - first:
+        name: _Distort_PowerY
+      second: 0.1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _LightingLevels
+      second: 2
+    - first:
+        name: _MT_Speed
+      second: 0
+    - first:
+        name: _MainTex_Power
+      second: 2
+    - first:
+        name: _MainTex_Rotate
+      second: 0
+    - first:
+        name: _Mask_Amount
+      second: 50
+    - first:
+        name: _Mask_UV
+      second: 0
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Rotate_Speed
+      second: 0
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _Speed1
+      second: 1
+    - first:
+        name: _Speed2
+      second: 1
+    - first:
+        name: _Speed3
+      second: 1
+    - first:
+        name: _Speed_X
+      second: 0.2
+    - first:
+        name: _Speed_Y
+      second: 0.2
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _Tiling1
+      second: 1
+    - first:
+        name: _Tiling2
+      second: 1
+    - first:
+        name: _Tiling3
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UV_switch
+      second: 0
+    - first:
+        name: _X_dir
+      second: 1
+    - first:
+        name: _Y_dir
+      second: 1
+    - first:
+        name: _ZT
+      second: 3
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _alpha
+      second: 5
+    - first:
+        name: _blendTex_Power
+      second: 1
+    - first:
+        name: _blendTex_Speed
+      second: 1
+    - first:
+        name: _dissEdge_Width
+      second: 1
+    - first:
+        name: _diss_Amount
+      second: 0
+    - first:
+        name: _diss_amount
+      second: -0.01
+    - first:
+        name: _doubleface_color
+      second: 0
+    - first:
+        name: _offset1
+      second: 0
+    - first:
+        name: _offset2
+      second: 0
+    - first:
+        name: _offset3
+      second: 0
+    - first:
+        name: _particleControl
+      second: 0
+    - first:
+        name: _particle_alpha
+      second: 0
+    - first:
+        name: _particle_control
+      second: 0
+    - first:
+        name: _particle_controlA
+      second: 1
+    - first:
+        name: _particle_controlR
+      second: -0.01
+    - first:
+        name: _particle_controldiss
+      second: 1
+    - first:
+        name: _rim_Alpha
+      second: 0
+    - first:
+        name: _rimedge_Power
+      second: 0.5
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Color2
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _ColorIn
+      second: {r: 0.4411765, g: 0.4411765, b: 0.4411765, a: 1}
+    - first:
+        name: _ColorOut
+      second: {r: 0.8676471, g: 0.8676471, b: 0.8676471, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _InColor
+      second: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _blendTex_Color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _dissEdge_Color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _node_5805
+      second: {r: 0.5441177, g: 0.43992963, b: 0.30806664, a: 1}

@@ -1,0 +1,53 @@
+module(...)
+--magic editor build
+DATA={
+	atk_stophit=false,
+	cmds={
+		[1]={
+			args={
+				alive_time=2,
+				begin_pos={base_pos=[[atk]],depth=0,relative_angle=0,relative_dis=0,},
+				delay_time=0,
+				ease_type=[[Linear]],
+				effect={
+					is_cached=true,
+					magic_layer=[[center]],
+					path=[[Effect/Magic/skill_eff_135_hit/Prefabs/skill_eff_135_hit.prefab]],
+				},
+				end_pos={base_pos=[[vic]],depth=0,relative_angle=0,relative_dis=0,},
+				excutor=[[vicobj]],
+				move_time=0.5,
+			},
+			func_name=[[ShootEffect]],
+			start_time=0,
+		},
+		[2]={
+			args={sound_path={soundpath=[[Audio/Sound/War/jtbf1.ogg]],},},
+			func_name=[[PlaySound]],
+			start_time=0,
+		},
+		[3]={
+			args={sound_path={soundpath=[[Audio/Sound/War/jtbf2.ogg]],},},
+			func_name=[[PlaySound]],
+			start_time=0.7,
+		},
+		[4]={
+			args={
+				consider_hight=false,
+				damage_follow=true,
+				face_atk=true,
+				hurt_delta=0,
+				play_anim=true,
+				shot=true,
+			},
+			func_name=[[VicHitInfo]],
+			start_time=0.7,
+		},
+		[5]={args={},func_name=[[End]],start_time=0.75,},
+	},
+	group_cmds={},
+	pre_load_res={},
+	run_env=[[war]],
+	type=1,
+	wait_goback=true,
+}

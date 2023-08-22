@@ -1,0 +1,23 @@
+module(...)
+--magic editor build
+DATA={
+	atk_stophit=true,
+	cmds={
+		[1]={args={},func_name=[[MagcAnimStart]],start_time=0,},
+		[2]={args={alive_time=1.5,shot=true,show=true,},func_name=[[Name]],start_time=0,},
+		[3]={
+			args={action_name=[[attack1]],excutor=[[atkobj]],},
+			func_name=[[PlayAction]],
+			start_time=0.3,
+		},
+		[4]={args={},func_name=[[MagcAnimEnd]],start_time=0.7,},
+		[5]={args={},func_name=[[End]],start_time=1,},
+	},
+	group_cmds={},
+	magic_anim_end_time=0.7,
+	magic_anim_start_time=0,
+	pre_load_res={},
+	run_env=[[war]],
+	type=1,
+	wait_goback=false,
+}

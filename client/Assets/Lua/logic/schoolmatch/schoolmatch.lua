@@ -1,0 +1,7 @@
+CSchoolMatchRankView = require "logic.schoolmatch.CSchoolMatchRankView"
+CSchoolMatchRiseNoticeView = require "logic.schoolmatch.CSchoolMatchRiseNoticeView"
+CSchoolMatchWinnerView = require "logic.schoolmatch.CSchoolMatchWinnerView"
+CSchoolMatchBattleListView = require "logic.schoolmatch.CSchoolMatchBattleListView"
+CSchoolMatchBattleBox = require "logic.schoolmatch.CSchoolMatchBattleBox"
+CSchoolMatchTipView = require "logic.schoolmatch.CSchoolMatchTipView"
+CSchoolMatchCtrl = require "logic.schoolmatch.CSchoolMatchCtrl"

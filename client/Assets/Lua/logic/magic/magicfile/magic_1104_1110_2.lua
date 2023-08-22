@@ -1,0 +1,55 @@
+module(...)
+--magic editor build
+DATA={
+	atk_stophit=false,
+	cmds={
+		[1]={
+			args={
+				alive_time=1.25,
+				effect={
+					is_cached=true,
+					magic_layer=[[center]],
+					path=[[Effect/Magic/Skill_eff_120_hit/Prefabs/skill_eff_120_hit_02.prefab]],
+					preload=false,
+				},
+				effect_dir_type=[[forward]],
+				effect_pos={base_pos=[[vic]],depth=0,relative_angle=0,relative_dis=0,},
+				excutor=[[atkobj]],
+			},
+			func_name=[[StandEffect]],
+			start_time=0,
+		},
+		[2]={
+			args={
+				alive_time=1,
+				effect={
+					is_cached=true,
+					magic_layer=[[center]],
+					path=[[Effect/Magic/skill_eff_1110_attack1_att/Prefabs/skill_eff_1110_attack1_att_3.prefab]],
+					preload=false,
+				},
+				effect_dir_type=[[forward]],
+				effect_pos={base_pos=[[vic]],depth=0.7,relative_angle=0,relative_dis=0,},
+				excutor=[[vicobj]],
+			},
+			func_name=[[StandEffect]],
+			start_time=0,
+		},
+		[3]={
+			args={alive_time=0.6,color={a=0,b=255,g=255,r=255,},excutor=[[atkobj]],fade_time=0,},
+			func_name=[[ActorColor]],
+			start_time=0,
+		},
+		[4]={
+			args={sound_path={soundpath=[[Audio/Sound/War/kjj2.ogg]],},},
+			func_name=[[PlaySound]],
+			start_time=0.1,
+		},
+		[5]={args={},func_name=[[End]],start_time=0.45,},
+	},
+	group_cmds={},
+	pre_load_res={},
+	run_env=[[war]],
+	type=1,
+	wait_goback=false,
+}

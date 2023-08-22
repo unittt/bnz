@@ -1,0 +1,5 @@
+CDialogueMainView = require "logic.dialogue.CDialogueMainView"
+CDialogueOptionView = require "logic.dialogue.CDialogueOptionView"
+CDialogueNormalPart = require "logic.dialogue.CDialogueNormalPart"
+CDialogueStoryPart = require "logic.dialogue.CDialogueStoryPart"
+CDialogueCtrl = require "logic.dialogue.CDialogueCtrl"

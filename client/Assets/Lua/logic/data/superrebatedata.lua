@@ -1,0 +1,82 @@
+module(...)
+--auto generate data
+CONFIG={[1]={gameday=3,lotterycnt=3,},}
+
+REBATE={
+	[1]={show_ratio=1.2,trueratio=0.2,type=1,},
+	[2]={show_ratio=1.3,trueratio=0.3,type=2,},
+	[3]={show_ratio=1.5,trueratio=0.5,type=3,},
+	[4]={show_ratio=1.6,trueratio=0.6,type=4,},
+	[5]={show_ratio=1.9,trueratio=0.9,type=5,},
+	[6]={show_ratio=2.1,trueratio=1.1,type=6,},
+}
+
+PAY={
+	["com.cilu.dhxx.gold_198"]={key=[[com.cilu.dhxx.gold_198]],name=[[元宝×1980]],},
+	["com.cilu.dhxx.gold_30"]={key=[[com.cilu.dhxx.gold_30]],name=[[元宝×300]],},
+	["com.cilu.dhxx.gold_328"]={key=[[com.cilu.dhxx.gold_328]],name=[[元宝×3280]],},
+	["com.cilu.dhxx.gold_488"]={key=[[com.cilu.dhxx.gold_488]],name=[[元宝×4880]],},
+	["com.cilu.dhxx.gold_6"]={key=[[com.cilu.dhxx.gold_6]],name=[[元宝×60]],},
+	["com.cilu.dhxx.gold_648"]={key=[[com.cilu.dhxx.gold_648]],name=[[元宝×6480]],},
+	["com.cilu.dhxx.gold_68"]={key=[[com.cilu.dhxx.gold_68]],name=[[元宝×680]],},
+	["com.cilu.dhxx.gold_98"]={key=[[com.cilu.dhxx.gold_98]],name=[[元宝×980]],},
+}
+
+TEXT={
+	[1001]={
+		choose={},
+		content=[[活动正在进行中]],
+		id=1001,
+		seconds=3.0,
+		type=1002,
+	},
+	[1002]={
+		choose={},
+		content=[[活动已结束]],
+		id=1002,
+		seconds=3.0,
+		type=1002,
+	},
+	[1003]={
+		choose={},
+		content=[[今日活动次数已用完]],
+		id=1003,
+		seconds=3.0,
+		type=1002,
+	},
+	[1004]={
+		choose={},
+		content=[[请先领取本次返利]],
+		id=1004,
+		seconds=3.0,
+		type=1002,
+	},
+	[1005]={
+		choose={},
+		content=[[请先参与活动并完成充值]],
+		id=1005,
+		seconds=3.0,
+		type=1002,
+	},
+	[9001]={
+		choose={},
+		content=[[[149425]%s[-][63432c]参与了超级返利，并获得了[-][1d8e00]%s[-][63432c]倍充值返利[-] ]],
+		id=9001,
+		seconds=0.0,
+		type=1002,
+	},
+	[9002]={
+		choose={},
+		content=[[[63462c]恭喜您抽到了[-][1d8e00]%s倍[-][63432c]充值返利机会，充值可领取额外[-][1d8e00]%s倍[-][63432c]返利元宝[-][1d8e00](仅本日有效)[-] ]],
+		id=9002,
+		seconds=0.0,
+		type=1002,
+	},
+	[9003]={
+		choose={},
+		content=[[请稍等]],
+		id=9003,
+		seconds=0.0,
+		type=1002,
+	},
+}

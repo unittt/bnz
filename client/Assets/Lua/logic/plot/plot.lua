@@ -1,0 +1,13 @@
+CPlot = require "logic.plot.CPlot"
+CGamePlotPlayer = require "logic.plot.CGamePlotPlayer"
+CPlotCharacterCtrl = require "logic.plot.CPlotCharacterCtrl"
+CPlotCameraCtrl = require "logic.plot.CPlotCameraCtrl"
+CPlotSceneEffectCtrl = require "logic.plot.CPlotSceneEffectCtrl"
+CPlotDialogueCtrl = require "logic.plot.CPlotDialogueCtrl"
+CPlotSkipView = require "logic.plot.CPlotSkipView"
+CPlotMaskView = require "logic.plot.CPlotMaskView"
+CPlotDialogueView = require "logic.plot.CPlotDialogueView"
+CPlotEffectMask = require "logic.plot.CPlotEffectMask"
+CPlotUIEffectCtrl = require "logic.plot.CPlotUIEffectCtrl"
+
+CPlotCtrl = require "logic.plot.CPlotCtrl"

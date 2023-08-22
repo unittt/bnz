@@ -1,0 +1,634 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: EmoticonFont
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMat: {fileID: 2100000, guid: 93a885ba97ba038488535901dd4cbf6c, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0.43359375
+    y: 0.375
+    width: 4
+    height: 4
+  mFont:
+    mSize: 20
+    mBase: 20
+    mWidth: 2048
+    mHeight: 2048
+    mSpriteName: 
+    mSaved: []
+  mAtlas: {fileID: 11407860, guid: 7fba1b694710e914cbe57ecbba74188b, type: 2}
+  mReplacement: {fileID: 0}
+  mEmojiFont: {fileID: 0}
+  mSymbols:
+  - sequence: '#gf1'
+    spriteName: GrowthFlag_green
+  - sequence: '#gf2'
+    spriteName: GrowthFlag_blue
+  - sequence: '#gf3'
+    spriteName: GrowthFlag_orange
+  - sequence: '#gf4'
+    spriteName: GrowthFlag_purple
+  - sequence: '#gf5'
+    spriteName: GrowthFlag_red
+  - sequence: '#f1'
+    spriteName: formation_1
+  - sequence: '#f2'
+    spriteName: formation_2
+  - sequence: '#f3'
+    spriteName: formation_3
+  - sequence: '#f4'
+    spriteName: formation_4
+  - sequence: '#f5'
+    spriteName: formation_5
+  - sequence: '#f6'
+    spriteName: formation_6
+  - sequence: '#f7'
+    spriteName: formation_7
+  - sequence: '#f8'
+    spriteName: formation_8
+  - sequence: '#f9'
+    spriteName: formation_9
+  - sequence: '#40_00'
+    spriteName: '#40_00'
+  - sequence: '#40_01'
+    spriteName: '#40_01'
+  - sequence: '#40_02'
+    spriteName: '#40_02'
+  - sequence: '#39_00'
+    spriteName: '#39_00'
+  - sequence: '#39_01'
+    spriteName: '#39_01'
+  - sequence: '#39_02'
+    spriteName: '#39_02'
+  - sequence: '#38_00'
+    spriteName: '#38_00'
+  - sequence: '#37_00'
+    spriteName: '#37_00'
+  - sequence: '#37_01'
+    spriteName: '#37_01'
+  - sequence: '#37_02'
+    spriteName: '#37_02'
+  - sequence: '#36_00'
+    spriteName: '#36_00'
+  - sequence: '#36_01'
+    spriteName: '#36_01'
+  - sequence: '#36_02'
+    spriteName: '#36_02'
+  - sequence: '#35_00'
+    spriteName: '#35_00'
+  - sequence: '#35_01'
+    spriteName: '#35_01'
+  - sequence: '#35_02'
+    spriteName: '#35_02'
+  - sequence: '#34_00'
+    spriteName: '#34_00'
+  - sequence: '#33_00'
+    spriteName: '#33_00'
+  - sequence: '#33_01'
+    spriteName: '#33_01'
+  - sequence: '#33_02'
+    spriteName: '#33_02'
+  - sequence: '#32_00'
+    spriteName: '#32_00'
+  - sequence: '#32_01'
+    spriteName: '#32_01'
+  - sequence: '#32_02'
+    spriteName: '#32_02'
+  - sequence: '#31_00'
+    spriteName: '#31_00'
+  - sequence: '#31_01'
+    spriteName: '#31_01'
+  - sequence: '#31_02'
+    spriteName: '#31_02'
+  - sequence: '#30_00'
+    spriteName: '#30_00'
+  - sequence: '#30_01'
+    spriteName: '#30_01'
+  - sequence: '#30_02'
+    spriteName: '#30_02'
+  - sequence: '#29_00'
+    spriteName: '#29_00'
+  - sequence: '#28_00'
+    spriteName: '#28_00'
+  - sequence: '#28_01'
+    spriteName: '#28_01'
+  - sequence: '#28_02'
+    spriteName: '#28_02'
+  - sequence: '#27_00'
+    spriteName: '#27_00'
+  - sequence: '#27_01'
+    spriteName: '#27_01'
+  - sequence: '#27_02'
+    spriteName: '#27_02'
+  - sequence: '#26_00'
+    spriteName: '#26_00'
+  - sequence: '#26_01'
+    spriteName: '#26_01'
+  - sequence: '#26_02'
+    spriteName: '#26_02'
+  - sequence: '#25_00'
+    spriteName: '#25_00'
+  - sequence: '#25_01'
+    spriteName: '#25_01'
+  - sequence: '#25_02'
+    spriteName: '#25_02'
+  - sequence: '#24_00'
+    spriteName: '#24_00'
+  - sequence: '#24_01'
+    spriteName: '#24_01'
+  - sequence: '#24_02'
+    spriteName: '#24_02'
+  - sequence: '#23_00'
+    spriteName: '#23_00'
+  - sequence: '#23_01'
+    spriteName: '#23_01'
+  - sequence: '#23_02'
+    spriteName: '#23_02'
+  - sequence: '#22_00'
+    spriteName: '#22_00'
+  - sequence: '#22_01'
+    spriteName: '#22_01'
+  - sequence: '#22_02'
+    spriteName: '#22_02'
+  - sequence: '#21_00'
+    spriteName: '#21_00'
+  - sequence: '#21_01'
+    spriteName: '#21_01'
+  - sequence: '#21_02'
+    spriteName: '#21_02'
+  - sequence: '#20_00'
+    spriteName: '#20_00'
+  - sequence: '#20_01'
+    spriteName: '#20_01'
+  - sequence: '#20_02'
+    spriteName: '#20_02'
+  - sequence: '#19_00'
+    spriteName: '#19_00'
+  - sequence: '#19_01'
+    spriteName: '#19_01'
+  - sequence: '#19_02'
+    spriteName: '#19_02'
+  - sequence: '#19_03'
+    spriteName: '#19_03'
+  - sequence: '#18_00'
+    spriteName: '#18_00'
+  - sequence: '#18_01'
+    spriteName: '#18_01'
+  - sequence: '#18_02'
+    spriteName: '#18_02'
+  - sequence: '#17_00'
+    spriteName: '#17_00'
+  - sequence: '#17_01'
+    spriteName: '#17_01'
+  - sequence: '#17_02'
+    spriteName: '#17_02'
+  - sequence: '#16_00'
+    spriteName: '#16_00'
+  - sequence: '#16_01'
+    spriteName: '#16_01'
+  - sequence: '#16_02'
+    spriteName: '#16_02'
+  - sequence: '#15_00'
+    spriteName: '#15_00'
+  - sequence: '#15_01'
+    spriteName: '#15_01'
+  - sequence: '#15_02'
+    spriteName: '#15_02'
+  - sequence: '#14_00'
+    spriteName: '#14_00'
+  - sequence: '#14_01'
+    spriteName: '#14_01'
+  - sequence: '#14_02'
+    spriteName: '#14_02'
+  - sequence: '#13_00'
+    spriteName: '#13_00'
+  - sequence: '#13_01'
+    spriteName: '#13_01'
+  - sequence: '#13_02'
+    spriteName: '#13_02'
+  - sequence: '#12_00'
+    spriteName: '#12_00'
+  - sequence: '#12_01'
+    spriteName: '#12_01'
+  - sequence: '#12_02'
+    spriteName: '#12_02'
+  - sequence: '#11_00'
+    spriteName: '#11_00'
+  - sequence: '#11_01'
+    spriteName: '#11_01'
+  - sequence: '#11_02'
+    spriteName: '#11_02'
+  - sequence: '#11_03'
+    spriteName: '#11_03'
+  - sequence: '#10_00'
+    spriteName: '#10_00'
+  - sequence: '#10_01'
+    spriteName: '#10_01'
+  - sequence: '#10_02'
+    spriteName: '#10_02'
+  - sequence: '#10_03'
+    spriteName: '#10_03'
+  - sequence: '#9_00'
+    spriteName: '#9_00'
+  - sequence: '#9_01'
+    spriteName: '#9_01'
+  - sequence: '#9_02'
+    spriteName: '#9_02'
+  - sequence: '#9_03'
+    spriteName: '#9_03'
+  - sequence: '#8_00'
+    spriteName: '#8_00'
+  - sequence: '#8_01'
+    spriteName: '#8_01'
+  - sequence: '#8_02'
+    spriteName: '#8_02'
+  - sequence: '#7_00'
+    spriteName: '#7_00'
+  - sequence: '#7_01'
+    spriteName: '#7_01'
+  - sequence: '#7_02'
+    spriteName: '#7_02'
+  - sequence: '#6_00'
+    spriteName: '#6_00'
+  - sequence: '#6_01'
+    spriteName: '#6_01'
+  - sequence: '#6_02'
+    spriteName: '#6_02'
+  - sequence: '#5_00'
+    spriteName: '#5_00'
+  - sequence: '#5_01'
+    spriteName: '#5_01'
+  - sequence: '#5_02'
+    spriteName: '#5_02'
+  - sequence: '#4_00'
+    spriteName: '#4_00'
+  - sequence: '#4_01'
+    spriteName: '#4_01'
+  - sequence: '#4_02'
+    spriteName: '#4_02'
+  - sequence: '#3_00'
+    spriteName: '#3_00'
+  - sequence: '#3_01'
+    spriteName: '#3_01'
+  - sequence: '#3_02'
+    spriteName: '#3_02'
+  - sequence: '#2_00'
+    spriteName: '#2_00'
+  - sequence: '#2_01'
+    spriteName: '#2_01'
+  - sequence: '#2_02'
+    spriteName: '#2_02'
+  - sequence: '#1_00'
+    spriteName: '#1_00'
+  - sequence: '#1_01'
+    spriteName: '#1_01'
+  - sequence: '#1_02'
+    spriteName: '#1_02'
+  - sequence: '#ch<1>'
+    spriteName: h7_shijietubiao
+  - sequence: '#ch<2>'
+    spriteName: h7_zuduitubiao
+  - sequence: '#ch<102>'
+    spriteName: h7_bangzutubiao
+  - sequence: '#ch<103>'
+    spriteName: h7_chuanwentubiao
+  - sequence: '#ch<3>'
+    spriteName: h7_bangpaitubiao
+  - sequence: '#ch<4>'
+    spriteName: h7_dangqiantubiao
+  - sequence: '#chd<1>'
+    spriteName: h7_shijietubiao1
+  - sequence: '#chd<2>'
+    spriteName: h7_zuduitubiao1
+  - sequence: '#chd<102>'
+    spriteName: h7_bangzutubiao1
+  - sequence: '#chd<103>'
+    spriteName: h7_chuanwentubiao1
+  - sequence: '#chd<3>'
+    spriteName: h7_bangpaitubiao1
+  - sequence: '#chd<4>'
+    spriteName: h7_dangqiantubiao1
+  - sequence: '#ch<100>'
+    spriteName: h7_xitongtubiao
+  - sequence: '#chd<100>'
+    spriteName: h7_xitongtubiao1
+  - sequence: '#ch<101>'
+    spriteName: h7_xitongtubiao
+  - sequence: '#chd<101>'
+    spriteName: h7_xitongtubiao1
+  - sequence: '#ch<6>'
+    spriteName: h7_xiaoxitubiao
+  - sequence: '#chd<6>'
+    spriteName: h7_xiaoxitubiao1
+  - sequence: '#500_00'
+    spriteName: '#500_00'
+  - sequence: '#500_02'
+    spriteName: '#500_02'
+  - sequence: '#500_01'
+    spriteName: '#500_01'
+  - sequence: '#audio'
+    spriteName: '#500_02'
+  - sequence: '#gold_0'
+    spriteName: gold_0
+  - sequence: '#gold_1'
+    spriteName: gold_1
+  - sequence: '#gold_2'
+    spriteName: gold_2
+  - sequence: '#gold_3'
+    spriteName: gold_3
+  - sequence: '#gold_4'
+    spriteName: gold_4
+  - sequence: '#gold_5'
+    spriteName: gold_5
+  - sequence: '#gold_6'
+    spriteName: gold_6
+  - sequence: '#gold_7'
+    spriteName: gold_7
+  - sequence: '#gold_8'
+    spriteName: gold_8
+  - sequence: '#gold_9'
+    spriteName: gold_9
+  - sequence: '#silver_0'
+    spriteName: silver_0
+  - sequence: '#silver_1'
+    spriteName: silver_1
+  - sequence: '#silver_2'
+    spriteName: silver_2
+  - sequence: '#silver_3'
+    spriteName: silver_3
+  - sequence: '#silver_4'
+    spriteName: silver_4
+  - sequence: '#silver_5'
+    spriteName: silver_5
+  - sequence: '#silver_6'
+    spriteName: silver_6
+  - sequence: '#silver_7'
+    spriteName: silver_7
+  - sequence: '#silver_8'
+    spriteName: silver_8
+  - sequence: '#silver_9'
+    spriteName: silver_9
+  - sequence: '#mark_0'
+    spriteName: h7_0_2
+  - sequence: '#mark_1'
+    spriteName: h7_1_2
+  - sequence: '#mark_2'
+    spriteName: h7_2_2
+  - sequence: '#mark_3'
+    spriteName: h7_3_2
+  - sequence: '#mark_4'
+    spriteName: h7_4_2
+  - sequence: '#mark_5'
+    spriteName: h7_5_2
+  - sequence: '#mark_6'
+    spriteName: h7_6_2
+  - sequence: '#mark_7'
+    spriteName: h7_7_2
+  - sequence: '#mark_8'
+    spriteName: h7_8_2
+  - sequence: '#mark_9'
+    spriteName: h7_9_2
+  - sequence: '#mark_S'
+    spriteName: h7_s
+  - sequence: '#mark_A'
+    spriteName: h7_a
+  - sequence: '#mark_B'
+    spriteName: h7_b
+  - sequence: '#mark_C'
+    spriteName: h7_c
+  - sequence: '#mark_D'
+    spriteName: h7_d
+  - sequence: '#xiulian'
+    spriteName: h7_xiulian
+  - sequence: '#xing_1'
+    spriteName: h7_xing
+  - sequence: '#xing_bg'
+    spriteName: h7_xing_di
+  - sequence: '#trumpet'
+    spriteName: trumpet
+  - sequence: '#1_03'
+    spriteName: '#1_03'
+  - sequence: '#2_03'
+    spriteName: '#2_03'
+  - sequence: '#3_03'
+    spriteName: '#3_03'
+  - sequence: '#4_03'
+    spriteName: '#14_03'
+  - sequence: '#5_03'
+    spriteName: '#5_03'
+  - sequence: '#6_03'
+    spriteName: '#36_03'
+  - sequence: '#7_03'
+    spriteName: '#7_03'
+  - sequence: '#8_03'
+    spriteName: '#8_03'
+  - sequence: '#12_03'
+    spriteName: '#12_03'
+  - sequence: '#13_03'
+    spriteName: '#13_03'
+  - sequence: '#14_03'
+    spriteName: '#14_03'
+  - sequence: '#15_03'
+    spriteName: '#15_03'
+  - sequence: '#16_03'
+    spriteName: '#16_03'
+  - sequence: '#17_03'
+    spriteName: '#17_03'
+  - sequence: '#18_03'
+    spriteName: '#18_03'
+  - sequence: '#20_03'
+    spriteName: '#20_03'
+  - sequence: '#21_03'
+    spriteName: '#21_03'
+  - sequence: '#22_03'
+    spriteName: '#22_03'
+  - sequence: '#23_03'
+    spriteName: '#23_03'
+  - sequence: '#24_03'
+    spriteName: '#24_03'
+  - sequence: '#25_03'
+    spriteName: '#25_03'
+  - sequence: '#26_03'
+    spriteName: '#26_03'
+  - sequence: '#27_03'
+    spriteName: '#27_03'
+  - sequence: '#28_03'
+    spriteName: '#28_03'
+  - sequence: '#29_01'
+    spriteName: '#29_01'
+  - sequence: '#29_02'
+    spriteName: '#29_02'
+  - sequence: '#29_03'
+    spriteName: '#29_03'
+  - sequence: '#30_03'
+    spriteName: '#30_03'
+  - sequence: '#31_03'
+    spriteName: '#31_03'
+  - sequence: '#32_03'
+    spriteName: '#32_03'
+  - sequence: '#33_03'
+    spriteName: '#33_03'
+  - sequence: '#34_01'
+    spriteName: '#34_01'
+  - sequence: '#34_02'
+    spriteName: '#34_02'
+  - sequence: '#34_03'
+    spriteName: '#34_03'
+  - sequence: '#35_03'
+    spriteName: '#35_03'
+  - sequence: '#36_03'
+    spriteName: '#36_03'
+  - sequence: '#37_03'
+    spriteName: '#37_03'
+  - sequence: '#38_01'
+    spriteName: '#38_01'
+  - sequence: '#38_02'
+    spriteName: '#38_02'
+  - sequence: '#38_03'
+    spriteName: '#38_03'
+  - sequence: '#39_03'
+    spriteName: '#39_03'
+  - sequence: '#40_03'
+    spriteName: '#40_03'
+  - sequence: '#wrmb'
+    spriteName: rmd
+  - sequence: '#cur_1'
+    spriteName: currency_1
+  - sequence: '#cur_2'
+    spriteName: currency_2
+  - sequence: '#cur_3'
+    spriteName: currency_3
+  - sequence: '#cur_4'
+    spriteName: currency_4
+  - sequence: '#cur_5'
+    spriteName: currency_5
+  - sequence: '#cur_6'
+    spriteName: currency_6
+  - sequence: '#cur_7'
+    spriteName: currency_7
+  - sequence: '#cur_8'
+    spriteName: currency_2
+  - sequence: '#cur_9'
+    spriteName: currency_2
+  - sequence: '#cur_0'
+    spriteName: currency_2
+  - sequence: '#w4'
+    spriteName: h7_xing
+  - sequence: '#redpack_1'
+    spriteName: redpack_1
+  - sequence: '@redpack'
+    spriteName: redpack_2
+  - sequence: '#jiang'
+    spriteName: redpack_2
+  - sequence: '#jifen_1'
+    spriteName: jifen_1
+  - sequence: '#jifen_2'
+    spriteName: jifen_2
+  - sequence: '#jifen_3'
+    spriteName: jinengdian
+  - sequence: '#jifen_4'
+    spriteName: jifen_3
+  - sequence: '#jifen_5'
+    spriteName: jifen_4
+  - sequence: '#jifen_6'
+    spriteName: jifen_5
+  - sequence: '#score_a'
+    spriteName: h7_aaa
+  - sequence: '#score_b'
+    spriteName: h7_bbb
+  - sequence: '#score_c'
+    spriteName: h7_ccc
+  - sequence: '#score_s'
+    spriteName: h7_s_1
+  - sequence: '#score_2s'
+    spriteName: h7_ss_2
+  - sequence: '#score_3s'
+    spriteName: h7_sss_2
+  - sequence: '#score_d'
+    spriteName: h7_ddd
+  - sequence: '#41_00'
+    spriteName: '#41_00'
+  - sequence: '#42_00'
+    spriteName: '#42_00'
+  - sequence: '#43_00'
+    spriteName: '#43_00'
+  - sequence: '#44_00'
+    spriteName: '#44_00'
+  - sequence: '#45_00'
+    spriteName: '#45_00'
+  - sequence: '#46_00'
+    spriteName: '#46_00'
+  - sequence: '#47_00'
+    spriteName: '#47_00'
+  - sequence: '#48_00'
+    spriteName: '#48_00'
+  - sequence: '#49_00'
+    spriteName: '#49_00'
+  - sequence: '#50_00'
+    spriteName: '#50_00'
+  - sequence: '#51_00'
+    spriteName: '#51_00'
+  - sequence: '#52_00'
+    spriteName: '#52_00'
+  - sequence: '#53_00'
+    spriteName: '#53_00'
+  - sequence: '#54_00'
+    spriteName: '#54_00'
+  - sequence: '#55_00'
+    spriteName: '#55_00'
+  - sequence: '#jifen_7'
+    spriteName: jifen_7
+  - sequence: '#jifen_8'
+    spriteName: 10331_03
+  mDynamicFont: {fileID: 0}
+  mDynamicFontSize: 16
+  mDynamicFontStyle: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

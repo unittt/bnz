@@ -1,0 +1,223 @@
+{
+"bscs": {"gamename":"白蛇传说","configSuffix":"bscs",
+	"domains":[
+		{"type":"localdev","httproot":"http://devh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"devh7d.demigame.com","resdir":"localdev","bundleId":"localdev","bundleName":"内开发"},
+		{"type":"release","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"csh7d.demigame.com","resdir":"release","bundleId":"","bundleName":""},
+		{"type":"test","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"testh7d.demigame.com","resdir":"test","bundleId":"","bundleName":"外网测试"},
+		{"type":"business","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"devh7d.demigame.com","resdir":"business","bundleId":"","bundleName":"商务"},
+		{"type":"banshu","httproot":"http://banshuh7.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"banshuh7.demigame.com","resdir":"banshu","bundleId":"","bundleName":""}
+		],
+	"channels":[
+		{
+		"name": "shoumeng",
+		"alias": "手盟SDK",
+		"bundleId": "com.demigame.bscs.{0}",
+		"projmods": "shoumengSDK-1.9.1.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		},
+		{
+		"name": "demi",
+		"alias": "德米游戏",
+		"bundleId": "com.demigame.bscs.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI;IOSNATIVE_ENABLED;INAPP_API_ENABLED",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,LocalRelease,Release,Business"
+		},
+		{
+		"name": "nucleus",
+		"alias": "赐麓SDK",
+		"bundleId": "com.demigame.bscs.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI;IOSNATIVE_ENABLED;INAPP_API_ENABLED",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		},
+		{
+		"name": "empty",
+		"alias": "emptySDK",
+		"bundleId": "com.demigame.bscs.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		}]
+	},
+"bnz": {"gamename":"白娘子","configSuffix":"bnz",
+	"domains":[
+		{"type":"localdev","httproot":"http://devh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"devh7d.demigame.com","resdir":"localdev","bundleId":"localdev","bundleName":"内开发"},
+		{"type":"release","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"csh7d.demigame.com","resdir":"release","bundleId":"","bundleName":""},
+		{"type":"test","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"testh7d.demigame.com","resdir":"test","bundleId":"","bundleName":"外网测试"},
+		{"type":"business","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"devh7d.demigame.com","resdir":"business","bundleId":"","bundleName":"商务"},
+		{"type":"banshu","httproot":"http://banshuh7.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"banshuh7.demigame.com","resdir":"banshu","bundleId":"","bundleName":""}
+		],
+	"channels":[
+		{
+		"name": "shoumeng",
+		"alias": "手盟SDK",
+		"bundleId": "com.demigame.bnz.{0}",
+		"projmods": "shoumengSDK-1.9.1.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		},
+		{
+		"name": "demi",
+		"alias": "德米游戏",
+		"bundleId": "com.demigame.bnz.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI;IOSNATIVE_ENABLED;INAPP_API_ENABLED",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,LocalRelease,Release,Business"
+		},
+		{
+		"name": "nucleus",
+		"alias": "赐麓SDK",
+		"bundleId": "com.demigame.bnz.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI;IOSNATIVE_ENABLED;INAPP_API_ENABLED",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		},
+		{
+		"name": "empty",
+		"alias": "emptySDK",
+		"bundleId": "com.demigame.bnz.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		}]
+	},
+"xh": {"gamename":"西湖","configSuffix":"xh",
+	"domains":[
+		{"type":"localdev","httproot":"http://devh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"devh7d.demigame.com","resdir":"localdev","bundleId":"localdev","bundleName":"内开发"},
+		{"type":"release","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"csh7d.demigame.com","resdir":"release","bundleId":"","bundleName":""},
+		{"type":"test","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"testh7d.demigame.com","resdir":"test","bundleId":"","bundleName":"外网测试"},
+		{"type":"business","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"devh7d.demigame.com","resdir":"business","bundleId":"","bundleName":"商务"},
+		{"type":"banshu","httproot":"http://banshuh7.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"banshuh7.demigame.com","resdir":"banshu","bundleId":"","bundleName":""}
+		],
+	"channels":[
+		{
+		"name": "shoumeng",
+		"alias": "手盟SDK",
+		"bundleId": "com.demigame.xh.{0}",
+		"projmods": "shoumengSDK-1.9.1.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		},
+		{
+		"name": "demi",
+		"alias": "德米游戏",
+		"bundleId": "com.demigame.xh.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI;IOSNATIVE_ENABLED;INAPP_API_ENABLED",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,LocalRelease,Release,Business"
+		},
+		{
+		"name": "nucleus",
+		"alias": "赐麓SDK",
+		"bundleId": "com.demigame.xh.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI;IOSNATIVE_ENABLED;INAPP_API_ENABLED",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		},
+		{
+		"name": "empty",
+		"alias": "emptySDK",
+		"bundleId": "com.demigame.xh.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		}]
+	},
+"dhxh": {"gamename":"大话西湖","configSuffix":"dhxh",
+	"domains":[
+		{"type":"localdev","httproot":"http://devh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"devh7d.demigame.com","resdir":"localdev","bundleId":"localdev","bundleName":"内开发"},
+		{"type":"release","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"csh7d.demigame.com","resdir":"release","bundleId":"","bundleName":""},
+		{"type":"test","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"testh7d.demigame.com","resdir":"test","bundleId":"","bundleName":"外网测试"},
+		{"type":"business","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"devh7d.demigame.com","resdir":"business","bundleId":"","bundleName":"商务"},
+		{"type":"banshu","httproot":"http://banshuh7.demigame.com/h7d","testhttproot":"http://devh7d.demigame.com/h7d","csroot":"banshuh7.demigame.com","resdir":"banshu","bundleId":"","bundleName":""}
+		],
+	"channels":[
+		{
+		"name": "shoumeng",
+		"alias": "手盟SDK",
+		"bundleId": "com.demigame.dhxh.{0}",
+		"projmods": "shoumengSDK-1.9.1.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		},
+		{
+		"name": "demi",
+		"alias": "德米游戏",
+		"bundleId": "com.demigame.dhxh.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,LocalRelease,Release,Business"
+		},
+		{
+		"name": "nucleus",
+		"alias": "赐麓SDK",
+		"bundleId": "com.demigame.dhxh.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI;IOSNATIVE_ENABLED;INAPP_API_ENABLED",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		},
+		{
+		"name": "empty",
+		"alias": "emptySDK",
+		"bundleId": "com.demigame.dhxh.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		}]
+	},
+"dhxx": {"gamename":"德米测试包","configSuffix":"dhxx",
+	"domains":[
+		{"type":"localdev","httproot":"http://devh7.cilugame.com/h7","testhttproot":"http://devh7.demigame.com/h7d","csroot":"devh7.demigame.com","resdir":"localdev","bundleId":"localdev","bundleName":"内开发"},
+		{"type":"release","httproot":"http://gh7d.demigame.com/h7d","testhttproot":"http://devh7.demigame.com/h7d","csroot":"csh7d.demigame.com","resdir":"release","bundleId":"","bundleName":""},
+		{"type":"emu","httproot":"http://devh7.cilugame.com/h7","testhttproot":"http://devh7.cilugame.com/h7","csroot":"emuh7.demigame.com","resdir":"emu","bundleId":"","bundleName":"仿真服"},
+		{"type":"test","httproot":"http://gh7.demigame.com/h7","testhttproot":"http://gh7.demigame.com/h7","csroot":"th7.demigame.com","resdir":"test","bundleId":"","bundleName":"测试服"},
+		{"type":"banshu","httproot":"http://banshuh7.demigame.com/h7","testhttproot":"http://devh7.cilugame.com/h7","csroot":"banshuh7.demigame.com","resdir":"banshu","bundleId":"","bundleName":""}
+		],
+	"channels":[
+		{
+		"name": "nucleus",
+		"alias": "赐麓SDK",
+		"bundleId": "com.demigame.dhxx.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI;IOSNATIVE_ENABLED;INAPP_API_ENABLED",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		},
+		{
+		"name": "demi",
+		"alias": "德米游戏",
+		"bundleId": "com.demigame.bscs.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI;IOSNATIVE_ENABLED;INAPP_API_ENABLED",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,LocalRelease,Release,Business"
+		},
+		{
+		"name": "empty",
+		"alias": "emptySDK",
+		"bundleId": "com.demigame.dhxx.{0}",
+		"projmods": "emptySDK.projmods",
+		"symbol": "ASTAR_NO_ZIP;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_GRID_NO_CUSTOM_CONNECTIONS;ASTAR_LEVELGRIDNODE_FEW_LAYERS;ASTAR_NO_LOGGING;ASTAR_NO_PENALTY;ASTAR_NoGUI",
+		"platforms": "1,3,4",
+		"domains": "LocalDev,LocalTest,Business,LocalRelease,LocalForever"
+		}]
+	}
+}

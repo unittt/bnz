@@ -1,0 +1,5 @@
+CScheduleCrapsView = require "logic.craps.CScheduleCrapsView"
+CScheduleCrapsItemBox = require "logic.craps.CScheduleCrapsItemBox"
+-- CScheduleCrapsLuckyBox = require "logic.craps.CScheduleCrapsLuckyBox"
+CcrapsCtrl = require "logic.craps.CcrapsCtrl" 
+CCrapsPreView = require "logic.craps.CCrapsPreView"

@@ -1,0 +1,51 @@
+InitScriptMode luaPackage=False
+[core/global.lua:59]:<color=#ffeb04>随机数种子 2283229</color>
+[logic/audio/CSpeechCtrl.lua:35]:CSpeechCtrl.GetTokenFromLocal    1563552821    1532791446
+[logic/base/CHttpCtrl.lua:32]:http get ->    https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=cbadGFhCcjh4H0difKnC8P1B&client_secret=3335d6d08034cff3c2f3b1980c050c66&
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CNotifyView ShowView
+[logic/base/CResCtrl.lua:214]:-->resource init done!!! 9
+[logic/ui/CViewBase.lua:149]:CNotifyView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>开始引导检查</color>
+[core/table.lua:99]:Table = {}
+[core/global.lua:59]:<color=#ffeb04>剩余缓存player： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存TaskPickItem： 0 0</color>
+[core/global.lua:59]:<color=#ffeb04>剩余缓存npc： 0 0</color>
+[logic/ui/CViewCtrl.lua:134]:CGuideView CloseView
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CGuideView ShowView
+[logic/base/CResCtrl.lua:788]:res gc finish!
+[core/global.lua:59]:<color=#ffeb04>res gc skip! m_ReleaseAssetCnt: 0</color>
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CLoginPhoneView ShowView
+[core/global.lua:59]:<color=#ffeb04>停止引导检查</color>
+[logic/ui/CViewBase.lua:149]:CGuideView LoadDone!
+[core/global.lua:59]:<color=#ffeb04>CLoginPhoneView.RefreshUI 销毁m_MainNetObj</color>
+[logic/ui/CViewCtrl.lua:134]:CRoleCreateView CloseView
+[core/global.lua:59]:<color=#ffeb04>技术版本号：App:1.0.0.0 Res:1.5.6.0 v0</color>
+[logic/ui/CViewBase.lua:149]:CLoginPhoneView LoadDone!
+[core/table.lua:99]:CommonProcess-> = {
+   cb = "function: 0x42bb4ba0"
+   json_result = true
+   timer = 1012
+}
+[core/table.lua:99]:CHttpCtrl.CommonProcess: cb tResult-> = {
+   access_token = "24.3ba8125a0e2ac7eaa9ed7e73f2eb30ee.2592000.1566144826.282335-9262453"
+   expires_in = 2592000
+   refresh_token = "25.347883bfae1f11c335774ec1f24a12c4.315360000.1878912826.282335-9262453"
+   scope = "brain_enhanced_asr audio_tts_post public brain_all_scope wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian ApsMisTest_Test权限 vis-classify_flower lpq_开放 cop_helloScope ApsMis_fangdi_permission smartapp_snsapi_base iop_autocar oauth_tp_app smartapp_smart_game_openapi oauth_sessionkey smartapp_swanid_verify smartapp_opensource_openapi smartapp_opensource_recapi fake_face_detect_开放Scope"
+   session_key = "9mzdCKZw4nyWvIz3P8zMZf1O8ubptfG0QjcJhd41FpeaEqtNhRucLU2MMYo3yDo7S0PTfi509Pqz1JSkeFZSoSnSN+H8"
+   session_secret = "bf60ca2ec5d799a0fcfd80f3df4fd489"
+}
+[core/table.lua:99]:OnTokenGet1--> = {
+   access_token = "24.3ba8125a0e2ac7eaa9ed7e73f2eb30ee.2592000.1566144826.282335-9262453"
+   expires_in = 2592000
+   refresh_token = "25.347883bfae1f11c335774ec1f24a12c4.315360000.1878912826.282335-9262453"
+   scope = "brain_enhanced_asr audio_tts_post public brain_all_scope wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian ApsMisTest_Test权限 vis-classify_flower lpq_开放 cop_helloScope ApsMis_fangdi_permission smartapp_snsapi_base iop_autocar oauth_tp_app smartapp_smart_game_openapi oauth_sessionkey smartapp_swanid_verify smartapp_opensource_openapi smartapp_opensource_recapi fake_face_detect_开放Scope"
+   session_key = "9mzdCKZw4nyWvIz3P8zMZf1O8ubptfG0QjcJhd41FpeaEqtNhRucLU2MMYo3yDo7S0PTfi509Pqz1JSkeFZSoSnSN+H8"
+   session_secret = "bf60ca2ec5d799a0fcfd80f3df4fd489"
+}
+[core/table.lua:99]:OnTokenGet2--> = {
+   expire = 1566144591
+   token = "24.3ba8125a0e2ac7eaa9ed7e73f2eb30ee.2592000.1566144826.282335-9262453"
+}
+[logic/ui/CViewCtrl.lua:97]:打开界面UI:CWindowComfirmView ShowView
